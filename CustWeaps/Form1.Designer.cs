@@ -32,11 +32,6 @@
             this.WeaponChoice = new System.Windows.Forms.Button();
             this.contextMenuStrip3 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.assualtRiflesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.submachineGunsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.battleRiflesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lightMachineGunsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.shotgunsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sniperRiflesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.m16ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.x45mmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aK47ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -63,16 +58,21 @@
             this.x39mmToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             this.vZ58ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.x39mmToolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
-            this.uziToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.x19mmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aCPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mP5ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.x19mmToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
             this.x45mmToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
             this.x45mmToolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
             this.x45mmSAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aR70ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.x45mmToolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
+            this.aR180ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.x45mmToolStripMenuItem12 = new System.Windows.Forms.ToolStripMenuItem();
+            this.submachineGunsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.uziToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.x19mmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mP5ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.x19mmToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
             this.carbineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
@@ -134,6 +134,14 @@
             this.vZ83ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.x18mmToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.aCPToolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mAC10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCPToolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.x19mmToolStripMenuItem19 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mAC11ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCPToolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem63 = new System.Windows.Forms.ToolStripMenuItem();
+            this.x19mmToolStripMenuItem20 = new System.Windows.Forms.ToolStripMenuItem();
+            this.battleRiflesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fALToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.x51mmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.g3ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -186,6 +194,7 @@
             this.x54mmToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem46 = new System.Windows.Forms.ToolStripMenuItem();
             this.x55mmToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.lightMachineGunsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.m60ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.x51mmToolStripMenuItem12 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem47 = new System.Windows.Forms.ToolStripMenuItem();
@@ -208,20 +217,20 @@
             this.toolStripMenuItem48 = new System.Windows.Forms.ToolStripMenuItem();
             this.x54mmRToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             this.x39mmToolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
+            this.x51mmToolStripMenuItem16 = new System.Windows.Forms.ToolStripMenuItem();
             this.zB26ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.x57mmToolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
             this.x57mmToolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem49 = new System.Windows.Forms.ToolStripMenuItem();
             this.x54RToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.x51mmToolStripMenuItem16 = new System.Windows.Forms.ToolStripMenuItem();
             this.x51mmToolStripMenuItem17 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem50 = new System.Windows.Forms.ToolStripMenuItem();
             this.fM2429ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.x54mmToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.x51mmToolStripMenuItem18 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem51 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem52 = new System.Windows.Forms.ToolStripMenuItem();
             this.x51mmToolStripMenuItem19 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem52 = new System.Windows.Forms.ToolStripMenuItem();
             this.x45mmToolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem53 = new System.Windows.Forms.ToolStripMenuItem();
             this.x39mmToolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
@@ -232,10 +241,7 @@
             this.bARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem55 = new System.Windows.Forms.ToolStripMenuItem();
             this.x55mmToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.aR70ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.x45mmToolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
-            this.aR180ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.x45mmToolStripMenuItem12 = new System.Windows.Forms.ToolStripMenuItem();
+            this.shotgunsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem56 = new System.Windows.Forms.ToolStripMenuItem();
             this.gaugeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem57 = new System.Windows.Forms.ToolStripMenuItem();
@@ -251,16 +257,10 @@
             this.toolStripMenuItem60 = new System.Windows.Forms.ToolStripMenuItem();
             this.gaugeToolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem61 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem62 = new System.Windows.Forms.ToolStripMenuItem();
             this.gaugeToolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem62 = new System.Windows.Forms.ToolStripMenuItem();
             this.gaugeToolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mAC10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aCPToolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
-            this.x19mmToolStripMenuItem19 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mAC11ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aCPToolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem63 = new System.Windows.Forms.ToolStripMenuItem();
-            this.x19mmToolStripMenuItem20 = new System.Windows.Forms.ToolStripMenuItem();
+            this.sniperRiflesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.win70ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.x51mmToolStripMenuItem20 = new System.Windows.Forms.ToolStripMenuItem();
             this.winMagToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -296,6 +296,7 @@
             this.x57mmToolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
             this.x62mmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rigbyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.x55mmToolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem75 = new System.Windows.Forms.ToolStripMenuItem();
             this.x51mmToolStripMenuItem25 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem76 = new System.Windows.Forms.ToolStripMenuItem();
@@ -305,12 +306,20 @@
             this.toolStripMenuItem78 = new System.Windows.Forms.ToolStripMenuItem();
             this.x51mmToolStripMenuItem26 = new System.Windows.Forms.ToolStripMenuItem();
             this.x54mmToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.x55mmToolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem79 = new System.Windows.Forms.ToolStripMenuItem();
             this.x54mmRToolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
             this.x51mmToolStripMenuItem27 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem80 = new System.Windows.Forms.ToolStripMenuItem();
             this.x51mmToolStripMenuItem28 = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.walth2000ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.winMagToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.x55mmToolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.x51mmToolStripMenuItem29 = new System.Windows.Forms.ToolStripMenuItem();
+            this.aAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.x54mmToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.x51mmToolStripMenuItem30 = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -361,6 +370,253 @@
             this.assualtRiflesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.assualtRiflesToolStripMenuItem.Text = "Assualt Rifles";
             // 
+            // m16ToolStripMenuItem1
+            // 
+            this.m16ToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x45mmToolStripMenuItem});
+            this.m16ToolStripMenuItem1.Name = "m16ToolStripMenuItem1";
+            this.m16ToolStripMenuItem1.Size = new System.Drawing.Size(120, 22);
+            this.m16ToolStripMenuItem1.Text = "M-16";
+            // 
+            // x45mmToolStripMenuItem
+            // 
+            this.x45mmToolStripMenuItem.Name = "x45mmToolStripMenuItem";
+            this.x45mmToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.x45mmToolStripMenuItem.Text = "5.56x45mm";
+            // 
+            // aK47ToolStripMenuItem1
+            // 
+            this.aK47ToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x39ToolStripMenuItem});
+            this.aK47ToolStripMenuItem1.Name = "aK47ToolStripMenuItem1";
+            this.aK47ToolStripMenuItem1.Size = new System.Drawing.Size(120, 22);
+            this.aK47ToolStripMenuItem1.Text = "AK-47";
+            // 
+            // x39ToolStripMenuItem
+            // 
+            this.x39ToolStripMenuItem.Name = "x39ToolStripMenuItem";
+            this.x39ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.x39ToolStripMenuItem.Text = "7.62x39mm";
+            this.x39ToolStripMenuItem.Click += new System.EventHandler(this.x39ToolStripMenuItem_Click);
+            // 
+            // sKSToolStripMenuItem
+            // 
+            this.sKSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x39mmToolStripMenuItem});
+            this.sKSToolStripMenuItem.Name = "sKSToolStripMenuItem";
+            this.sKSToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.sKSToolStripMenuItem.Text = "SKS";
+            // 
+            // x39mmToolStripMenuItem
+            // 
+            this.x39mmToolStripMenuItem.Name = "x39mmToolStripMenuItem";
+            this.x39mmToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.x39mmToolStripMenuItem.Text = "7.62x39mm";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x45mmToolStripMenuItem1});
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(120, 22);
+            this.toolStripMenuItem2.Text = "Mini-14";
+            // 
+            // x45mmToolStripMenuItem1
+            // 
+            this.x45mmToolStripMenuItem1.Name = "x45mmToolStripMenuItem1";
+            this.x45mmToolStripMenuItem1.Size = new System.Drawing.Size(134, 22);
+            this.x45mmToolStripMenuItem1.Text = "5.56x45mm";
+            // 
+            // hK93ToolStripMenuItem
+            // 
+            this.hK93ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x39mmToolStripMenuItem1});
+            this.hK93ToolStripMenuItem.Name = "hK93ToolStripMenuItem";
+            this.hK93ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.hK93ToolStripMenuItem.Text = "HK 93";
+            // 
+            // x39mmToolStripMenuItem1
+            // 
+            this.x39mmToolStripMenuItem1.Name = "x39mmToolStripMenuItem1";
+            this.x39mmToolStripMenuItem1.Size = new System.Drawing.Size(134, 22);
+            this.x39mmToolStripMenuItem1.Text = "5.56x45mm";
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x39mmToolStripMenuItem2});
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(120, 22);
+            this.toolStripMenuItem3.Text = "Galil";
+            // 
+            // x39mmToolStripMenuItem2
+            // 
+            this.x39mmToolStripMenuItem2.Name = "x39mmToolStripMenuItem2";
+            this.x39mmToolStripMenuItem2.Size = new System.Drawing.Size(134, 22);
+            this.x39mmToolStripMenuItem2.Text = "5.56x45mm";
+            this.x39mmToolStripMenuItem2.Click += new System.EventHandler(this.x39mmToolStripMenuItem2_Click);
+            // 
+            // cAR15ToolStripMenuItem1
+            // 
+            this.cAR15ToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x45mmToolStripMenuItem2});
+            this.cAR15ToolStripMenuItem1.Name = "cAR15ToolStripMenuItem1";
+            this.cAR15ToolStripMenuItem1.Size = new System.Drawing.Size(120, 22);
+            this.cAR15ToolStripMenuItem1.Text = "CAR-15";
+            // 
+            // x45mmToolStripMenuItem2
+            // 
+            this.x45mmToolStripMenuItem2.Name = "x45mmToolStripMenuItem2";
+            this.x45mmToolStripMenuItem2.Size = new System.Drawing.Size(134, 22);
+            this.x45mmToolStripMenuItem2.Text = "5.56x45mm";
+            // 
+            // aUGToolStripMenuItem1
+            // 
+            this.aUGToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x45mmToolStripMenuItem3});
+            this.aUGToolStripMenuItem1.Name = "aUGToolStripMenuItem1";
+            this.aUGToolStripMenuItem1.Size = new System.Drawing.Size(120, 22);
+            this.aUGToolStripMenuItem1.Text = "AUG";
+            // 
+            // x45mmToolStripMenuItem3
+            // 
+            this.x45mmToolStripMenuItem3.Name = "x45mmToolStripMenuItem3";
+            this.x45mmToolStripMenuItem3.Size = new System.Drawing.Size(134, 22);
+            this.x45mmToolStripMenuItem3.Text = "5.56x45mm";
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x45mmToolStripMenuItem4});
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(120, 22);
+            this.toolStripMenuItem4.Text = "FNC";
+            // 
+            // x45mmToolStripMenuItem4
+            // 
+            this.x45mmToolStripMenuItem4.Name = "x45mmToolStripMenuItem4";
+            this.x45mmToolStripMenuItem4.Size = new System.Drawing.Size(134, 22);
+            this.x45mmToolStripMenuItem4.Text = "5.56x45mm";
+            // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x39mmToolStripMenuItem3});
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(120, 22);
+            this.toolStripMenuItem5.Text = "AK-74";
+            // 
+            // x39mmToolStripMenuItem3
+            // 
+            this.x39mmToolStripMenuItem3.Name = "x39mmToolStripMenuItem3";
+            this.x39mmToolStripMenuItem3.Size = new System.Drawing.Size(134, 22);
+            this.x39mmToolStripMenuItem3.Text = "5.45x39mm";
+            // 
+            // toolStripMenuItem6
+            // 
+            this.toolStripMenuItem6.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x39mmToolStripMenuItem4});
+            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(120, 22);
+            this.toolStripMenuItem6.Text = "AKS-74U";
+            // 
+            // x39mmToolStripMenuItem4
+            // 
+            this.x39mmToolStripMenuItem4.Name = "x39mmToolStripMenuItem4";
+            this.x39mmToolStripMenuItem4.Size = new System.Drawing.Size(134, 22);
+            this.x39mmToolStripMenuItem4.Text = "5.45x39mm";
+            // 
+            // toolStripMenuItem7
+            // 
+            this.toolStripMenuItem7.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x39mmToolStripMenuItem5});
+            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(120, 22);
+            this.toolStripMenuItem7.Text = "AKS";
+            // 
+            // x39mmToolStripMenuItem5
+            // 
+            this.x39mmToolStripMenuItem5.Name = "x39mmToolStripMenuItem5";
+            this.x39mmToolStripMenuItem5.Size = new System.Drawing.Size(134, 22);
+            this.x39mmToolStripMenuItem5.Text = "7.62x39mm";
+            // 
+            // vZ58ToolStripMenuItem
+            // 
+            this.vZ58ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x39mmToolStripMenuItem6});
+            this.vZ58ToolStripMenuItem.Name = "vZ58ToolStripMenuItem";
+            this.vZ58ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.vZ58ToolStripMenuItem.Text = "VZ-58";
+            // 
+            // x39mmToolStripMenuItem6
+            // 
+            this.x39mmToolStripMenuItem6.Name = "x39mmToolStripMenuItem6";
+            this.x39mmToolStripMenuItem6.Size = new System.Drawing.Size(134, 22);
+            this.x39mmToolStripMenuItem6.Text = "7.62x39mm";
+            // 
+            // toolStripMenuItem8
+            // 
+            this.toolStripMenuItem8.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x45mmToolStripMenuItem5});
+            this.toolStripMenuItem8.Name = "toolStripMenuItem8";
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(120, 22);
+            this.toolStripMenuItem8.Text = "T91";
+            // 
+            // x45mmToolStripMenuItem5
+            // 
+            this.x45mmToolStripMenuItem5.Name = "x45mmToolStripMenuItem5";
+            this.x45mmToolStripMenuItem5.Size = new System.Drawing.Size(134, 22);
+            this.x45mmToolStripMenuItem5.Text = "5.56x45mm";
+            // 
+            // toolStripMenuItem9
+            // 
+            this.toolStripMenuItem9.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x45mmToolStripMenuItem6,
+            this.x45mmSAToolStripMenuItem});
+            this.toolStripMenuItem9.Name = "toolStripMenuItem9";
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(120, 22);
+            this.toolStripMenuItem9.Text = "SG 540";
+            // 
+            // x45mmToolStripMenuItem6
+            // 
+            this.x45mmToolStripMenuItem6.Name = "x45mmToolStripMenuItem6";
+            this.x45mmToolStripMenuItem6.Size = new System.Drawing.Size(158, 22);
+            this.x45mmToolStripMenuItem6.Text = "5.56x45mm";
+            // 
+            // x45mmSAToolStripMenuItem
+            // 
+            this.x45mmSAToolStripMenuItem.Name = "x45mmSAToolStripMenuItem";
+            this.x45mmSAToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.x45mmSAToolStripMenuItem.Text = "5.6x45mm GP90";
+            // 
+            // aR70ToolStripMenuItem
+            // 
+            this.aR70ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x45mmToolStripMenuItem11});
+            this.aR70ToolStripMenuItem.Name = "aR70ToolStripMenuItem";
+            this.aR70ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.aR70ToolStripMenuItem.Text = "AR-70";
+            // 
+            // x45mmToolStripMenuItem11
+            // 
+            this.x45mmToolStripMenuItem11.Name = "x45mmToolStripMenuItem11";
+            this.x45mmToolStripMenuItem11.Size = new System.Drawing.Size(134, 22);
+            this.x45mmToolStripMenuItem11.Text = "5.56x45mm";
+            // 
+            // aR180ToolStripMenuItem
+            // 
+            this.aR180ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x45mmToolStripMenuItem12});
+            this.aR180ToolStripMenuItem.Name = "aR180ToolStripMenuItem";
+            this.aR180ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.aR180ToolStripMenuItem.Text = "AR-180";
+            // 
+            // x45mmToolStripMenuItem12
+            // 
+            this.x45mmToolStripMenuItem12.Name = "x45mmToolStripMenuItem12";
+            this.x45mmToolStripMenuItem12.Size = new System.Drawing.Size(134, 22);
+            this.x45mmToolStripMenuItem12.Text = "5.56x45mm";
+            // 
             // submachineGunsToolStripMenuItem
             // 
             this.submachineGunsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -399,6 +655,518 @@
             this.submachineGunsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.submachineGunsToolStripMenuItem.Text = "Submachine Guns";
             // 
+            // uziToolStripMenuItem1
+            // 
+            this.uziToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem,
+            this.aCPToolStripMenuItem});
+            this.uziToolStripMenuItem1.Name = "uziToolStripMenuItem1";
+            this.uziToolStripMenuItem1.Size = new System.Drawing.Size(165, 22);
+            this.uziToolStripMenuItem1.Text = "Uzi";
+            // 
+            // x19mmToolStripMenuItem
+            // 
+            this.x19mmToolStripMenuItem.Name = "x19mmToolStripMenuItem";
+            this.x19mmToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem.Text = "9x19mm";
+            // 
+            // aCPToolStripMenuItem
+            // 
+            this.aCPToolStripMenuItem.Name = "aCPToolStripMenuItem";
+            this.aCPToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.aCPToolStripMenuItem.Text = ".45 ACP";
+            // 
+            // mP5ToolStripMenuItem1
+            // 
+            this.mP5ToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem1});
+            this.mP5ToolStripMenuItem1.Name = "mP5ToolStripMenuItem1";
+            this.mP5ToolStripMenuItem1.Size = new System.Drawing.Size(165, 22);
+            this.mP5ToolStripMenuItem1.Text = "MP-5";
+            // 
+            // x19mmToolStripMenuItem1
+            // 
+            this.x19mmToolStripMenuItem1.Name = "x19mmToolStripMenuItem1";
+            this.x19mmToolStripMenuItem1.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem1.Text = "9x19mm";
+            // 
+            // toolStripMenuItem10
+            // 
+            this.toolStripMenuItem10.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.carbineToolStripMenuItem});
+            this.toolStripMenuItem10.Name = "toolStripMenuItem10";
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem10.Text = "M-1 Carbine";
+            // 
+            // carbineToolStripMenuItem
+            // 
+            this.carbineToolStripMenuItem.Name = "carbineToolStripMenuItem";
+            this.carbineToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
+            this.carbineToolStripMenuItem.Text = ".30 Carbine";
+            // 
+            // toolStripMenuItem11
+            // 
+            this.toolStripMenuItem11.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.carbineToolStripMenuItem1});
+            this.toolStripMenuItem11.Name = "toolStripMenuItem11";
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem11.Text = "M-2 Carbine";
+            // 
+            // carbineToolStripMenuItem1
+            // 
+            this.carbineToolStripMenuItem1.Name = "carbineToolStripMenuItem1";
+            this.carbineToolStripMenuItem1.Size = new System.Drawing.Size(133, 22);
+            this.carbineToolStripMenuItem1.Text = ".30 Carbine";
+            // 
+            // m3ToolStripMenuItem
+            // 
+            this.m3ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aCPToolStripMenuItem1,
+            this.x19mmToolStripMenuItem2});
+            this.m3ToolStripMenuItem.Name = "m3ToolStripMenuItem";
+            this.m3ToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
+            this.m3ToolStripMenuItem.Text = "M-3 Grease Gun";
+            // 
+            // aCPToolStripMenuItem1
+            // 
+            this.aCPToolStripMenuItem1.Name = "aCPToolStripMenuItem1";
+            this.aCPToolStripMenuItem1.Size = new System.Drawing.Size(119, 22);
+            this.aCPToolStripMenuItem1.Text = ".45 ACP";
+            // 
+            // x19mmToolStripMenuItem2
+            // 
+            this.x19mmToolStripMenuItem2.Name = "x19mmToolStripMenuItem2";
+            this.x19mmToolStripMenuItem2.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem2.Text = "9x19mm";
+            // 
+            // toolStripMenuItem12
+            // 
+            this.toolStripMenuItem12.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x25mmToolStripMenuItem});
+            this.toolStripMenuItem12.Name = "toolStripMenuItem12";
+            this.toolStripMenuItem12.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem12.Text = "PPS-43";
+            // 
+            // x25mmToolStripMenuItem
+            // 
+            this.x25mmToolStripMenuItem.Name = "x25mmToolStripMenuItem";
+            this.x25mmToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.x25mmToolStripMenuItem.Text = "7.62x25mm";
+            // 
+            // toolStripMenuItem13
+            // 
+            this.toolStripMenuItem13.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem3});
+            this.toolStripMenuItem13.Name = "toolStripMenuItem13";
+            this.toolStripMenuItem13.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem13.Text = "MP-40";
+            // 
+            // x19mmToolStripMenuItem3
+            // 
+            this.x19mmToolStripMenuItem3.Name = "x19mmToolStripMenuItem3";
+            this.x19mmToolStripMenuItem3.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem3.Text = "9x19mm";
+            // 
+            // toolStripMenuItem14
+            // 
+            this.toolStripMenuItem14.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem4});
+            this.toolStripMenuItem14.Name = "toolStripMenuItem14";
+            this.toolStripMenuItem14.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem14.Text = "STEn";
+            // 
+            // x19mmToolStripMenuItem4
+            // 
+            this.x19mmToolStripMenuItem4.Name = "x19mmToolStripMenuItem4";
+            this.x19mmToolStripMenuItem4.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem4.Text = "9x19mm";
+            // 
+            // toolStripMenuItem15
+            // 
+            this.toolStripMenuItem15.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x25mmToolStripMenuItem1,
+            this.x19mmToolStripMenuItem5});
+            this.toolStripMenuItem15.Name = "toolStripMenuItem15";
+            this.toolStripMenuItem15.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem15.Text = "PPSh-41";
+            // 
+            // x25mmToolStripMenuItem1
+            // 
+            this.x25mmToolStripMenuItem1.Name = "x25mmToolStripMenuItem1";
+            this.x25mmToolStripMenuItem1.Size = new System.Drawing.Size(134, 22);
+            this.x25mmToolStripMenuItem1.Text = "7.62x25mm";
+            // 
+            // x19mmToolStripMenuItem5
+            // 
+            this.x19mmToolStripMenuItem5.Name = "x19mmToolStripMenuItem5";
+            this.x19mmToolStripMenuItem5.Size = new System.Drawing.Size(134, 22);
+            this.x19mmToolStripMenuItem5.Text = "9x19mm";
+            // 
+            // toolStripMenuItem16
+            // 
+            this.toolStripMenuItem16.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem6});
+            this.toolStripMenuItem16.Name = "toolStripMenuItem16";
+            this.toolStripMenuItem16.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem16.Text = "KP-31";
+            // 
+            // x19mmToolStripMenuItem6
+            // 
+            this.x19mmToolStripMenuItem6.Name = "x19mmToolStripMenuItem6";
+            this.x19mmToolStripMenuItem6.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem6.Text = "9x19mm";
+            // 
+            // toolStripMenuItem17
+            // 
+            this.toolStripMenuItem17.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aCPToolStripMenuItem2});
+            this.toolStripMenuItem17.Name = "toolStripMenuItem17";
+            this.toolStripMenuItem17.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem17.Text = "Thomson 1928";
+            // 
+            // aCPToolStripMenuItem2
+            // 
+            this.aCPToolStripMenuItem2.Name = "aCPToolStripMenuItem2";
+            this.aCPToolStripMenuItem2.Size = new System.Drawing.Size(112, 22);
+            this.aCPToolStripMenuItem2.Text = ".45ACP";
+            // 
+            // toolStripMenuItem18
+            // 
+            this.toolStripMenuItem18.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aCPToolStripMenuItem3});
+            this.toolStripMenuItem18.Name = "toolStripMenuItem18";
+            this.toolStripMenuItem18.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem18.Text = "Thomson M1";
+            // 
+            // aCPToolStripMenuItem3
+            // 
+            this.aCPToolStripMenuItem3.Name = "aCPToolStripMenuItem3";
+            this.aCPToolStripMenuItem3.Size = new System.Drawing.Size(112, 22);
+            this.aCPToolStripMenuItem3.Text = ".45ACP";
+            // 
+            // toolStripMenuItem19
+            // 
+            this.toolStripMenuItem19.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem7,
+            this.x23mmToolStripMenuItem,
+            this.aCPToolStripMenuItem4});
+            this.toolStripMenuItem19.Name = "toolStripMenuItem19";
+            this.toolStripMenuItem19.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem19.Text = "MP-28";
+            // 
+            // x19mmToolStripMenuItem7
+            // 
+            this.x19mmToolStripMenuItem7.Name = "x19mmToolStripMenuItem7";
+            this.x19mmToolStripMenuItem7.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem7.Text = "9x19mm";
+            // 
+            // x23mmToolStripMenuItem
+            // 
+            this.x23mmToolStripMenuItem.Name = "x23mmToolStripMenuItem";
+            this.x23mmToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.x23mmToolStripMenuItem.Text = "9x23mm";
+            // 
+            // aCPToolStripMenuItem4
+            // 
+            this.aCPToolStripMenuItem4.Name = "aCPToolStripMenuItem4";
+            this.aCPToolStripMenuItem4.Size = new System.Drawing.Size(119, 22);
+            this.aCPToolStripMenuItem4.Text = ".45ACP";
+            // 
+            // toolStripMenuItem20
+            // 
+            this.toolStripMenuItem20.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem8});
+            this.toolStripMenuItem20.Name = "toolStripMenuItem20";
+            this.toolStripMenuItem20.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem20.Text = "Sterling";
+            // 
+            // x19mmToolStripMenuItem8
+            // 
+            this.x19mmToolStripMenuItem8.Name = "x19mmToolStripMenuItem8";
+            this.x19mmToolStripMenuItem8.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem8.Text = "9x19mm";
+            // 
+            // toolStripMenuItem21
+            // 
+            this.toolStripMenuItem21.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem9});
+            this.toolStripMenuItem21.Name = "toolStripMenuItem21";
+            this.toolStripMenuItem21.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem21.Text = "Vigneron";
+            // 
+            // x19mmToolStripMenuItem9
+            // 
+            this.x19mmToolStripMenuItem9.Name = "x19mmToolStripMenuItem9";
+            this.x19mmToolStripMenuItem9.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem9.Text = "9x19mm";
+            // 
+            // toolStripMenuItem22
+            // 
+            this.toolStripMenuItem22.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem10});
+            this.toolStripMenuItem22.Name = "toolStripMenuItem22";
+            this.toolStripMenuItem22.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem22.Text = "FBP";
+            // 
+            // x19mmToolStripMenuItem10
+            // 
+            this.x19mmToolStripMenuItem10.Name = "x19mmToolStripMenuItem10";
+            this.x19mmToolStripMenuItem10.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem10.Text = "9x19mm";
+            // 
+            // m45CarlGustavToolStripMenuItem
+            // 
+            this.m45CarlGustavToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem11});
+            this.m45CarlGustavToolStripMenuItem.Name = "m45CarlGustavToolStripMenuItem";
+            this.m45CarlGustavToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
+            this.m45CarlGustavToolStripMenuItem.Text = "M/45 Carl Gustav";
+            // 
+            // x19mmToolStripMenuItem11
+            // 
+            this.x19mmToolStripMenuItem11.Name = "x19mmToolStripMenuItem11";
+            this.x19mmToolStripMenuItem11.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem11.Text = "9x19mm";
+            // 
+            // toolStripMenuItem23
+            // 
+            this.toolStripMenuItem23.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem12,
+            this.x23mmToolStripMenuItem1});
+            this.toolStripMenuItem23.Name = "toolStripMenuItem23";
+            this.toolStripMenuItem23.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem23.Text = "Z-84";
+            this.toolStripMenuItem23.Click += new System.EventHandler(this.toolStripMenuItem23_Click);
+            // 
+            // x19mmToolStripMenuItem12
+            // 
+            this.x19mmToolStripMenuItem12.Name = "x19mmToolStripMenuItem12";
+            this.x19mmToolStripMenuItem12.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem12.Text = "9x19mm";
+            // 
+            // x23mmToolStripMenuItem1
+            // 
+            this.x23mmToolStripMenuItem1.Name = "x23mmToolStripMenuItem1";
+            this.x23mmToolStripMenuItem1.Size = new System.Drawing.Size(119, 22);
+            this.x23mmToolStripMenuItem1.Text = "9x23mm";
+            // 
+            // toolStripMenuItem24
+            // 
+            this.toolStripMenuItem24.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.lrToolStripMenuItem,
+            this.magnumToolStripMenuItem});
+            this.toolStripMenuItem24.Name = "toolStripMenuItem24";
+            this.toolStripMenuItem24.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem24.Text = "American 180";
+            // 
+            // lrToolStripMenuItem
+            // 
+            this.lrToolStripMenuItem.Name = "lrToolStripMenuItem";
+            this.lrToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.lrToolStripMenuItem.Text = ".22lr";
+            // 
+            // magnumToolStripMenuItem
+            // 
+            this.magnumToolStripMenuItem.Name = "magnumToolStripMenuItem";
+            this.magnumToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.magnumToolStripMenuItem.Text = ".22 Magnum";
+            // 
+            // toolStripMenuItem25
+            // 
+            this.toolStripMenuItem25.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem13});
+            this.toolStripMenuItem25.Name = "toolStripMenuItem25";
+            this.toolStripMenuItem25.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem25.Text = "MPL";
+            // 
+            // x19mmToolStripMenuItem13
+            // 
+            this.x19mmToolStripMenuItem13.Name = "x19mmToolStripMenuItem13";
+            this.x19mmToolStripMenuItem13.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem13.Text = "9x19mm";
+            // 
+            // toolStripMenuItem26
+            // 
+            this.toolStripMenuItem26.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem14});
+            this.toolStripMenuItem26.Name = "toolStripMenuItem26";
+            this.toolStripMenuItem26.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem26.Text = "Ber. 12";
+            // 
+            // x19mmToolStripMenuItem14
+            // 
+            this.x19mmToolStripMenuItem14.Name = "x19mmToolStripMenuItem14";
+            this.x19mmToolStripMenuItem14.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem14.Text = "9x19mm";
+            // 
+            // toolStripMenuItem27
+            // 
+            this.toolStripMenuItem27.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem15});
+            this.toolStripMenuItem27.Name = "toolStripMenuItem27";
+            this.toolStripMenuItem27.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem27.Text = "Jatimatic";
+            // 
+            // x19mmToolStripMenuItem15
+            // 
+            this.x19mmToolStripMenuItem15.Name = "x19mmToolStripMenuItem15";
+            this.x19mmToolStripMenuItem15.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem15.Text = "9x19mm";
+            // 
+            // type45ToolStripMenuItem
+            // 
+            this.type45ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x25mmToolStripMenuItem2,
+            this.x18mmToolStripMenuItem});
+            this.type45ToolStripMenuItem.Name = "type45ToolStripMenuItem";
+            this.type45ToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
+            this.type45ToolStripMenuItem.Text = "Type-45";
+            // 
+            // x25mmToolStripMenuItem2
+            // 
+            this.x25mmToolStripMenuItem2.Name = "x25mmToolStripMenuItem2";
+            this.x25mmToolStripMenuItem2.Size = new System.Drawing.Size(134, 22);
+            this.x25mmToolStripMenuItem2.Text = "7.62x25mm";
+            // 
+            // x18mmToolStripMenuItem
+            // 
+            this.x18mmToolStripMenuItem.Name = "x18mmToolStripMenuItem";
+            this.x18mmToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.x18mmToolStripMenuItem.Text = "9x18mm";
+            // 
+            // toolStripMenuItem28
+            // 
+            this.toolStripMenuItem28.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem16,
+            this.x23mmToolStripMenuItem2});
+            this.toolStripMenuItem28.Name = "toolStripMenuItem28";
+            this.toolStripMenuItem28.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem28.Text = "Z-70";
+            // 
+            // x19mmToolStripMenuItem16
+            // 
+            this.x19mmToolStripMenuItem16.Name = "x19mmToolStripMenuItem16";
+            this.x19mmToolStripMenuItem16.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem16.Text = "9x19mm";
+            // 
+            // x23mmToolStripMenuItem2
+            // 
+            this.x23mmToolStripMenuItem2.Name = "x23mmToolStripMenuItem2";
+            this.x23mmToolStripMenuItem2.Size = new System.Drawing.Size(119, 22);
+            this.x23mmToolStripMenuItem2.Text = "9x23mm";
+            // 
+            // toolStripMenuItem29
+            // 
+            this.toolStripMenuItem29.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem17});
+            this.toolStripMenuItem29.Name = "toolStripMenuItem29";
+            this.toolStripMenuItem29.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem29.Text = "KP-44";
+            // 
+            // x19mmToolStripMenuItem17
+            // 
+            this.x19mmToolStripMenuItem17.Name = "x19mmToolStripMenuItem17";
+            this.x19mmToolStripMenuItem17.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem17.Text = "9x19mm";
+            // 
+            // toolStripMenuItem30
+            // 
+            this.toolStripMenuItem30.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem18});
+            this.toolStripMenuItem30.Name = "toolStripMenuItem30";
+            this.toolStripMenuItem30.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem30.Text = "MAT-49";
+            // 
+            // x19mmToolStripMenuItem18
+            // 
+            this.x19mmToolStripMenuItem18.Name = "x19mmToolStripMenuItem18";
+            this.x19mmToolStripMenuItem18.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem18.Text = "9x19mm";
+            // 
+            // vZ61ToolStripMenuItem
+            // 
+            this.vZ61ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aCPToolStripMenuItem5});
+            this.vZ61ToolStripMenuItem.Name = "vZ61ToolStripMenuItem";
+            this.vZ61ToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
+            this.vZ61ToolStripMenuItem.Text = "VZ-61 Skorpion";
+            // 
+            // aCPToolStripMenuItem5
+            // 
+            this.aCPToolStripMenuItem5.Name = "aCPToolStripMenuItem5";
+            this.aCPToolStripMenuItem5.Size = new System.Drawing.Size(112, 22);
+            this.aCPToolStripMenuItem5.Text = ".32ACP";
+            // 
+            // vZ83ToolStripMenuItem
+            // 
+            this.vZ83ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x18mmToolStripMenuItem1,
+            this.aCPToolStripMenuItem6});
+            this.vZ83ToolStripMenuItem.Name = "vZ83ToolStripMenuItem";
+            this.vZ83ToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
+            this.vZ83ToolStripMenuItem.Text = "VZ-83 Skorpion";
+            // 
+            // x18mmToolStripMenuItem1
+            // 
+            this.x18mmToolStripMenuItem1.Name = "x18mmToolStripMenuItem1";
+            this.x18mmToolStripMenuItem1.Size = new System.Drawing.Size(119, 22);
+            this.x18mmToolStripMenuItem1.Text = "9x18mm";
+            // 
+            // aCPToolStripMenuItem6
+            // 
+            this.aCPToolStripMenuItem6.Name = "aCPToolStripMenuItem6";
+            this.aCPToolStripMenuItem6.Size = new System.Drawing.Size(119, 22);
+            this.aCPToolStripMenuItem6.Text = ".380ACP";
+            // 
+            // mAC10ToolStripMenuItem
+            // 
+            this.mAC10ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aCPToolStripMenuItem7,
+            this.x19mmToolStripMenuItem19});
+            this.mAC10ToolStripMenuItem.Name = "mAC10ToolStripMenuItem";
+            this.mAC10ToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
+            this.mAC10ToolStripMenuItem.Text = "MAC-10";
+            // 
+            // aCPToolStripMenuItem7
+            // 
+            this.aCPToolStripMenuItem7.Name = "aCPToolStripMenuItem7";
+            this.aCPToolStripMenuItem7.Size = new System.Drawing.Size(119, 22);
+            this.aCPToolStripMenuItem7.Text = ".45ACP";
+            // 
+            // x19mmToolStripMenuItem19
+            // 
+            this.x19mmToolStripMenuItem19.Name = "x19mmToolStripMenuItem19";
+            this.x19mmToolStripMenuItem19.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem19.Text = "9x19mm";
+            // 
+            // mAC11ToolStripMenuItem
+            // 
+            this.mAC11ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aCPToolStripMenuItem8});
+            this.mAC11ToolStripMenuItem.Name = "mAC11ToolStripMenuItem";
+            this.mAC11ToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
+            this.mAC11ToolStripMenuItem.Text = "MAC-11";
+            // 
+            // aCPToolStripMenuItem8
+            // 
+            this.aCPToolStripMenuItem8.Name = "aCPToolStripMenuItem8";
+            this.aCPToolStripMenuItem8.Size = new System.Drawing.Size(118, 22);
+            this.aCPToolStripMenuItem8.Text = ".380ACP";
+            // 
+            // toolStripMenuItem63
+            // 
+            this.toolStripMenuItem63.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x19mmToolStripMenuItem20});
+            this.toolStripMenuItem63.Name = "toolStripMenuItem63";
+            this.toolStripMenuItem63.Size = new System.Drawing.Size(165, 22);
+            this.toolStripMenuItem63.Text = "M-960";
+            // 
+            // x19mmToolStripMenuItem20
+            // 
+            this.x19mmToolStripMenuItem20.Name = "x19mmToolStripMenuItem20";
+            this.x19mmToolStripMenuItem20.Size = new System.Drawing.Size(119, 22);
+            this.x19mmToolStripMenuItem20.Text = "9x19mm";
+            // 
             // battleRiflesToolStripMenuItem
             // 
             this.battleRiflesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -425,6 +1193,370 @@
             this.battleRiflesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.battleRiflesToolStripMenuItem.Text = "Battle Rifles";
             // 
+            // fALToolStripMenuItem1
+            // 
+            this.fALToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x51mmToolStripMenuItem});
+            this.fALToolStripMenuItem1.Name = "fALToolStripMenuItem1";
+            this.fALToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.fALToolStripMenuItem1.Text = "FAL";
+            // 
+            // x51mmToolStripMenuItem
+            // 
+            this.x51mmToolStripMenuItem.Name = "x51mmToolStripMenuItem";
+            this.x51mmToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.x51mmToolStripMenuItem.Text = "7.62x51mm";
+            // 
+            // g3ToolStripMenuItem1
+            // 
+            this.g3ToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x51mmToolStripMenuItem1});
+            this.g3ToolStripMenuItem1.Name = "g3ToolStripMenuItem1";
+            this.g3ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.g3ToolStripMenuItem1.Text = "G-3";
+            // 
+            // x51mmToolStripMenuItem1
+            // 
+            this.x51mmToolStripMenuItem1.Name = "x51mmToolStripMenuItem1";
+            this.x51mmToolStripMenuItem1.Size = new System.Drawing.Size(134, 22);
+            this.x51mmToolStripMenuItem1.Text = "7.62x51mm";
+            // 
+            // toolStripMenuItem31
+            // 
+            this.toolStripMenuItem31.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x51mmToolStripMenuItem2});
+            this.toolStripMenuItem31.Name = "toolStripMenuItem31";
+            this.toolStripMenuItem31.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem31.Text = "AR-10";
+            // 
+            // x51mmToolStripMenuItem2
+            // 
+            this.x51mmToolStripMenuItem2.Name = "x51mmToolStripMenuItem2";
+            this.x51mmToolStripMenuItem2.Size = new System.Drawing.Size(134, 22);
+            this.x51mmToolStripMenuItem2.Text = "7.62x51mm";
+            // 
+            // lARToolStripMenuItem
+            // 
+            this.lARToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x51mmToolStripMenuItem3});
+            this.lARToolStripMenuItem.Name = "lARToolStripMenuItem";
+            this.lARToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.lARToolStripMenuItem.Text = "LAR";
+            // 
+            // x51mmToolStripMenuItem3
+            // 
+            this.x51mmToolStripMenuItem3.Name = "x51mmToolStripMenuItem3";
+            this.x51mmToolStripMenuItem3.Size = new System.Drawing.Size(134, 22);
+            this.x51mmToolStripMenuItem3.Text = "7.62x51mm";
+            // 
+            // toolStripMenuItem32
+            // 
+            this.toolStripMenuItem32.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x51mmToolStripMenuItem4});
+            this.toolStripMenuItem32.Name = "toolStripMenuItem32";
+            this.toolStripMenuItem32.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem32.Text = "M-14";
+            // 
+            // x51mmToolStripMenuItem4
+            // 
+            this.x51mmToolStripMenuItem4.Name = "x51mmToolStripMenuItem4";
+            this.x51mmToolStripMenuItem4.Size = new System.Drawing.Size(134, 22);
+            this.x51mmToolStripMenuItem4.Text = "7.62x51mm";
+            // 
+            // bM59ToolStripMenuItem
+            // 
+            this.bM59ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x39mmToolStripMenuItem7});
+            this.bM59ToolStripMenuItem.Name = "bM59ToolStripMenuItem";
+            this.bM59ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.bM59ToolStripMenuItem.Text = "BM-59";
+            // 
+            // x39mmToolStripMenuItem7
+            // 
+            this.x39mmToolStripMenuItem7.Name = "x39mmToolStripMenuItem7";
+            this.x39mmToolStripMenuItem7.Size = new System.Drawing.Size(134, 22);
+            this.x39mmToolStripMenuItem7.Text = "7.62x39mm";
+            // 
+            // fN49ToolStripMenuItem
+            // 
+            this.fN49ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x51mmToolStripMenuItem5,
+            this.toolStripMenuItem33,
+            this.x57mmToolStripMenuItem,
+            this.x57mmToolStripMenuItem1,
+            this.x53mmRToolStripMenuItem});
+            this.fN49ToolStripMenuItem.Name = "fN49ToolStripMenuItem";
+            this.fN49ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fN49ToolStripMenuItem.Text = "FN 49";
+            // 
+            // x51mmToolStripMenuItem5
+            // 
+            this.x51mmToolStripMenuItem5.Name = "x51mmToolStripMenuItem5";
+            this.x51mmToolStripMenuItem5.Size = new System.Drawing.Size(141, 22);
+            this.x51mmToolStripMenuItem5.Text = "7.62x51mm";
+            // 
+            // toolStripMenuItem33
+            // 
+            this.toolStripMenuItem33.Name = "toolStripMenuItem33";
+            this.toolStripMenuItem33.Size = new System.Drawing.Size(141, 22);
+            this.toolStripMenuItem33.Text = ".30-06";
+            // 
+            // x57mmToolStripMenuItem
+            // 
+            this.x57mmToolStripMenuItem.Name = "x57mmToolStripMenuItem";
+            this.x57mmToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.x57mmToolStripMenuItem.Text = "7x57mm";
+            // 
+            // x57mmToolStripMenuItem1
+            // 
+            this.x57mmToolStripMenuItem1.Name = "x57mmToolStripMenuItem1";
+            this.x57mmToolStripMenuItem1.Size = new System.Drawing.Size(141, 22);
+            this.x57mmToolStripMenuItem1.Text = "8x57mm";
+            // 
+            // x53mmRToolStripMenuItem
+            // 
+            this.x53mmRToolStripMenuItem.Name = "x53mmRToolStripMenuItem";
+            this.x53mmRToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.x53mmRToolStripMenuItem.Text = "7.65x53mmR";
+            // 
+            // toolStripMenuItem34
+            // 
+            this.toolStripMenuItem34.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x55mmToolStripMenuItem,
+            this.x57mmToolStripMenuItem2});
+            this.toolStripMenuItem34.Name = "toolStripMenuItem34";
+            this.toolStripMenuItem34.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem34.Text = "AG/42";
+            // 
+            // x55mmToolStripMenuItem
+            // 
+            this.x55mmToolStripMenuItem.Name = "x55mmToolStripMenuItem";
+            this.x55mmToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.x55mmToolStripMenuItem.Text = "6.5x55mm";
+            // 
+            // x57mmToolStripMenuItem2
+            // 
+            this.x57mmToolStripMenuItem2.Name = "x57mmToolStripMenuItem2";
+            this.x57mmToolStripMenuItem2.Size = new System.Drawing.Size(128, 22);
+            this.x57mmToolStripMenuItem2.Text = "8x57mm";
+            // 
+            // toolStripMenuItem35
+            // 
+            this.toolStripMenuItem35.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x54mmToolStripMenuItem,
+            this.x51mmToolStripMenuItem6});
+            this.toolStripMenuItem35.Name = "toolStripMenuItem35";
+            this.toolStripMenuItem35.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem35.Text = "MAS-49";
+            // 
+            // x54mmToolStripMenuItem
+            // 
+            this.x54mmToolStripMenuItem.Name = "x54mmToolStripMenuItem";
+            this.x54mmToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.x54mmToolStripMenuItem.Text = "7.5x54mm";
+            // 
+            // x51mmToolStripMenuItem6
+            // 
+            this.x51mmToolStripMenuItem6.Name = "x51mmToolStripMenuItem6";
+            this.x51mmToolStripMenuItem6.Size = new System.Drawing.Size(134, 22);
+            this.x51mmToolStripMenuItem6.Text = "7.62x51mm";
+            // 
+            // toolStripMenuItem36
+            // 
+            this.toolStripMenuItem36.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x54mmRToolStripMenuItem,
+            this.x51mmToolStripMenuItem7});
+            this.toolStripMenuItem36.Name = "toolStripMenuItem36";
+            this.toolStripMenuItem36.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem36.Text = "PSL";
+            // 
+            // x54mmRToolStripMenuItem
+            // 
+            this.x54mmRToolStripMenuItem.Name = "x54mmRToolStripMenuItem";
+            this.x54mmRToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.x54mmRToolStripMenuItem.Text = "7.62x54mmR";
+            // 
+            // x51mmToolStripMenuItem7
+            // 
+            this.x51mmToolStripMenuItem7.Name = "x51mmToolStripMenuItem7";
+            this.x51mmToolStripMenuItem7.Size = new System.Drawing.Size(141, 22);
+            this.x51mmToolStripMenuItem7.Text = "7.62x51mm";
+            // 
+            // toolStripMenuItem37
+            // 
+            this.toolStripMenuItem37.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x54mmRToolStripMenuItem1});
+            this.toolStripMenuItem37.Name = "toolStripMenuItem37";
+            this.toolStripMenuItem37.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem37.Text = "SVT-40";
+            // 
+            // x54mmRToolStripMenuItem1
+            // 
+            this.x54mmRToolStripMenuItem1.Name = "x54mmRToolStripMenuItem1";
+            this.x54mmRToolStripMenuItem1.Size = new System.Drawing.Size(141, 22);
+            this.x54mmRToolStripMenuItem1.Text = "7.62x54mmR";
+            // 
+            // toolStripMenuItem38
+            // 
+            this.toolStripMenuItem38.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem39});
+            this.toolStripMenuItem38.Name = "toolStripMenuItem38";
+            this.toolStripMenuItem38.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem38.Text = "M-1 Garand";
+            // 
+            // toolStripMenuItem39
+            // 
+            this.toolStripMenuItem39.Name = "toolStripMenuItem39";
+            this.toolStripMenuItem39.Size = new System.Drawing.Size(106, 22);
+            this.toolStripMenuItem39.Text = ".30-06";
+            // 
+            // toolStripMenuItem40
+            // 
+            this.toolStripMenuItem40.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x55mmToolStripMenuItem1,
+            this.x51mmToolStripMenuItem8});
+            this.toolStripMenuItem40.Name = "toolStripMenuItem40";
+            this.toolStripMenuItem40.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem40.Text = "SG 510";
+            // 
+            // x55mmToolStripMenuItem1
+            // 
+            this.x55mmToolStripMenuItem1.Name = "x55mmToolStripMenuItem1";
+            this.x55mmToolStripMenuItem1.Size = new System.Drawing.Size(134, 22);
+            this.x55mmToolStripMenuItem1.Text = "7.5x55mm";
+            // 
+            // x51mmToolStripMenuItem8
+            // 
+            this.x51mmToolStripMenuItem8.Name = "x51mmToolStripMenuItem8";
+            this.x51mmToolStripMenuItem8.Size = new System.Drawing.Size(134, 22);
+            this.x51mmToolStripMenuItem8.Text = "7.62x51mm";
+            // 
+            // toolStripMenuItem41
+            // 
+            this.toolStripMenuItem41.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x57mmToolStripMenuItem3,
+            this.x57mmToolStripMenuItem4,
+            this.x06ToolStripMenuItem,
+            this.x51mmToolStripMenuItem9});
+            this.toolStripMenuItem41.Name = "toolStripMenuItem41";
+            this.toolStripMenuItem41.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem41.Text = "Maus. 98k";
+            // 
+            // x57mmToolStripMenuItem3
+            // 
+            this.x57mmToolStripMenuItem3.Name = "x57mmToolStripMenuItem3";
+            this.x57mmToolStripMenuItem3.Size = new System.Drawing.Size(134, 22);
+            this.x57mmToolStripMenuItem3.Text = "8x57mm";
+            // 
+            // x57mmToolStripMenuItem4
+            // 
+            this.x57mmToolStripMenuItem4.Name = "x57mmToolStripMenuItem4";
+            this.x57mmToolStripMenuItem4.Size = new System.Drawing.Size(134, 22);
+            this.x57mmToolStripMenuItem4.Text = "7x57mm";
+            // 
+            // x06ToolStripMenuItem
+            // 
+            this.x06ToolStripMenuItem.Name = "x06ToolStripMenuItem";
+            this.x06ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.x06ToolStripMenuItem.Text = ".30-06";
+            // 
+            // x51mmToolStripMenuItem9
+            // 
+            this.x51mmToolStripMenuItem9.Name = "x51mmToolStripMenuItem9";
+            this.x51mmToolStripMenuItem9.Size = new System.Drawing.Size(134, 22);
+            this.x51mmToolStripMenuItem9.Text = "7.62x51mm";
+            // 
+            // m47ToolStripMenuItem
+            // 
+            this.m47ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem42,
+            this.x51mmToolStripMenuItem10,
+            this.x57mmToolStripMenuItem5});
+            this.m47ToolStripMenuItem.Name = "m47ToolStripMenuItem";
+            this.m47ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.m47ToolStripMenuItem.Text = "M47";
+            // 
+            // toolStripMenuItem42
+            // 
+            this.toolStripMenuItem42.Name = "toolStripMenuItem42";
+            this.toolStripMenuItem42.Size = new System.Drawing.Size(134, 22);
+            this.toolStripMenuItem42.Text = ".30-06";
+            // 
+            // x51mmToolStripMenuItem10
+            // 
+            this.x51mmToolStripMenuItem10.Name = "x51mmToolStripMenuItem10";
+            this.x51mmToolStripMenuItem10.Size = new System.Drawing.Size(134, 22);
+            this.x51mmToolStripMenuItem10.Text = "7.62x51mm";
+            // 
+            // x57mmToolStripMenuItem5
+            // 
+            this.x57mmToolStripMenuItem5.Name = "x57mmToolStripMenuItem5";
+            this.x57mmToolStripMenuItem5.Size = new System.Drawing.Size(134, 22);
+            this.x57mmToolStripMenuItem5.Text = "7x57mm";
+            // 
+            // toolStripMenuItem43
+            // 
+            this.toolStripMenuItem43.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x54mmRToolStripMenuItem2});
+            this.toolStripMenuItem43.Name = "toolStripMenuItem43";
+            this.toolStripMenuItem43.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem43.Text = "M44";
+            // 
+            // x54mmRToolStripMenuItem2
+            // 
+            this.x54mmRToolStripMenuItem2.Name = "x54mmRToolStripMenuItem2";
+            this.x54mmRToolStripMenuItem2.Size = new System.Drawing.Size(141, 22);
+            this.x54mmRToolStripMenuItem2.Text = "7.62x54mmR";
+            // 
+            // leeEnfieldNo4ToolStripMenuItem
+            // 
+            this.leeEnfieldNo4ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem44,
+            this.x51mmToolStripMenuItem11});
+            this.leeEnfieldNo4ToolStripMenuItem.Name = "leeEnfieldNo4ToolStripMenuItem";
+            this.leeEnfieldNo4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.leeEnfieldNo4ToolStripMenuItem.Text = "Lee Enfield No. 4";
+            // 
+            // toolStripMenuItem44
+            // 
+            this.toolStripMenuItem44.Name = "toolStripMenuItem44";
+            this.toolStripMenuItem44.Size = new System.Drawing.Size(134, 22);
+            this.toolStripMenuItem44.Text = ".303";
+            // 
+            // x51mmToolStripMenuItem11
+            // 
+            this.x51mmToolStripMenuItem11.Name = "x51mmToolStripMenuItem11";
+            this.x51mmToolStripMenuItem11.Size = new System.Drawing.Size(134, 22);
+            this.x51mmToolStripMenuItem11.Text = "7.62x51mm";
+            // 
+            // toolStripMenuItem45
+            // 
+            this.toolStripMenuItem45.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x54mmToolStripMenuItem1});
+            this.toolStripMenuItem45.Name = "toolStripMenuItem45";
+            this.toolStripMenuItem45.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem45.Text = "MAS-36";
+            // 
+            // x54mmToolStripMenuItem1
+            // 
+            this.x54mmToolStripMenuItem1.Name = "x54mmToolStripMenuItem1";
+            this.x54mmToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
+            this.x54mmToolStripMenuItem1.Text = "7.5x54mm";
+            // 
+            // toolStripMenuItem46
+            // 
+            this.toolStripMenuItem46.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x55mmToolStripMenuItem2});
+            this.toolStripMenuItem46.Name = "toolStripMenuItem46";
+            this.toolStripMenuItem46.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem46.Text = "K-31";
+            // 
+            // x55mmToolStripMenuItem2
+            // 
+            this.x55mmToolStripMenuItem2.Name = "x55mmToolStripMenuItem2";
+            this.x55mmToolStripMenuItem2.Size = new System.Drawing.Size(128, 22);
+            this.x55mmToolStripMenuItem2.Text = "7.5x55mm";
+            // 
             // lightMachineGunsToolStripMenuItem
             // 
             this.lightMachineGunsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -444,1089 +1576,11 @@
             this.toolStripMenuItem53,
             this.toolStripMenuItem54,
             this.rPK74ToolStripMenuItem,
-            this.bARToolStripMenuItem});
+            this.bARToolStripMenuItem,
+            this.aAToolStripMenuItem});
             this.lightMachineGunsToolStripMenuItem.Name = "lightMachineGunsToolStripMenuItem";
             this.lightMachineGunsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.lightMachineGunsToolStripMenuItem.Text = "Light Machine Guns";
-            // 
-            // shotgunsToolStripMenuItem
-            // 
-            this.shotgunsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem56,
-            this.toolStripMenuItem57,
-            this.ith37ToolStripMenuItem1,
-            this.toolStripMenuItem58,
-            this.toolStripMenuItem59,
-            this.rem1100ToolStripMenuItem1,
-            this.toolStripMenuItem60,
-            this.toolStripMenuItem61,
-            this.toolStripMenuItem62});
-            this.shotgunsToolStripMenuItem.Name = "shotgunsToolStripMenuItem";
-            this.shotgunsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.shotgunsToolStripMenuItem.Text = "Shotguns";
-            // 
-            // sniperRiflesToolStripMenuItem
-            // 
-            this.sniperRiflesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.win70ToolStripMenuItem1,
-            this.toolStripMenuItem67,
-            this.toolStripMenuItem71,
-            this.toolStripMenuItem72,
-            this.toolStripMenuItem73,
-            this.toolStripMenuItem75,
-            this.m82ToolStripMenuItem1,
-            this.toolStripMenuItem78,
-            this.toolStripMenuItem79,
-            this.toolStripMenuItem80});
-            this.sniperRiflesToolStripMenuItem.Name = "sniperRiflesToolStripMenuItem";
-            this.sniperRiflesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sniperRiflesToolStripMenuItem.Text = "Sniper Rifles";
-            // 
-            // m16ToolStripMenuItem1
-            // 
-            this.m16ToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x45mmToolStripMenuItem});
-            this.m16ToolStripMenuItem1.Name = "m16ToolStripMenuItem1";
-            this.m16ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.m16ToolStripMenuItem1.Text = "M-16";
-            // 
-            // x45mmToolStripMenuItem
-            // 
-            this.x45mmToolStripMenuItem.Name = "x45mmToolStripMenuItem";
-            this.x45mmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.x45mmToolStripMenuItem.Text = "5.56x45mm";
-            // 
-            // aK47ToolStripMenuItem1
-            // 
-            this.aK47ToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x39ToolStripMenuItem});
-            this.aK47ToolStripMenuItem1.Name = "aK47ToolStripMenuItem1";
-            this.aK47ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.aK47ToolStripMenuItem1.Text = "AK-47";
-            // 
-            // x39ToolStripMenuItem
-            // 
-            this.x39ToolStripMenuItem.Name = "x39ToolStripMenuItem";
-            this.x39ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.x39ToolStripMenuItem.Text = "7.62x39mm";
-            this.x39ToolStripMenuItem.Click += new System.EventHandler(this.x39ToolStripMenuItem_Click);
-            // 
-            // sKSToolStripMenuItem
-            // 
-            this.sKSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x39mmToolStripMenuItem});
-            this.sKSToolStripMenuItem.Name = "sKSToolStripMenuItem";
-            this.sKSToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sKSToolStripMenuItem.Text = "SKS";
-            // 
-            // x39mmToolStripMenuItem
-            // 
-            this.x39mmToolStripMenuItem.Name = "x39mmToolStripMenuItem";
-            this.x39mmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.x39mmToolStripMenuItem.Text = "7.62x39mm";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x45mmToolStripMenuItem1});
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem2.Text = "Mini-14";
-            // 
-            // x45mmToolStripMenuItem1
-            // 
-            this.x45mmToolStripMenuItem1.Name = "x45mmToolStripMenuItem1";
-            this.x45mmToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.x45mmToolStripMenuItem1.Text = "5.56x45mm";
-            // 
-            // hK93ToolStripMenuItem
-            // 
-            this.hK93ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x39mmToolStripMenuItem1});
-            this.hK93ToolStripMenuItem.Name = "hK93ToolStripMenuItem";
-            this.hK93ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.hK93ToolStripMenuItem.Text = "HK 93";
-            // 
-            // x39mmToolStripMenuItem1
-            // 
-            this.x39mmToolStripMenuItem1.Name = "x39mmToolStripMenuItem1";
-            this.x39mmToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.x39mmToolStripMenuItem1.Text = "5.56x45mm";
-            // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x39mmToolStripMenuItem2});
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem3.Text = "Galil";
-            // 
-            // x39mmToolStripMenuItem2
-            // 
-            this.x39mmToolStripMenuItem2.Name = "x39mmToolStripMenuItem2";
-            this.x39mmToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.x39mmToolStripMenuItem2.Text = "5.56x45mm";
-            this.x39mmToolStripMenuItem2.Click += new System.EventHandler(this.x39mmToolStripMenuItem2_Click);
-            // 
-            // cAR15ToolStripMenuItem1
-            // 
-            this.cAR15ToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x45mmToolStripMenuItem2});
-            this.cAR15ToolStripMenuItem1.Name = "cAR15ToolStripMenuItem1";
-            this.cAR15ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.cAR15ToolStripMenuItem1.Text = "CAR-15";
-            // 
-            // x45mmToolStripMenuItem2
-            // 
-            this.x45mmToolStripMenuItem2.Name = "x45mmToolStripMenuItem2";
-            this.x45mmToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.x45mmToolStripMenuItem2.Text = "5.56x45mm";
-            // 
-            // aUGToolStripMenuItem1
-            // 
-            this.aUGToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x45mmToolStripMenuItem3});
-            this.aUGToolStripMenuItem1.Name = "aUGToolStripMenuItem1";
-            this.aUGToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.aUGToolStripMenuItem1.Text = "AUG";
-            // 
-            // x45mmToolStripMenuItem3
-            // 
-            this.x45mmToolStripMenuItem3.Name = "x45mmToolStripMenuItem3";
-            this.x45mmToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
-            this.x45mmToolStripMenuItem3.Text = "5.56x45mm";
-            // 
-            // toolStripMenuItem4
-            // 
-            this.toolStripMenuItem4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x45mmToolStripMenuItem4});
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem4.Text = "FNC";
-            // 
-            // x45mmToolStripMenuItem4
-            // 
-            this.x45mmToolStripMenuItem4.Name = "x45mmToolStripMenuItem4";
-            this.x45mmToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
-            this.x45mmToolStripMenuItem4.Text = "5.56x45mm";
-            // 
-            // toolStripMenuItem5
-            // 
-            this.toolStripMenuItem5.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x39mmToolStripMenuItem3});
-            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem5.Text = "AK-74";
-            // 
-            // x39mmToolStripMenuItem3
-            // 
-            this.x39mmToolStripMenuItem3.Name = "x39mmToolStripMenuItem3";
-            this.x39mmToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
-            this.x39mmToolStripMenuItem3.Text = "5.45x39mm";
-            // 
-            // toolStripMenuItem6
-            // 
-            this.toolStripMenuItem6.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x39mmToolStripMenuItem4});
-            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem6.Text = "AKS-74U";
-            // 
-            // x39mmToolStripMenuItem4
-            // 
-            this.x39mmToolStripMenuItem4.Name = "x39mmToolStripMenuItem4";
-            this.x39mmToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
-            this.x39mmToolStripMenuItem4.Text = "5.45x39mm";
-            // 
-            // toolStripMenuItem7
-            // 
-            this.toolStripMenuItem7.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x39mmToolStripMenuItem5});
-            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem7.Text = "AKS";
-            // 
-            // x39mmToolStripMenuItem5
-            // 
-            this.x39mmToolStripMenuItem5.Name = "x39mmToolStripMenuItem5";
-            this.x39mmToolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
-            this.x39mmToolStripMenuItem5.Text = "7.62x39mm";
-            // 
-            // vZ58ToolStripMenuItem
-            // 
-            this.vZ58ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x39mmToolStripMenuItem6});
-            this.vZ58ToolStripMenuItem.Name = "vZ58ToolStripMenuItem";
-            this.vZ58ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.vZ58ToolStripMenuItem.Text = "VZ-58";
-            // 
-            // x39mmToolStripMenuItem6
-            // 
-            this.x39mmToolStripMenuItem6.Name = "x39mmToolStripMenuItem6";
-            this.x39mmToolStripMenuItem6.Size = new System.Drawing.Size(180, 22);
-            this.x39mmToolStripMenuItem6.Text = "7.62x39mm";
-            // 
-            // uziToolStripMenuItem1
-            // 
-            this.uziToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem,
-            this.aCPToolStripMenuItem});
-            this.uziToolStripMenuItem1.Name = "uziToolStripMenuItem1";
-            this.uziToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.uziToolStripMenuItem1.Text = "Uzi";
-            // 
-            // x19mmToolStripMenuItem
-            // 
-            this.x19mmToolStripMenuItem.Name = "x19mmToolStripMenuItem";
-            this.x19mmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem.Text = "9x19mm";
-            // 
-            // aCPToolStripMenuItem
-            // 
-            this.aCPToolStripMenuItem.Name = "aCPToolStripMenuItem";
-            this.aCPToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.aCPToolStripMenuItem.Text = ".45 ACP";
-            // 
-            // mP5ToolStripMenuItem1
-            // 
-            this.mP5ToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem1});
-            this.mP5ToolStripMenuItem1.Name = "mP5ToolStripMenuItem1";
-            this.mP5ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.mP5ToolStripMenuItem1.Text = "MP-5";
-            // 
-            // x19mmToolStripMenuItem1
-            // 
-            this.x19mmToolStripMenuItem1.Name = "x19mmToolStripMenuItem1";
-            this.x19mmToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem1.Text = "9x19mm";
-            // 
-            // toolStripMenuItem8
-            // 
-            this.toolStripMenuItem8.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x45mmToolStripMenuItem5});
-            this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem8.Text = "T91";
-            // 
-            // x45mmToolStripMenuItem5
-            // 
-            this.x45mmToolStripMenuItem5.Name = "x45mmToolStripMenuItem5";
-            this.x45mmToolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
-            this.x45mmToolStripMenuItem5.Text = "5.56x45mm";
-            // 
-            // toolStripMenuItem9
-            // 
-            this.toolStripMenuItem9.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x45mmToolStripMenuItem6,
-            this.x45mmSAToolStripMenuItem});
-            this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem9.Text = "SG 540";
-            // 
-            // x45mmToolStripMenuItem6
-            // 
-            this.x45mmToolStripMenuItem6.Name = "x45mmToolStripMenuItem6";
-            this.x45mmToolStripMenuItem6.Size = new System.Drawing.Size(180, 22);
-            this.x45mmToolStripMenuItem6.Text = "5.56x45mm";
-            // 
-            // x45mmSAToolStripMenuItem
-            // 
-            this.x45mmSAToolStripMenuItem.Name = "x45mmSAToolStripMenuItem";
-            this.x45mmSAToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.x45mmSAToolStripMenuItem.Text = "5.6x45mm GP90";
-            // 
-            // toolStripMenuItem10
-            // 
-            this.toolStripMenuItem10.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.carbineToolStripMenuItem});
-            this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem10.Text = "M-1 Carbine";
-            // 
-            // carbineToolStripMenuItem
-            // 
-            this.carbineToolStripMenuItem.Name = "carbineToolStripMenuItem";
-            this.carbineToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.carbineToolStripMenuItem.Text = ".30 Carbine";
-            // 
-            // toolStripMenuItem11
-            // 
-            this.toolStripMenuItem11.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.carbineToolStripMenuItem1});
-            this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem11.Text = "M-2 Carbine";
-            // 
-            // carbineToolStripMenuItem1
-            // 
-            this.carbineToolStripMenuItem1.Name = "carbineToolStripMenuItem1";
-            this.carbineToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.carbineToolStripMenuItem1.Text = ".30 Carbine";
-            // 
-            // m3ToolStripMenuItem
-            // 
-            this.m3ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aCPToolStripMenuItem1,
-            this.x19mmToolStripMenuItem2});
-            this.m3ToolStripMenuItem.Name = "m3ToolStripMenuItem";
-            this.m3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.m3ToolStripMenuItem.Text = "M-3 Grease Gun";
-            // 
-            // aCPToolStripMenuItem1
-            // 
-            this.aCPToolStripMenuItem1.Name = "aCPToolStripMenuItem1";
-            this.aCPToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.aCPToolStripMenuItem1.Text = ".45 ACP";
-            // 
-            // x19mmToolStripMenuItem2
-            // 
-            this.x19mmToolStripMenuItem2.Name = "x19mmToolStripMenuItem2";
-            this.x19mmToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem2.Text = "9x19mm";
-            // 
-            // toolStripMenuItem12
-            // 
-            this.toolStripMenuItem12.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x25mmToolStripMenuItem});
-            this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-            this.toolStripMenuItem12.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem12.Text = "PPS-43";
-            // 
-            // x25mmToolStripMenuItem
-            // 
-            this.x25mmToolStripMenuItem.Name = "x25mmToolStripMenuItem";
-            this.x25mmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.x25mmToolStripMenuItem.Text = "7.62x25mm";
-            // 
-            // toolStripMenuItem13
-            // 
-            this.toolStripMenuItem13.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem3});
-            this.toolStripMenuItem13.Name = "toolStripMenuItem13";
-            this.toolStripMenuItem13.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem13.Text = "MP-40";
-            // 
-            // x19mmToolStripMenuItem3
-            // 
-            this.x19mmToolStripMenuItem3.Name = "x19mmToolStripMenuItem3";
-            this.x19mmToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem3.Text = "9x19mm";
-            // 
-            // toolStripMenuItem14
-            // 
-            this.toolStripMenuItem14.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem4});
-            this.toolStripMenuItem14.Name = "toolStripMenuItem14";
-            this.toolStripMenuItem14.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem14.Text = "STEn";
-            // 
-            // x19mmToolStripMenuItem4
-            // 
-            this.x19mmToolStripMenuItem4.Name = "x19mmToolStripMenuItem4";
-            this.x19mmToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem4.Text = "9x19mm";
-            // 
-            // toolStripMenuItem15
-            // 
-            this.toolStripMenuItem15.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x25mmToolStripMenuItem1,
-            this.x19mmToolStripMenuItem5});
-            this.toolStripMenuItem15.Name = "toolStripMenuItem15";
-            this.toolStripMenuItem15.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem15.Text = "PPSh-41";
-            // 
-            // x25mmToolStripMenuItem1
-            // 
-            this.x25mmToolStripMenuItem1.Name = "x25mmToolStripMenuItem1";
-            this.x25mmToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.x25mmToolStripMenuItem1.Text = "7.62x25mm";
-            // 
-            // x19mmToolStripMenuItem5
-            // 
-            this.x19mmToolStripMenuItem5.Name = "x19mmToolStripMenuItem5";
-            this.x19mmToolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem5.Text = "9x19mm";
-            // 
-            // toolStripMenuItem16
-            // 
-            this.toolStripMenuItem16.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem6});
-            this.toolStripMenuItem16.Name = "toolStripMenuItem16";
-            this.toolStripMenuItem16.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem16.Text = "KP-31";
-            // 
-            // x19mmToolStripMenuItem6
-            // 
-            this.x19mmToolStripMenuItem6.Name = "x19mmToolStripMenuItem6";
-            this.x19mmToolStripMenuItem6.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem6.Text = "9x19mm";
-            // 
-            // toolStripMenuItem17
-            // 
-            this.toolStripMenuItem17.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aCPToolStripMenuItem2});
-            this.toolStripMenuItem17.Name = "toolStripMenuItem17";
-            this.toolStripMenuItem17.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem17.Text = "Thomson 1928";
-            // 
-            // aCPToolStripMenuItem2
-            // 
-            this.aCPToolStripMenuItem2.Name = "aCPToolStripMenuItem2";
-            this.aCPToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.aCPToolStripMenuItem2.Text = ".45ACP";
-            // 
-            // toolStripMenuItem18
-            // 
-            this.toolStripMenuItem18.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aCPToolStripMenuItem3});
-            this.toolStripMenuItem18.Name = "toolStripMenuItem18";
-            this.toolStripMenuItem18.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem18.Text = "Thomson M1";
-            // 
-            // aCPToolStripMenuItem3
-            // 
-            this.aCPToolStripMenuItem3.Name = "aCPToolStripMenuItem3";
-            this.aCPToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
-            this.aCPToolStripMenuItem3.Text = ".45ACP";
-            // 
-            // toolStripMenuItem19
-            // 
-            this.toolStripMenuItem19.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem7,
-            this.x23mmToolStripMenuItem,
-            this.aCPToolStripMenuItem4});
-            this.toolStripMenuItem19.Name = "toolStripMenuItem19";
-            this.toolStripMenuItem19.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem19.Text = "MP-28";
-            // 
-            // x19mmToolStripMenuItem7
-            // 
-            this.x19mmToolStripMenuItem7.Name = "x19mmToolStripMenuItem7";
-            this.x19mmToolStripMenuItem7.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem7.Text = "9x19mm";
-            // 
-            // x23mmToolStripMenuItem
-            // 
-            this.x23mmToolStripMenuItem.Name = "x23mmToolStripMenuItem";
-            this.x23mmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.x23mmToolStripMenuItem.Text = "9x23mm";
-            // 
-            // aCPToolStripMenuItem4
-            // 
-            this.aCPToolStripMenuItem4.Name = "aCPToolStripMenuItem4";
-            this.aCPToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
-            this.aCPToolStripMenuItem4.Text = ".45ACP";
-            // 
-            // toolStripMenuItem20
-            // 
-            this.toolStripMenuItem20.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem8});
-            this.toolStripMenuItem20.Name = "toolStripMenuItem20";
-            this.toolStripMenuItem20.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem20.Text = "Sterling";
-            // 
-            // x19mmToolStripMenuItem8
-            // 
-            this.x19mmToolStripMenuItem8.Name = "x19mmToolStripMenuItem8";
-            this.x19mmToolStripMenuItem8.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem8.Text = "9x19mm";
-            // 
-            // toolStripMenuItem21
-            // 
-            this.toolStripMenuItem21.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem9});
-            this.toolStripMenuItem21.Name = "toolStripMenuItem21";
-            this.toolStripMenuItem21.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem21.Text = "Vigneron";
-            // 
-            // x19mmToolStripMenuItem9
-            // 
-            this.x19mmToolStripMenuItem9.Name = "x19mmToolStripMenuItem9";
-            this.x19mmToolStripMenuItem9.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem9.Text = "9x19mm";
-            // 
-            // toolStripMenuItem22
-            // 
-            this.toolStripMenuItem22.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem10});
-            this.toolStripMenuItem22.Name = "toolStripMenuItem22";
-            this.toolStripMenuItem22.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem22.Text = "FBP";
-            // 
-            // x19mmToolStripMenuItem10
-            // 
-            this.x19mmToolStripMenuItem10.Name = "x19mmToolStripMenuItem10";
-            this.x19mmToolStripMenuItem10.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem10.Text = "9x19mm";
-            // 
-            // m45CarlGustavToolStripMenuItem
-            // 
-            this.m45CarlGustavToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem11});
-            this.m45CarlGustavToolStripMenuItem.Name = "m45CarlGustavToolStripMenuItem";
-            this.m45CarlGustavToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.m45CarlGustavToolStripMenuItem.Text = "M/45 Carl Gustav";
-            // 
-            // x19mmToolStripMenuItem11
-            // 
-            this.x19mmToolStripMenuItem11.Name = "x19mmToolStripMenuItem11";
-            this.x19mmToolStripMenuItem11.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem11.Text = "9x19mm";
-            // 
-            // toolStripMenuItem23
-            // 
-            this.toolStripMenuItem23.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem12,
-            this.x23mmToolStripMenuItem1});
-            this.toolStripMenuItem23.Name = "toolStripMenuItem23";
-            this.toolStripMenuItem23.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem23.Text = "Z-84";
-            this.toolStripMenuItem23.Click += new System.EventHandler(this.toolStripMenuItem23_Click);
-            // 
-            // x19mmToolStripMenuItem12
-            // 
-            this.x19mmToolStripMenuItem12.Name = "x19mmToolStripMenuItem12";
-            this.x19mmToolStripMenuItem12.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem12.Text = "9x19mm";
-            // 
-            // x23mmToolStripMenuItem1
-            // 
-            this.x23mmToolStripMenuItem1.Name = "x23mmToolStripMenuItem1";
-            this.x23mmToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.x23mmToolStripMenuItem1.Text = "9x23mm";
-            // 
-            // toolStripMenuItem24
-            // 
-            this.toolStripMenuItem24.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.lrToolStripMenuItem,
-            this.magnumToolStripMenuItem});
-            this.toolStripMenuItem24.Name = "toolStripMenuItem24";
-            this.toolStripMenuItem24.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem24.Text = "American 180";
-            // 
-            // lrToolStripMenuItem
-            // 
-            this.lrToolStripMenuItem.Name = "lrToolStripMenuItem";
-            this.lrToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.lrToolStripMenuItem.Text = ".22lr";
-            // 
-            // magnumToolStripMenuItem
-            // 
-            this.magnumToolStripMenuItem.Name = "magnumToolStripMenuItem";
-            this.magnumToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.magnumToolStripMenuItem.Text = ".22 Magnum";
-            // 
-            // toolStripMenuItem25
-            // 
-            this.toolStripMenuItem25.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem13});
-            this.toolStripMenuItem25.Name = "toolStripMenuItem25";
-            this.toolStripMenuItem25.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem25.Text = "MPL";
-            // 
-            // x19mmToolStripMenuItem13
-            // 
-            this.x19mmToolStripMenuItem13.Name = "x19mmToolStripMenuItem13";
-            this.x19mmToolStripMenuItem13.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem13.Text = "9x19mm";
-            // 
-            // toolStripMenuItem26
-            // 
-            this.toolStripMenuItem26.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem14});
-            this.toolStripMenuItem26.Name = "toolStripMenuItem26";
-            this.toolStripMenuItem26.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem26.Text = "Ber. 12";
-            // 
-            // x19mmToolStripMenuItem14
-            // 
-            this.x19mmToolStripMenuItem14.Name = "x19mmToolStripMenuItem14";
-            this.x19mmToolStripMenuItem14.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem14.Text = "9x19mm";
-            // 
-            // toolStripMenuItem27
-            // 
-            this.toolStripMenuItem27.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem15});
-            this.toolStripMenuItem27.Name = "toolStripMenuItem27";
-            this.toolStripMenuItem27.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem27.Text = "Jatimatic";
-            // 
-            // x19mmToolStripMenuItem15
-            // 
-            this.x19mmToolStripMenuItem15.Name = "x19mmToolStripMenuItem15";
-            this.x19mmToolStripMenuItem15.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem15.Text = "9x19mm";
-            // 
-            // type45ToolStripMenuItem
-            // 
-            this.type45ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x25mmToolStripMenuItem2,
-            this.x18mmToolStripMenuItem});
-            this.type45ToolStripMenuItem.Name = "type45ToolStripMenuItem";
-            this.type45ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.type45ToolStripMenuItem.Text = "Type-45";
-            // 
-            // x25mmToolStripMenuItem2
-            // 
-            this.x25mmToolStripMenuItem2.Name = "x25mmToolStripMenuItem2";
-            this.x25mmToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.x25mmToolStripMenuItem2.Text = "7.62x25mm";
-            // 
-            // x18mmToolStripMenuItem
-            // 
-            this.x18mmToolStripMenuItem.Name = "x18mmToolStripMenuItem";
-            this.x18mmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.x18mmToolStripMenuItem.Text = "9x18mm";
-            // 
-            // toolStripMenuItem28
-            // 
-            this.toolStripMenuItem28.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem16,
-            this.x23mmToolStripMenuItem2});
-            this.toolStripMenuItem28.Name = "toolStripMenuItem28";
-            this.toolStripMenuItem28.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem28.Text = "Z-70";
-            // 
-            // x19mmToolStripMenuItem16
-            // 
-            this.x19mmToolStripMenuItem16.Name = "x19mmToolStripMenuItem16";
-            this.x19mmToolStripMenuItem16.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem16.Text = "9x19mm";
-            // 
-            // x23mmToolStripMenuItem2
-            // 
-            this.x23mmToolStripMenuItem2.Name = "x23mmToolStripMenuItem2";
-            this.x23mmToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.x23mmToolStripMenuItem2.Text = "9x23mm";
-            // 
-            // toolStripMenuItem29
-            // 
-            this.toolStripMenuItem29.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem17});
-            this.toolStripMenuItem29.Name = "toolStripMenuItem29";
-            this.toolStripMenuItem29.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem29.Text = "KP-44";
-            // 
-            // x19mmToolStripMenuItem17
-            // 
-            this.x19mmToolStripMenuItem17.Name = "x19mmToolStripMenuItem17";
-            this.x19mmToolStripMenuItem17.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem17.Text = "9x19mm";
-            // 
-            // toolStripMenuItem30
-            // 
-            this.toolStripMenuItem30.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem18});
-            this.toolStripMenuItem30.Name = "toolStripMenuItem30";
-            this.toolStripMenuItem30.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem30.Text = "MAT-49";
-            // 
-            // x19mmToolStripMenuItem18
-            // 
-            this.x19mmToolStripMenuItem18.Name = "x19mmToolStripMenuItem18";
-            this.x19mmToolStripMenuItem18.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem18.Text = "9x19mm";
-            // 
-            // vZ61ToolStripMenuItem
-            // 
-            this.vZ61ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aCPToolStripMenuItem5});
-            this.vZ61ToolStripMenuItem.Name = "vZ61ToolStripMenuItem";
-            this.vZ61ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.vZ61ToolStripMenuItem.Text = "VZ-61 Skorpion";
-            // 
-            // aCPToolStripMenuItem5
-            // 
-            this.aCPToolStripMenuItem5.Name = "aCPToolStripMenuItem5";
-            this.aCPToolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
-            this.aCPToolStripMenuItem5.Text = ".32ACP";
-            // 
-            // vZ83ToolStripMenuItem
-            // 
-            this.vZ83ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x18mmToolStripMenuItem1,
-            this.aCPToolStripMenuItem6});
-            this.vZ83ToolStripMenuItem.Name = "vZ83ToolStripMenuItem";
-            this.vZ83ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.vZ83ToolStripMenuItem.Text = "VZ-83 Skorpion";
-            // 
-            // x18mmToolStripMenuItem1
-            // 
-            this.x18mmToolStripMenuItem1.Name = "x18mmToolStripMenuItem1";
-            this.x18mmToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.x18mmToolStripMenuItem1.Text = "9x18mm";
-            // 
-            // aCPToolStripMenuItem6
-            // 
-            this.aCPToolStripMenuItem6.Name = "aCPToolStripMenuItem6";
-            this.aCPToolStripMenuItem6.Size = new System.Drawing.Size(180, 22);
-            this.aCPToolStripMenuItem6.Text = ".380ACP";
-            // 
-            // fALToolStripMenuItem1
-            // 
-            this.fALToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x51mmToolStripMenuItem});
-            this.fALToolStripMenuItem1.Name = "fALToolStripMenuItem1";
-            this.fALToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.fALToolStripMenuItem1.Text = "FAL";
-            // 
-            // x51mmToolStripMenuItem
-            // 
-            this.x51mmToolStripMenuItem.Name = "x51mmToolStripMenuItem";
-            this.x51mmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.x51mmToolStripMenuItem.Text = "7.62x51mm";
-            // 
-            // g3ToolStripMenuItem1
-            // 
-            this.g3ToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x51mmToolStripMenuItem1});
-            this.g3ToolStripMenuItem1.Name = "g3ToolStripMenuItem1";
-            this.g3ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.g3ToolStripMenuItem1.Text = "G-3";
-            // 
-            // x51mmToolStripMenuItem1
-            // 
-            this.x51mmToolStripMenuItem1.Name = "x51mmToolStripMenuItem1";
-            this.x51mmToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.x51mmToolStripMenuItem1.Text = "7.62x51mm";
-            // 
-            // toolStripMenuItem31
-            // 
-            this.toolStripMenuItem31.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x51mmToolStripMenuItem2});
-            this.toolStripMenuItem31.Name = "toolStripMenuItem31";
-            this.toolStripMenuItem31.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem31.Text = "AR-10";
-            // 
-            // x51mmToolStripMenuItem2
-            // 
-            this.x51mmToolStripMenuItem2.Name = "x51mmToolStripMenuItem2";
-            this.x51mmToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.x51mmToolStripMenuItem2.Text = "7.62x51mm";
-            // 
-            // lARToolStripMenuItem
-            // 
-            this.lARToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x51mmToolStripMenuItem3});
-            this.lARToolStripMenuItem.Name = "lARToolStripMenuItem";
-            this.lARToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.lARToolStripMenuItem.Text = "LAR";
-            // 
-            // x51mmToolStripMenuItem3
-            // 
-            this.x51mmToolStripMenuItem3.Name = "x51mmToolStripMenuItem3";
-            this.x51mmToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
-            this.x51mmToolStripMenuItem3.Text = "7.62x51mm";
-            // 
-            // toolStripMenuItem32
-            // 
-            this.toolStripMenuItem32.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x51mmToolStripMenuItem4});
-            this.toolStripMenuItem32.Name = "toolStripMenuItem32";
-            this.toolStripMenuItem32.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem32.Text = "M-14";
-            // 
-            // x51mmToolStripMenuItem4
-            // 
-            this.x51mmToolStripMenuItem4.Name = "x51mmToolStripMenuItem4";
-            this.x51mmToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
-            this.x51mmToolStripMenuItem4.Text = "7.62x51mm";
-            // 
-            // bM59ToolStripMenuItem
-            // 
-            this.bM59ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x39mmToolStripMenuItem7});
-            this.bM59ToolStripMenuItem.Name = "bM59ToolStripMenuItem";
-            this.bM59ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.bM59ToolStripMenuItem.Text = "BM-59";
-            // 
-            // x39mmToolStripMenuItem7
-            // 
-            this.x39mmToolStripMenuItem7.Name = "x39mmToolStripMenuItem7";
-            this.x39mmToolStripMenuItem7.Size = new System.Drawing.Size(180, 22);
-            this.x39mmToolStripMenuItem7.Text = "7.62x39mm";
-            // 
-            // fN49ToolStripMenuItem
-            // 
-            this.fN49ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x51mmToolStripMenuItem5,
-            this.toolStripMenuItem33,
-            this.x57mmToolStripMenuItem,
-            this.x57mmToolStripMenuItem1,
-            this.x53mmRToolStripMenuItem});
-            this.fN49ToolStripMenuItem.Name = "fN49ToolStripMenuItem";
-            this.fN49ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.fN49ToolStripMenuItem.Text = "FN 49";
-            // 
-            // x51mmToolStripMenuItem5
-            // 
-            this.x51mmToolStripMenuItem5.Name = "x51mmToolStripMenuItem5";
-            this.x51mmToolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
-            this.x51mmToolStripMenuItem5.Text = "7.62x51mm";
-            // 
-            // toolStripMenuItem33
-            // 
-            this.toolStripMenuItem33.Name = "toolStripMenuItem33";
-            this.toolStripMenuItem33.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem33.Text = ".30-06";
-            // 
-            // x57mmToolStripMenuItem
-            // 
-            this.x57mmToolStripMenuItem.Name = "x57mmToolStripMenuItem";
-            this.x57mmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.x57mmToolStripMenuItem.Text = "7x57mm";
-            // 
-            // x57mmToolStripMenuItem1
-            // 
-            this.x57mmToolStripMenuItem1.Name = "x57mmToolStripMenuItem1";
-            this.x57mmToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.x57mmToolStripMenuItem1.Text = "8x57mm";
-            // 
-            // x53mmRToolStripMenuItem
-            // 
-            this.x53mmRToolStripMenuItem.Name = "x53mmRToolStripMenuItem";
-            this.x53mmRToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.x53mmRToolStripMenuItem.Text = "7.65x53mmR";
-            // 
-            // toolStripMenuItem34
-            // 
-            this.toolStripMenuItem34.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x55mmToolStripMenuItem,
-            this.x57mmToolStripMenuItem2});
-            this.toolStripMenuItem34.Name = "toolStripMenuItem34";
-            this.toolStripMenuItem34.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem34.Text = "AG/42";
-            // 
-            // x55mmToolStripMenuItem
-            // 
-            this.x55mmToolStripMenuItem.Name = "x55mmToolStripMenuItem";
-            this.x55mmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.x55mmToolStripMenuItem.Text = "6.5x55mm";
-            // 
-            // x57mmToolStripMenuItem2
-            // 
-            this.x57mmToolStripMenuItem2.Name = "x57mmToolStripMenuItem2";
-            this.x57mmToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.x57mmToolStripMenuItem2.Text = "8x57mm";
-            // 
-            // toolStripMenuItem35
-            // 
-            this.toolStripMenuItem35.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x54mmToolStripMenuItem,
-            this.x51mmToolStripMenuItem6});
-            this.toolStripMenuItem35.Name = "toolStripMenuItem35";
-            this.toolStripMenuItem35.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem35.Text = "MAS-49";
-            // 
-            // x54mmToolStripMenuItem
-            // 
-            this.x54mmToolStripMenuItem.Name = "x54mmToolStripMenuItem";
-            this.x54mmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.x54mmToolStripMenuItem.Text = "7.5x54mm";
-            // 
-            // x51mmToolStripMenuItem6
-            // 
-            this.x51mmToolStripMenuItem6.Name = "x51mmToolStripMenuItem6";
-            this.x51mmToolStripMenuItem6.Size = new System.Drawing.Size(180, 22);
-            this.x51mmToolStripMenuItem6.Text = "7.62x51mm";
-            // 
-            // toolStripMenuItem36
-            // 
-            this.toolStripMenuItem36.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x54mmRToolStripMenuItem,
-            this.x51mmToolStripMenuItem7});
-            this.toolStripMenuItem36.Name = "toolStripMenuItem36";
-            this.toolStripMenuItem36.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem36.Text = "PSL";
-            // 
-            // x54mmRToolStripMenuItem
-            // 
-            this.x54mmRToolStripMenuItem.Name = "x54mmRToolStripMenuItem";
-            this.x54mmRToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.x54mmRToolStripMenuItem.Text = "7.62x54mmR";
-            // 
-            // x51mmToolStripMenuItem7
-            // 
-            this.x51mmToolStripMenuItem7.Name = "x51mmToolStripMenuItem7";
-            this.x51mmToolStripMenuItem7.Size = new System.Drawing.Size(180, 22);
-            this.x51mmToolStripMenuItem7.Text = "7.62x51mm";
-            // 
-            // toolStripMenuItem37
-            // 
-            this.toolStripMenuItem37.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x54mmRToolStripMenuItem1});
-            this.toolStripMenuItem37.Name = "toolStripMenuItem37";
-            this.toolStripMenuItem37.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem37.Text = "SVT-40";
-            // 
-            // x54mmRToolStripMenuItem1
-            // 
-            this.x54mmRToolStripMenuItem1.Name = "x54mmRToolStripMenuItem1";
-            this.x54mmRToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.x54mmRToolStripMenuItem1.Text = "7.62x54mmR";
-            // 
-            // toolStripMenuItem38
-            // 
-            this.toolStripMenuItem38.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem39});
-            this.toolStripMenuItem38.Name = "toolStripMenuItem38";
-            this.toolStripMenuItem38.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem38.Text = "M-1 Garand";
-            // 
-            // toolStripMenuItem39
-            // 
-            this.toolStripMenuItem39.Name = "toolStripMenuItem39";
-            this.toolStripMenuItem39.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem39.Text = ".30-06";
-            // 
-            // toolStripMenuItem40
-            // 
-            this.toolStripMenuItem40.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x55mmToolStripMenuItem1,
-            this.x51mmToolStripMenuItem8});
-            this.toolStripMenuItem40.Name = "toolStripMenuItem40";
-            this.toolStripMenuItem40.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem40.Text = "SG 510";
-            // 
-            // x55mmToolStripMenuItem1
-            // 
-            this.x55mmToolStripMenuItem1.Name = "x55mmToolStripMenuItem1";
-            this.x55mmToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.x55mmToolStripMenuItem1.Text = "7.5x55mm";
-            // 
-            // x51mmToolStripMenuItem8
-            // 
-            this.x51mmToolStripMenuItem8.Name = "x51mmToolStripMenuItem8";
-            this.x51mmToolStripMenuItem8.Size = new System.Drawing.Size(180, 22);
-            this.x51mmToolStripMenuItem8.Text = "7.62x51mm";
-            // 
-            // toolStripMenuItem41
-            // 
-            this.toolStripMenuItem41.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x57mmToolStripMenuItem3,
-            this.x57mmToolStripMenuItem4,
-            this.x06ToolStripMenuItem,
-            this.x51mmToolStripMenuItem9});
-            this.toolStripMenuItem41.Name = "toolStripMenuItem41";
-            this.toolStripMenuItem41.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem41.Text = "Maus. 98k";
-            // 
-            // x57mmToolStripMenuItem3
-            // 
-            this.x57mmToolStripMenuItem3.Name = "x57mmToolStripMenuItem3";
-            this.x57mmToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
-            this.x57mmToolStripMenuItem3.Text = "8x57mm";
-            // 
-            // x57mmToolStripMenuItem4
-            // 
-            this.x57mmToolStripMenuItem4.Name = "x57mmToolStripMenuItem4";
-            this.x57mmToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
-            this.x57mmToolStripMenuItem4.Text = "7x57mm";
-            // 
-            // x06ToolStripMenuItem
-            // 
-            this.x06ToolStripMenuItem.Name = "x06ToolStripMenuItem";
-            this.x06ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.x06ToolStripMenuItem.Text = ".30-06";
-            // 
-            // x51mmToolStripMenuItem9
-            // 
-            this.x51mmToolStripMenuItem9.Name = "x51mmToolStripMenuItem9";
-            this.x51mmToolStripMenuItem9.Size = new System.Drawing.Size(180, 22);
-            this.x51mmToolStripMenuItem9.Text = "7.62x51mm";
-            // 
-            // m47ToolStripMenuItem
-            // 
-            this.m47ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem42,
-            this.x51mmToolStripMenuItem10,
-            this.x57mmToolStripMenuItem5});
-            this.m47ToolStripMenuItem.Name = "m47ToolStripMenuItem";
-            this.m47ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.m47ToolStripMenuItem.Text = "M47";
-            // 
-            // toolStripMenuItem42
-            // 
-            this.toolStripMenuItem42.Name = "toolStripMenuItem42";
-            this.toolStripMenuItem42.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem42.Text = ".30-06";
-            // 
-            // x51mmToolStripMenuItem10
-            // 
-            this.x51mmToolStripMenuItem10.Name = "x51mmToolStripMenuItem10";
-            this.x51mmToolStripMenuItem10.Size = new System.Drawing.Size(180, 22);
-            this.x51mmToolStripMenuItem10.Text = "7.62x51mm";
-            // 
-            // x57mmToolStripMenuItem5
-            // 
-            this.x57mmToolStripMenuItem5.Name = "x57mmToolStripMenuItem5";
-            this.x57mmToolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
-            this.x57mmToolStripMenuItem5.Text = "7x57mm";
-            // 
-            // toolStripMenuItem43
-            // 
-            this.toolStripMenuItem43.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x54mmRToolStripMenuItem2});
-            this.toolStripMenuItem43.Name = "toolStripMenuItem43";
-            this.toolStripMenuItem43.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem43.Text = "M44";
-            // 
-            // x54mmRToolStripMenuItem2
-            // 
-            this.x54mmRToolStripMenuItem2.Name = "x54mmRToolStripMenuItem2";
-            this.x54mmRToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.x54mmRToolStripMenuItem2.Text = "7.62x54mmR";
-            // 
-            // leeEnfieldNo4ToolStripMenuItem
-            // 
-            this.leeEnfieldNo4ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem44,
-            this.x51mmToolStripMenuItem11});
-            this.leeEnfieldNo4ToolStripMenuItem.Name = "leeEnfieldNo4ToolStripMenuItem";
-            this.leeEnfieldNo4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.leeEnfieldNo4ToolStripMenuItem.Text = "Lee Enfield No. 4";
-            // 
-            // toolStripMenuItem44
-            // 
-            this.toolStripMenuItem44.Name = "toolStripMenuItem44";
-            this.toolStripMenuItem44.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem44.Text = ".303";
-            // 
-            // x51mmToolStripMenuItem11
-            // 
-            this.x51mmToolStripMenuItem11.Name = "x51mmToolStripMenuItem11";
-            this.x51mmToolStripMenuItem11.Size = new System.Drawing.Size(180, 22);
-            this.x51mmToolStripMenuItem11.Text = "7.62x51mm";
-            // 
-            // toolStripMenuItem45
-            // 
-            this.toolStripMenuItem45.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x54mmToolStripMenuItem1});
-            this.toolStripMenuItem45.Name = "toolStripMenuItem45";
-            this.toolStripMenuItem45.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem45.Text = "MAS-36";
-            // 
-            // x54mmToolStripMenuItem1
-            // 
-            this.x54mmToolStripMenuItem1.Name = "x54mmToolStripMenuItem1";
-            this.x54mmToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.x54mmToolStripMenuItem1.Text = "7.5x54mm";
-            // 
-            // toolStripMenuItem46
-            // 
-            this.toolStripMenuItem46.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x55mmToolStripMenuItem2});
-            this.toolStripMenuItem46.Name = "toolStripMenuItem46";
-            this.toolStripMenuItem46.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem46.Text = "K-31";
-            // 
-            // x55mmToolStripMenuItem2
-            // 
-            this.x55mmToolStripMenuItem2.Name = "x55mmToolStripMenuItem2";
-            this.x55mmToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.x55mmToolStripMenuItem2.Text = "7.5x55mm";
             // 
             // m60ToolStripMenuItem1
             // 
@@ -1539,7 +1593,7 @@
             // x51mmToolStripMenuItem12
             // 
             this.x51mmToolStripMenuItem12.Name = "x51mmToolStripMenuItem12";
-            this.x51mmToolStripMenuItem12.Size = new System.Drawing.Size(180, 22);
+            this.x51mmToolStripMenuItem12.Size = new System.Drawing.Size(134, 22);
             this.x51mmToolStripMenuItem12.Text = "7.62x51mm";
             // 
             // toolStripMenuItem47
@@ -1553,7 +1607,7 @@
             // x54mmRToolStripMenuItem3
             // 
             this.x54mmRToolStripMenuItem3.Name = "x54mmRToolStripMenuItem3";
-            this.x54mmRToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.x54mmRToolStripMenuItem3.Size = new System.Drawing.Size(141, 22);
             this.x54mmRToolStripMenuItem3.Text = "7.62x54mmR";
             // 
             // mAGToolStripMenuItem1
@@ -1567,7 +1621,7 @@
             // x51mmToolStripMenuItem13
             // 
             this.x51mmToolStripMenuItem13.Name = "x51mmToolStripMenuItem13";
-            this.x51mmToolStripMenuItem13.Size = new System.Drawing.Size(180, 22);
+            this.x51mmToolStripMenuItem13.Size = new System.Drawing.Size(134, 22);
             this.x51mmToolStripMenuItem13.Text = "7.62x51mm";
             // 
             // minimiToolStripMenuItem
@@ -1581,7 +1635,7 @@
             // x45mmToolStripMenuItem7
             // 
             this.x45mmToolStripMenuItem7.Name = "x45mmToolStripMenuItem7";
-            this.x45mmToolStripMenuItem7.Size = new System.Drawing.Size(180, 22);
+            this.x45mmToolStripMenuItem7.Size = new System.Drawing.Size(134, 22);
             this.x45mmToolStripMenuItem7.Text = "5.56x45mm";
             // 
             // stoner63ToolStripMenuItem
@@ -1595,7 +1649,7 @@
             // x45mmToolStripMenuItem8
             // 
             this.x45mmToolStripMenuItem8.Name = "x45mmToolStripMenuItem8";
-            this.x45mmToolStripMenuItem8.Size = new System.Drawing.Size(180, 22);
+            this.x45mmToolStripMenuItem8.Size = new System.Drawing.Size(134, 22);
             this.x45mmToolStripMenuItem8.Text = "5.56x45mm";
             // 
             // kACLAMGToolStripMenuItem
@@ -1610,13 +1664,13 @@
             // x45mmToolStripMenuItem9
             // 
             this.x45mmToolStripMenuItem9.Name = "x45mmToolStripMenuItem9";
-            this.x45mmToolStripMenuItem9.Size = new System.Drawing.Size(180, 22);
+            this.x45mmToolStripMenuItem9.Size = new System.Drawing.Size(134, 22);
             this.x45mmToolStripMenuItem9.Text = "5.56x45mm";
             // 
             // x51mmToolStripMenuItem14
             // 
             this.x51mmToolStripMenuItem14.Name = "x51mmToolStripMenuItem14";
-            this.x51mmToolStripMenuItem14.Size = new System.Drawing.Size(180, 22);
+            this.x51mmToolStripMenuItem14.Size = new System.Drawing.Size(134, 22);
             this.x51mmToolStripMenuItem14.Text = "7.62x51mm";
             // 
             // vZ52ToolStripMenuItem
@@ -1630,7 +1684,7 @@
             // x54mmRToolStripMenuItem4
             // 
             this.x54mmRToolStripMenuItem4.Name = "x54mmRToolStripMenuItem4";
-            this.x54mmRToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
+            this.x54mmRToolStripMenuItem4.Size = new System.Drawing.Size(141, 22);
             this.x54mmRToolStripMenuItem4.Text = "7.62x54mmR";
             // 
             // mG3ToolStripMenuItem
@@ -1645,13 +1699,13 @@
             // x51mmToolStripMenuItem15
             // 
             this.x51mmToolStripMenuItem15.Name = "x51mmToolStripMenuItem15";
-            this.x51mmToolStripMenuItem15.Size = new System.Drawing.Size(180, 22);
+            this.x51mmToolStripMenuItem15.Size = new System.Drawing.Size(134, 22);
             this.x51mmToolStripMenuItem15.Text = "7.62x51mm";
             // 
             // x57mmToolStripMenuItem6
             // 
             this.x57mmToolStripMenuItem6.Name = "x57mmToolStripMenuItem6";
-            this.x57mmToolStripMenuItem6.Size = new System.Drawing.Size(180, 22);
+            this.x57mmToolStripMenuItem6.Size = new System.Drawing.Size(134, 22);
             this.x57mmToolStripMenuItem6.Text = "8x57mm";
             // 
             // bREnToolStripMenuItem
@@ -1668,20 +1722,26 @@
             // toolStripMenuItem48
             // 
             this.toolStripMenuItem48.Name = "toolStripMenuItem48";
-            this.toolStripMenuItem48.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem48.Size = new System.Drawing.Size(141, 22);
             this.toolStripMenuItem48.Text = ".303";
             // 
             // x54mmRToolStripMenuItem5
             // 
             this.x54mmRToolStripMenuItem5.Name = "x54mmRToolStripMenuItem5";
-            this.x54mmRToolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
+            this.x54mmRToolStripMenuItem5.Size = new System.Drawing.Size(141, 22);
             this.x54mmRToolStripMenuItem5.Text = "7.62x54mmR";
             // 
             // x39mmToolStripMenuItem8
             // 
             this.x39mmToolStripMenuItem8.Name = "x39mmToolStripMenuItem8";
-            this.x39mmToolStripMenuItem8.Size = new System.Drawing.Size(180, 22);
+            this.x39mmToolStripMenuItem8.Size = new System.Drawing.Size(141, 22);
             this.x39mmToolStripMenuItem8.Text = "7.62x39mm";
+            // 
+            // x51mmToolStripMenuItem16
+            // 
+            this.x51mmToolStripMenuItem16.Name = "x51mmToolStripMenuItem16";
+            this.x51mmToolStripMenuItem16.Size = new System.Drawing.Size(141, 22);
+            this.x51mmToolStripMenuItem16.Text = "7.62x51mm";
             // 
             // zB26ToolStripMenuItem
             // 
@@ -1699,43 +1759,37 @@
             // x57mmToolStripMenuItem7
             // 
             this.x57mmToolStripMenuItem7.Name = "x57mmToolStripMenuItem7";
-            this.x57mmToolStripMenuItem7.Size = new System.Drawing.Size(180, 22);
+            this.x57mmToolStripMenuItem7.Size = new System.Drawing.Size(141, 22);
             this.x57mmToolStripMenuItem7.Text = "8x57mm";
             // 
             // x57mmToolStripMenuItem8
             // 
             this.x57mmToolStripMenuItem8.Name = "x57mmToolStripMenuItem8";
-            this.x57mmToolStripMenuItem8.Size = new System.Drawing.Size(180, 22);
+            this.x57mmToolStripMenuItem8.Size = new System.Drawing.Size(141, 22);
             this.x57mmToolStripMenuItem8.Text = "7x57mm";
             // 
             // toolStripMenuItem49
             // 
             this.toolStripMenuItem49.Name = "toolStripMenuItem49";
-            this.toolStripMenuItem49.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem49.Size = new System.Drawing.Size(141, 22);
             this.toolStripMenuItem49.Text = ".30-06";
             // 
             // x54RToolStripMenuItem
             // 
             this.x54RToolStripMenuItem.Name = "x54RToolStripMenuItem";
-            this.x54RToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.x54RToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.x54RToolStripMenuItem.Text = "7.62x54R";
-            // 
-            // x51mmToolStripMenuItem16
-            // 
-            this.x51mmToolStripMenuItem16.Name = "x51mmToolStripMenuItem16";
-            this.x51mmToolStripMenuItem16.Size = new System.Drawing.Size(180, 22);
-            this.x51mmToolStripMenuItem16.Text = "7.62x51mm";
             // 
             // x51mmToolStripMenuItem17
             // 
             this.x51mmToolStripMenuItem17.Name = "x51mmToolStripMenuItem17";
-            this.x51mmToolStripMenuItem17.Size = new System.Drawing.Size(180, 22);
+            this.x51mmToolStripMenuItem17.Size = new System.Drawing.Size(141, 22);
             this.x51mmToolStripMenuItem17.Text = "7.62x51mm";
             // 
             // toolStripMenuItem50
             // 
             this.toolStripMenuItem50.Name = "toolStripMenuItem50";
-            this.toolStripMenuItem50.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem50.Size = new System.Drawing.Size(141, 22);
             this.toolStripMenuItem50.Text = "7.65x53mmR";
             // 
             // fM2429ToolStripMenuItem
@@ -1750,13 +1804,13 @@
             // x54mmToolStripMenuItem2
             // 
             this.x54mmToolStripMenuItem2.Name = "x54mmToolStripMenuItem2";
-            this.x54mmToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.x54mmToolStripMenuItem2.Size = new System.Drawing.Size(134, 22);
             this.x54mmToolStripMenuItem2.Text = "7.5x54mm";
             // 
             // x51mmToolStripMenuItem18
             // 
             this.x51mmToolStripMenuItem18.Name = "x51mmToolStripMenuItem18";
-            this.x51mmToolStripMenuItem18.Size = new System.Drawing.Size(180, 22);
+            this.x51mmToolStripMenuItem18.Size = new System.Drawing.Size(134, 22);
             this.x51mmToolStripMenuItem18.Text = "7.62x51mm";
             // 
             // toolStripMenuItem51
@@ -1767,6 +1821,12 @@
             this.toolStripMenuItem51.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem51.Text = "HK 21";
             // 
+            // x51mmToolStripMenuItem19
+            // 
+            this.x51mmToolStripMenuItem19.Name = "x51mmToolStripMenuItem19";
+            this.x51mmToolStripMenuItem19.Size = new System.Drawing.Size(134, 22);
+            this.x51mmToolStripMenuItem19.Text = "7.62x51mm";
+            // 
             // toolStripMenuItem52
             // 
             this.toolStripMenuItem52.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -1775,16 +1835,10 @@
             this.toolStripMenuItem52.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem52.Text = "HK 23";
             // 
-            // x51mmToolStripMenuItem19
-            // 
-            this.x51mmToolStripMenuItem19.Name = "x51mmToolStripMenuItem19";
-            this.x51mmToolStripMenuItem19.Size = new System.Drawing.Size(180, 22);
-            this.x51mmToolStripMenuItem19.Text = "7.62x51mm";
-            // 
             // x45mmToolStripMenuItem10
             // 
             this.x45mmToolStripMenuItem10.Name = "x45mmToolStripMenuItem10";
-            this.x45mmToolStripMenuItem10.Size = new System.Drawing.Size(180, 22);
+            this.x45mmToolStripMenuItem10.Size = new System.Drawing.Size(134, 22);
             this.x45mmToolStripMenuItem10.Text = "5.56x45mm";
             // 
             // toolStripMenuItem53
@@ -1798,7 +1852,7 @@
             // x39mmToolStripMenuItem9
             // 
             this.x39mmToolStripMenuItem9.Name = "x39mmToolStripMenuItem9";
-            this.x39mmToolStripMenuItem9.Size = new System.Drawing.Size(180, 22);
+            this.x39mmToolStripMenuItem9.Size = new System.Drawing.Size(134, 22);
             this.x39mmToolStripMenuItem9.Text = "7.62x39mm";
             // 
             // toolStripMenuItem54
@@ -1812,7 +1866,7 @@
             // x39mmToolStripMenuItem10
             // 
             this.x39mmToolStripMenuItem10.Name = "x39mmToolStripMenuItem10";
-            this.x39mmToolStripMenuItem10.Size = new System.Drawing.Size(180, 22);
+            this.x39mmToolStripMenuItem10.Size = new System.Drawing.Size(134, 22);
             this.x39mmToolStripMenuItem10.Text = "7.62x39mm";
             // 
             // rPK74ToolStripMenuItem
@@ -1826,7 +1880,7 @@
             // x39mmToolStripMenuItem11
             // 
             this.x39mmToolStripMenuItem11.Name = "x39mmToolStripMenuItem11";
-            this.x39mmToolStripMenuItem11.Size = new System.Drawing.Size(180, 22);
+            this.x39mmToolStripMenuItem11.Size = new System.Drawing.Size(134, 22);
             this.x39mmToolStripMenuItem11.Text = "5.45x39mm";
             // 
             // bARToolStripMenuItem
@@ -1841,42 +1895,30 @@
             // toolStripMenuItem55
             // 
             this.toolStripMenuItem55.Name = "toolStripMenuItem55";
-            this.toolStripMenuItem55.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem55.Size = new System.Drawing.Size(128, 22);
             this.toolStripMenuItem55.Text = ".30-06";
             // 
             // x55mmToolStripMenuItem3
             // 
             this.x55mmToolStripMenuItem3.Name = "x55mmToolStripMenuItem3";
-            this.x55mmToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.x55mmToolStripMenuItem3.Size = new System.Drawing.Size(128, 22);
             this.x55mmToolStripMenuItem3.Text = "6.5x55mm";
             // 
-            // aR70ToolStripMenuItem
+            // shotgunsToolStripMenuItem
             // 
-            this.aR70ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x45mmToolStripMenuItem11});
-            this.aR70ToolStripMenuItem.Name = "aR70ToolStripMenuItem";
-            this.aR70ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.aR70ToolStripMenuItem.Text = "AR-70";
-            // 
-            // x45mmToolStripMenuItem11
-            // 
-            this.x45mmToolStripMenuItem11.Name = "x45mmToolStripMenuItem11";
-            this.x45mmToolStripMenuItem11.Size = new System.Drawing.Size(180, 22);
-            this.x45mmToolStripMenuItem11.Text = "5.56x45mm";
-            // 
-            // aR180ToolStripMenuItem
-            // 
-            this.aR180ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x45mmToolStripMenuItem12});
-            this.aR180ToolStripMenuItem.Name = "aR180ToolStripMenuItem";
-            this.aR180ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.aR180ToolStripMenuItem.Text = "AR-180";
-            // 
-            // x45mmToolStripMenuItem12
-            // 
-            this.x45mmToolStripMenuItem12.Name = "x45mmToolStripMenuItem12";
-            this.x45mmToolStripMenuItem12.Size = new System.Drawing.Size(180, 22);
-            this.x45mmToolStripMenuItem12.Text = "5.56x45mm";
+            this.shotgunsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem56,
+            this.toolStripMenuItem57,
+            this.ith37ToolStripMenuItem1,
+            this.toolStripMenuItem58,
+            this.toolStripMenuItem59,
+            this.rem1100ToolStripMenuItem1,
+            this.toolStripMenuItem60,
+            this.toolStripMenuItem61,
+            this.toolStripMenuItem62});
+            this.shotgunsToolStripMenuItem.Name = "shotgunsToolStripMenuItem";
+            this.shotgunsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.shotgunsToolStripMenuItem.Text = "Shotguns";
             // 
             // toolStripMenuItem56
             // 
@@ -1889,7 +1931,7 @@
             // gaugeToolStripMenuItem
             // 
             this.gaugeToolStripMenuItem.Name = "gaugeToolStripMenuItem";
-            this.gaugeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gaugeToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.gaugeToolStripMenuItem.Text = "12 Gauge";
             // 
             // toolStripMenuItem57
@@ -1904,7 +1946,7 @@
             // gaugeToolStripMenuItem1
             // 
             this.gaugeToolStripMenuItem1.Name = "gaugeToolStripMenuItem1";
-            this.gaugeToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.gaugeToolStripMenuItem1.Size = new System.Drawing.Size(123, 22);
             this.gaugeToolStripMenuItem1.Text = "12 Gauge";
             // 
             // ith37ToolStripMenuItem1
@@ -1918,7 +1960,7 @@
             // gaugeToolStripMenuItem2
             // 
             this.gaugeToolStripMenuItem2.Name = "gaugeToolStripMenuItem2";
-            this.gaugeToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.gaugeToolStripMenuItem2.Size = new System.Drawing.Size(123, 22);
             this.gaugeToolStripMenuItem2.Text = "12 Gauge";
             // 
             // toolStripMenuItem58
@@ -1932,7 +1974,7 @@
             // gaugeToolStripMenuItem3
             // 
             this.gaugeToolStripMenuItem3.Name = "gaugeToolStripMenuItem3";
-            this.gaugeToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.gaugeToolStripMenuItem3.Size = new System.Drawing.Size(123, 22);
             this.gaugeToolStripMenuItem3.Text = "12 Gauge";
             // 
             // toolStripMenuItem59
@@ -1946,7 +1988,7 @@
             // gaugeToolStripMenuItem4
             // 
             this.gaugeToolStripMenuItem4.Name = "gaugeToolStripMenuItem4";
-            this.gaugeToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
+            this.gaugeToolStripMenuItem4.Size = new System.Drawing.Size(123, 22);
             this.gaugeToolStripMenuItem4.Text = "12 Gauge";
             // 
             // rem1100ToolStripMenuItem1
@@ -1960,7 +2002,7 @@
             // gaugeToolStripMenuItem5
             // 
             this.gaugeToolStripMenuItem5.Name = "gaugeToolStripMenuItem5";
-            this.gaugeToolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
+            this.gaugeToolStripMenuItem5.Size = new System.Drawing.Size(123, 22);
             this.gaugeToolStripMenuItem5.Text = "12 Gauge";
             // 
             // toolStripMenuItem60
@@ -1974,7 +2016,7 @@
             // gaugeToolStripMenuItem6
             // 
             this.gaugeToolStripMenuItem6.Name = "gaugeToolStripMenuItem6";
-            this.gaugeToolStripMenuItem6.Size = new System.Drawing.Size(180, 22);
+            this.gaugeToolStripMenuItem6.Size = new System.Drawing.Size(123, 22);
             this.gaugeToolStripMenuItem6.Text = "12 Gauge";
             // 
             // toolStripMenuItem61
@@ -1985,6 +2027,12 @@
             this.toolStripMenuItem61.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem61.Text = "Ber. 1200 FP";
             // 
+            // gaugeToolStripMenuItem7
+            // 
+            this.gaugeToolStripMenuItem7.Name = "gaugeToolStripMenuItem7";
+            this.gaugeToolStripMenuItem7.Size = new System.Drawing.Size(123, 22);
+            this.gaugeToolStripMenuItem7.Text = "12 Gauge";
+            // 
             // toolStripMenuItem62
             // 
             this.toolStripMenuItem62.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -1993,66 +2041,29 @@
             this.toolStripMenuItem62.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem62.Text = "SPAS-12";
             // 
-            // gaugeToolStripMenuItem7
-            // 
-            this.gaugeToolStripMenuItem7.Name = "gaugeToolStripMenuItem7";
-            this.gaugeToolStripMenuItem7.Size = new System.Drawing.Size(180, 22);
-            this.gaugeToolStripMenuItem7.Text = "12 Gauge";
-            // 
             // gaugeToolStripMenuItem8
             // 
             this.gaugeToolStripMenuItem8.Name = "gaugeToolStripMenuItem8";
-            this.gaugeToolStripMenuItem8.Size = new System.Drawing.Size(180, 22);
+            this.gaugeToolStripMenuItem8.Size = new System.Drawing.Size(123, 22);
             this.gaugeToolStripMenuItem8.Text = "12 Gauge";
             // 
-            // mAC10ToolStripMenuItem
+            // sniperRiflesToolStripMenuItem
             // 
-            this.mAC10ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aCPToolStripMenuItem7,
-            this.x19mmToolStripMenuItem19});
-            this.mAC10ToolStripMenuItem.Name = "mAC10ToolStripMenuItem";
-            this.mAC10ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.mAC10ToolStripMenuItem.Text = "MAC-10";
-            // 
-            // aCPToolStripMenuItem7
-            // 
-            this.aCPToolStripMenuItem7.Name = "aCPToolStripMenuItem7";
-            this.aCPToolStripMenuItem7.Size = new System.Drawing.Size(180, 22);
-            this.aCPToolStripMenuItem7.Text = ".45ACP";
-            // 
-            // x19mmToolStripMenuItem19
-            // 
-            this.x19mmToolStripMenuItem19.Name = "x19mmToolStripMenuItem19";
-            this.x19mmToolStripMenuItem19.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem19.Text = "9x19mm";
-            // 
-            // mAC11ToolStripMenuItem
-            // 
-            this.mAC11ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aCPToolStripMenuItem8});
-            this.mAC11ToolStripMenuItem.Name = "mAC11ToolStripMenuItem";
-            this.mAC11ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.mAC11ToolStripMenuItem.Text = "MAC-11";
-            // 
-            // aCPToolStripMenuItem8
-            // 
-            this.aCPToolStripMenuItem8.Name = "aCPToolStripMenuItem8";
-            this.aCPToolStripMenuItem8.Size = new System.Drawing.Size(180, 22);
-            this.aCPToolStripMenuItem8.Text = ".380ACP";
-            // 
-            // toolStripMenuItem63
-            // 
-            this.toolStripMenuItem63.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x19mmToolStripMenuItem20});
-            this.toolStripMenuItem63.Name = "toolStripMenuItem63";
-            this.toolStripMenuItem63.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem63.Text = "M-960";
-            // 
-            // x19mmToolStripMenuItem20
-            // 
-            this.x19mmToolStripMenuItem20.Name = "x19mmToolStripMenuItem20";
-            this.x19mmToolStripMenuItem20.Size = new System.Drawing.Size(180, 22);
-            this.x19mmToolStripMenuItem20.Text = "9x19mm";
+            this.sniperRiflesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.win70ToolStripMenuItem1,
+            this.toolStripMenuItem67,
+            this.toolStripMenuItem71,
+            this.toolStripMenuItem72,
+            this.toolStripMenuItem73,
+            this.toolStripMenuItem75,
+            this.m82ToolStripMenuItem1,
+            this.toolStripMenuItem78,
+            this.toolStripMenuItem79,
+            this.toolStripMenuItem80,
+            this.walth2000ToolStripMenuItem});
+            this.sniperRiflesToolStripMenuItem.Name = "sniperRiflesToolStripMenuItem";
+            this.sniperRiflesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sniperRiflesToolStripMenuItem.Text = "Sniper Rifles";
             // 
             // win70ToolStripMenuItem1
             // 
@@ -2075,67 +2086,67 @@
             // x51mmToolStripMenuItem20
             // 
             this.x51mmToolStripMenuItem20.Name = "x51mmToolStripMenuItem20";
-            this.x51mmToolStripMenuItem20.Size = new System.Drawing.Size(180, 22);
+            this.x51mmToolStripMenuItem20.Size = new System.Drawing.Size(159, 22);
             this.x51mmToolStripMenuItem20.Text = "7.62x51mm";
             // 
             // winMagToolStripMenuItem
             // 
             this.winMagToolStripMenuItem.Name = "winMagToolStripMenuItem";
-            this.winMagToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.winMagToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.winMagToolStripMenuItem.Text = ".300 Win. Mag";
             // 
             // toolStripMenuItem64
             // 
             this.toolStripMenuItem64.Name = "toolStripMenuItem64";
-            this.toolStripMenuItem64.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem64.Size = new System.Drawing.Size(159, 22);
             this.toolStripMenuItem64.Text = ".30-06";
             // 
             // toolStripMenuItem65
             // 
             this.toolStripMenuItem65.Name = "toolStripMenuItem65";
-            this.toolStripMenuItem65.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem65.Size = new System.Drawing.Size(159, 22);
             this.toolStripMenuItem65.Text = ".243";
             // 
             // toolStripMenuItem66
             // 
             this.toolStripMenuItem66.Name = "toolStripMenuItem66";
-            this.toolStripMenuItem66.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem66.Size = new System.Drawing.Size(159, 22);
             this.toolStripMenuItem66.Text = ".22-250";
             // 
             // x45mmToolStripMenuItem13
             // 
             this.x45mmToolStripMenuItem13.Name = "x45mmToolStripMenuItem13";
-            this.x45mmToolStripMenuItem13.Size = new System.Drawing.Size(180, 22);
+            this.x45mmToolStripMenuItem13.Size = new System.Drawing.Size(159, 22);
             this.x45mmToolStripMenuItem13.Text = "5.56x45mm";
             // 
             // mmToolStripMenuItem
             // 
             this.mmToolStripMenuItem.Name = "mmToolStripMenuItem";
-            this.mmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mmToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.mmToolStripMenuItem.Text = "6mm Rem.";
             // 
             // mmRemMagToolStripMenuItem
             // 
             this.mmRemMagToolStripMenuItem.Name = "mmRemMagToolStripMenuItem";
-            this.mmRemMagToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mmRemMagToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.mmRemMagToolStripMenuItem.Text = "7mm Rem. Mag";
             // 
             // mm08ToolStripMenuItem
             // 
             this.mm08ToolStripMenuItem.Name = "mm08ToolStripMenuItem";
-            this.mm08ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mm08ToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.mm08ToolStripMenuItem.Text = "7mm08";
             // 
             // x55mmToolStripMenuItem4
             // 
             this.x55mmToolStripMenuItem4.Name = "x55mmToolStripMenuItem4";
-            this.x55mmToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
+            this.x55mmToolStripMenuItem4.Size = new System.Drawing.Size(159, 22);
             this.x55mmToolStripMenuItem4.Text = "6.5x55mm";
             // 
             // x57mmToolStripMenuItem9
             // 
             this.x57mmToolStripMenuItem9.Name = "x57mmToolStripMenuItem9";
-            this.x57mmToolStripMenuItem9.Size = new System.Drawing.Size(180, 22);
+            this.x57mmToolStripMenuItem9.Size = new System.Drawing.Size(159, 22);
             this.x57mmToolStripMenuItem9.Text = "7x57mm";
             // 
             // toolStripMenuItem67
@@ -2157,55 +2168,55 @@
             // x51mmToolStripMenuItem21
             // 
             this.x51mmToolStripMenuItem21.Name = "x51mmToolStripMenuItem21";
-            this.x51mmToolStripMenuItem21.Size = new System.Drawing.Size(180, 22);
+            this.x51mmToolStripMenuItem21.Size = new System.Drawing.Size(159, 22);
             this.x51mmToolStripMenuItem21.Text = "7.62x51mm";
             // 
             // toolStripMenuItem68
             // 
             this.toolStripMenuItem68.Name = "toolStripMenuItem68";
-            this.toolStripMenuItem68.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem68.Size = new System.Drawing.Size(159, 22);
             this.toolStripMenuItem68.Text = ".30-06";
             // 
             // winMagToolStripMenuItem1
             // 
             this.winMagToolStripMenuItem1.Name = "winMagToolStripMenuItem1";
-            this.winMagToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.winMagToolStripMenuItem1.Size = new System.Drawing.Size(159, 22);
             this.winMagToolStripMenuItem1.Text = ".300 Win. Mag";
             // 
             // x45mmToolStripMenuItem14
             // 
             this.x45mmToolStripMenuItem14.Name = "x45mmToolStripMenuItem14";
-            this.x45mmToolStripMenuItem14.Size = new System.Drawing.Size(180, 22);
+            this.x45mmToolStripMenuItem14.Size = new System.Drawing.Size(159, 22);
             this.x45mmToolStripMenuItem14.Text = "5.56x45mm";
             // 
             // mmRemToolStripMenuItem
             // 
             this.mmRemToolStripMenuItem.Name = "mmRemToolStripMenuItem";
-            this.mmRemToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mmRemToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.mmRemToolStripMenuItem.Text = "6mm Rem.";
             // 
             // mmRemMagToolStripMenuItem1
             // 
             this.mmRemMagToolStripMenuItem1.Name = "mmRemMagToolStripMenuItem1";
-            this.mmRemMagToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.mmRemMagToolStripMenuItem1.Size = new System.Drawing.Size(159, 22);
             this.mmRemMagToolStripMenuItem1.Text = "7mm Rem. Mag";
             // 
             // mm08ToolStripMenuItem1
             // 
             this.mm08ToolStripMenuItem1.Name = "mm08ToolStripMenuItem1";
-            this.mm08ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.mm08ToolStripMenuItem1.Size = new System.Drawing.Size(159, 22);
             this.mm08ToolStripMenuItem1.Text = "7mm08";
             // 
             // toolStripMenuItem69
             // 
             this.toolStripMenuItem69.Name = "toolStripMenuItem69";
-            this.toolStripMenuItem69.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem69.Size = new System.Drawing.Size(159, 22);
             this.toolStripMenuItem69.Text = ".22-250";
             // 
             // toolStripMenuItem70
             // 
             this.toolStripMenuItem70.Name = "toolStripMenuItem70";
-            this.toolStripMenuItem70.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem70.Size = new System.Drawing.Size(159, 22);
             this.toolStripMenuItem70.Text = ".243";
             // 
             // toolStripMenuItem71
@@ -2220,13 +2231,13 @@
             // x51mmToolStripMenuItem22
             // 
             this.x51mmToolStripMenuItem22.Name = "x51mmToolStripMenuItem22";
-            this.x51mmToolStripMenuItem22.Size = new System.Drawing.Size(180, 22);
+            this.x51mmToolStripMenuItem22.Size = new System.Drawing.Size(149, 22);
             this.x51mmToolStripMenuItem22.Text = "7.62x51mm";
             // 
             // winMagToolStripMenuItem2
             // 
             this.winMagToolStripMenuItem2.Name = "winMagToolStripMenuItem2";
-            this.winMagToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.winMagToolStripMenuItem2.Size = new System.Drawing.Size(149, 22);
             this.winMagToolStripMenuItem2.Text = ".300 Win. Mag";
             // 
             // toolStripMenuItem72
@@ -2240,7 +2251,7 @@
             // x51mmToolStripMenuItem23
             // 
             this.x51mmToolStripMenuItem23.Name = "x51mmToolStripMenuItem23";
-            this.x51mmToolStripMenuItem23.Size = new System.Drawing.Size(180, 22);
+            this.x51mmToolStripMenuItem23.Size = new System.Drawing.Size(134, 22);
             this.x51mmToolStripMenuItem23.Text = "7.62x51mm";
             // 
             // toolStripMenuItem73
@@ -2261,44 +2272,50 @@
             // x55mmToolStripMenuItem5
             // 
             this.x55mmToolStripMenuItem5.Name = "x55mmToolStripMenuItem5";
-            this.x55mmToolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
+            this.x55mmToolStripMenuItem5.Size = new System.Drawing.Size(134, 22);
             this.x55mmToolStripMenuItem5.Text = "6.5x55mm";
             // 
             // x51mmToolStripMenuItem24
             // 
             this.x51mmToolStripMenuItem24.Name = "x51mmToolStripMenuItem24";
-            this.x51mmToolStripMenuItem24.Size = new System.Drawing.Size(180, 22);
+            this.x51mmToolStripMenuItem24.Size = new System.Drawing.Size(134, 22);
             this.x51mmToolStripMenuItem24.Text = "7.62x51mm";
             // 
             // toolStripMenuItem74
             // 
             this.toolStripMenuItem74.Name = "toolStripMenuItem74";
-            this.toolStripMenuItem74.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem74.Size = new System.Drawing.Size(134, 22);
             this.toolStripMenuItem74.Text = ".30-06";
             // 
             // x57mmToolStripMenuItem10
             // 
             this.x57mmToolStripMenuItem10.Name = "x57mmToolStripMenuItem10";
-            this.x57mmToolStripMenuItem10.Size = new System.Drawing.Size(180, 22);
+            this.x57mmToolStripMenuItem10.Size = new System.Drawing.Size(134, 22);
             this.x57mmToolStripMenuItem10.Text = "8x57mm";
             // 
             // x57mmToolStripMenuItem11
             // 
             this.x57mmToolStripMenuItem11.Name = "x57mmToolStripMenuItem11";
-            this.x57mmToolStripMenuItem11.Size = new System.Drawing.Size(180, 22);
+            this.x57mmToolStripMenuItem11.Size = new System.Drawing.Size(134, 22);
             this.x57mmToolStripMenuItem11.Text = "7x57mm";
             // 
             // x62mmToolStripMenuItem
             // 
             this.x62mmToolStripMenuItem.Name = "x62mmToolStripMenuItem";
-            this.x62mmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.x62mmToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.x62mmToolStripMenuItem.Text = "9.3x62mm";
             // 
             // rigbyToolStripMenuItem
             // 
             this.rigbyToolStripMenuItem.Name = "rigbyToolStripMenuItem";
-            this.rigbyToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.rigbyToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.rigbyToolStripMenuItem.Text = ".416 Rigby";
+            // 
+            // x55mmToolStripMenuItem6
+            // 
+            this.x55mmToolStripMenuItem6.Name = "x55mmToolStripMenuItem6";
+            this.x55mmToolStripMenuItem6.Size = new System.Drawing.Size(134, 22);
+            this.x55mmToolStripMenuItem6.Text = "7.5x55mm";
             // 
             // toolStripMenuItem75
             // 
@@ -2313,19 +2330,19 @@
             // x51mmToolStripMenuItem25
             // 
             this.x51mmToolStripMenuItem25.Name = "x51mmToolStripMenuItem25";
-            this.x51mmToolStripMenuItem25.Size = new System.Drawing.Size(180, 22);
+            this.x51mmToolStripMenuItem25.Size = new System.Drawing.Size(134, 22);
             this.x51mmToolStripMenuItem25.Text = "7.62x51mm";
             // 
             // toolStripMenuItem76
             // 
             this.toolStripMenuItem76.Name = "toolStripMenuItem76";
-            this.toolStripMenuItem76.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem76.Size = new System.Drawing.Size(134, 22);
             this.toolStripMenuItem76.Text = ".243";
             // 
             // toolStripMenuItem77
             // 
             this.toolStripMenuItem77.Name = "toolStripMenuItem77";
-            this.toolStripMenuItem77.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem77.Size = new System.Drawing.Size(134, 22);
             this.toolStripMenuItem77.Text = ".22-250";
             // 
             // m82ToolStripMenuItem1
@@ -2339,7 +2356,7 @@
             // bMGToolStripMenuItem
             // 
             this.bMGToolStripMenuItem.Name = "bMGToolStripMenuItem";
-            this.bMGToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.bMGToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.bMGToolStripMenuItem.Text = ".50 BMG";
             // 
             // toolStripMenuItem78
@@ -2354,20 +2371,14 @@
             // x51mmToolStripMenuItem26
             // 
             this.x51mmToolStripMenuItem26.Name = "x51mmToolStripMenuItem26";
-            this.x51mmToolStripMenuItem26.Size = new System.Drawing.Size(180, 22);
+            this.x51mmToolStripMenuItem26.Size = new System.Drawing.Size(134, 22);
             this.x51mmToolStripMenuItem26.Text = "7.62x51mm";
             // 
             // x54mmToolStripMenuItem3
             // 
             this.x54mmToolStripMenuItem3.Name = "x54mmToolStripMenuItem3";
-            this.x54mmToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.x54mmToolStripMenuItem3.Size = new System.Drawing.Size(134, 22);
             this.x54mmToolStripMenuItem3.Text = "7.5x54mm";
-            // 
-            // x55mmToolStripMenuItem6
-            // 
-            this.x55mmToolStripMenuItem6.Name = "x55mmToolStripMenuItem6";
-            this.x55mmToolStripMenuItem6.Size = new System.Drawing.Size(180, 22);
-            this.x55mmToolStripMenuItem6.Text = "7.5x55mm";
             // 
             // toolStripMenuItem79
             // 
@@ -2381,13 +2392,13 @@
             // x54mmRToolStripMenuItem6
             // 
             this.x54mmRToolStripMenuItem6.Name = "x54mmRToolStripMenuItem6";
-            this.x54mmRToolStripMenuItem6.Size = new System.Drawing.Size(180, 22);
+            this.x54mmRToolStripMenuItem6.Size = new System.Drawing.Size(141, 22);
             this.x54mmRToolStripMenuItem6.Text = "7.62x54mmR";
             // 
             // x51mmToolStripMenuItem27
             // 
             this.x51mmToolStripMenuItem27.Name = "x51mmToolStripMenuItem27";
-            this.x51mmToolStripMenuItem27.Size = new System.Drawing.Size(180, 22);
+            this.x51mmToolStripMenuItem27.Size = new System.Drawing.Size(141, 22);
             this.x51mmToolStripMenuItem27.Text = "7.62x51mm";
             // 
             // toolStripMenuItem80
@@ -2401,14 +2412,83 @@
             // x51mmToolStripMenuItem28
             // 
             this.x51mmToolStripMenuItem28.Name = "x51mmToolStripMenuItem28";
-            this.x51mmToolStripMenuItem28.Size = new System.Drawing.Size(180, 22);
+            this.x51mmToolStripMenuItem28.Size = new System.Drawing.Size(134, 22);
             this.x51mmToolStripMenuItem28.Text = "7.62x51mm";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(723, 424);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Continue";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(0, 424);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Load";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // walth2000ToolStripMenuItem
+            // 
+            this.walth2000ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.winMagToolStripMenuItem3,
+            this.x55mmToolStripMenuItem7,
+            this.x51mmToolStripMenuItem29});
+            this.walth2000ToolStripMenuItem.Name = "walth2000ToolStripMenuItem";
+            this.walth2000ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.walth2000ToolStripMenuItem.Text = "Walth. 2000";
+            // 
+            // winMagToolStripMenuItem3
+            // 
+            this.winMagToolStripMenuItem3.Name = "winMagToolStripMenuItem3";
+            this.winMagToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.winMagToolStripMenuItem3.Text = ".300 Win. Mag";
+            // 
+            // x55mmToolStripMenuItem7
+            // 
+            this.x55mmToolStripMenuItem7.Name = "x55mmToolStripMenuItem7";
+            this.x55mmToolStripMenuItem7.Size = new System.Drawing.Size(180, 22);
+            this.x55mmToolStripMenuItem7.Text = "7.5x55mm";
+            // 
+            // x51mmToolStripMenuItem29
+            // 
+            this.x51mmToolStripMenuItem29.Name = "x51mmToolStripMenuItem29";
+            this.x51mmToolStripMenuItem29.Size = new System.Drawing.Size(180, 22);
+            this.x51mmToolStripMenuItem29.Text = "7.62x51mm";
+            // 
+            // aAToolStripMenuItem
+            // 
+            this.aAToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.x54mmToolStripMenuItem4,
+            this.x51mmToolStripMenuItem30});
+            this.aAToolStripMenuItem.Name = "aAToolStripMenuItem";
+            this.aAToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aAToolStripMenuItem.Text = "AA";
+            // 
+            // x54mmToolStripMenuItem4
+            // 
+            this.x54mmToolStripMenuItem4.Name = "x54mmToolStripMenuItem4";
+            this.x54mmToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
+            this.x54mmToolStripMenuItem4.Text = "7.5x54mm";
+            // 
+            // x51mmToolStripMenuItem30
+            // 
+            this.x51mmToolStripMenuItem30.Name = "x51mmToolStripMenuItem30";
+            this.x51mmToolStripMenuItem30.Size = new System.Drawing.Size(180, 22);
+            this.x51mmToolStripMenuItem30.Text = "7.62x51mm";
             // 
             // BaseWeapon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.WeaponChoice);
             this.Name = "BaseWeapon";
             this.Text = "BaseWeapon";
@@ -2421,76 +2501,6 @@
         #endregion
 
         private System.Windows.Forms.Button WeaponChoice;
-        private System.Windows.Forms.ToolStripMenuItem mini14ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem galilToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aK74ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aKSToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aKS74UToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem fNCToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem t91ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sG540ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem m14ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aR10ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aG42ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mAS49ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem fN49oolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sg510ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sVDToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pSLToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sVT40ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem m1GarandToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem m44ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem nO4LeeEnfieldToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem maus98kToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mAS36ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem k31ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem m1CarbineToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem m2CarbineToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sTEnToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem thomson1928ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem thomsonM1ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem m3GreaseGunToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pPSh41ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pPS43ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem kP31ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mP28ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mP40ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mAT49ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sterlingToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem vigneronToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem fBPToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem m45ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem z84ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ber12ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem american180ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mPLToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem kP44ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem jatimaticToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem type54ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem z70ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem vZ61SkorpionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem VZ83MakarovToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem m960ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aIPMToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem m85ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem rem700ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pSG1ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sSG69ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hunqv1600ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem fRF2ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem rem870ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ber1200fpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem win1200ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem moss500ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem auto5ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sPAS12ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem win1897ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pKMToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hK21ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hK23ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem rPDToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem rPKToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip3;
         private System.Windows.Forms.ToolStripMenuItem assualtRiflesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem m16ToolStripMenuItem1;
@@ -2772,6 +2782,15 @@
         private System.Windows.Forms.ToolStripMenuItem x51mmToolStripMenuItem27;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem80;
         private System.Windows.Forms.ToolStripMenuItem x51mmToolStripMenuItem28;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ToolStripMenuItem aAToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem x54mmToolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem x51mmToolStripMenuItem30;
+        private System.Windows.Forms.ToolStripMenuItem walth2000ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem winMagToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem x55mmToolStripMenuItem7;
+        private System.Windows.Forms.ToolStripMenuItem x51mmToolStripMenuItem29;
     }
 }
 
