@@ -24,7 +24,7 @@ namespace CustWeaps
 
         private void WeaponChoice_Click(object sender, EventArgs e)
         {
-            contextMenuStrip3.Show(WeaponChoice, new Point(0, WeaponChoice.Height));
+            contextMenuStrip1.Show(WeaponChoice, new Point(0, WeaponChoice.Height));
         }
 
         private void x39ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -48,6 +48,16 @@ namespace CustWeaps
         }
 
         private void toolStripMenuItem57_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void modelLToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void t65ToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
