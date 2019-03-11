@@ -37,16 +37,13 @@
             this.standardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.railedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.scopeRingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.contextMenuStrip3 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.contextMenuStrip4 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.contextMenuStrip5 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.button5 = new System.Windows.Forms.Button();
             this.flattopToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.railedFlattopToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.standardToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.lightweightToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.heavyDutyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip3 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.standardToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.lightToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.heavyMatchBareMuzzleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -83,6 +80,7 @@
             this.sawnOffStandardBreakToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sawnOffLightweightBreakToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sawnOffHeavyMatchBreakToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip4 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.woodToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.syntheticToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wireUnderfolderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -91,6 +89,7 @@
             this.wireTelescopicunavlableIfStandardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.syntheticSidefolderunavlableIfStandardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.syntheticTelescopicunavlableIfStandardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip5 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.shortToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.longToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.shortToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -102,6 +101,7 @@
             this.shortGripToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.standardRailedGripToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.longRailedGripToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.contextMenuStrip1.SuspendLayout();
             this.contextMenuStrip2.SuspendLayout();
@@ -161,13 +161,13 @@
             // standardToolStripMenuItem
             // 
             this.standardToolStripMenuItem.Name = "standardToolStripMenuItem";
-            this.standardToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.standardToolStripMenuItem.Size = new System.Drawing.Size(301, 22);
             this.standardToolStripMenuItem.Text = "Standard";
             // 
             // railedToolStripMenuItem
             // 
             this.railedToolStripMenuItem.Name = "railedToolStripMenuItem";
-            this.railedToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.railedToolStripMenuItem.Size = new System.Drawing.Size(301, 22);
             this.railedToolStripMenuItem.Text = "Railed";
             // 
             // scopeRingToolStripMenuItem
@@ -177,6 +177,18 @@
             this.scopeRingToolStripMenuItem.Text = "ScopeRing - Battle/Sniper Rifle only ";
             this.scopeRingToolStripMenuItem.Click += new System.EventHandler(this.scopeRingToolStripMenuItem_Click);
             // 
+            // flattopToolStripMenuItem
+            // 
+            this.flattopToolStripMenuItem.Name = "flattopToolStripMenuItem";
+            this.flattopToolStripMenuItem.Size = new System.Drawing.Size(301, 22);
+            this.flattopToolStripMenuItem.Text = "ScopeRing Flattop - Battle/Sniper Rifle only";
+            // 
+            // railedFlattopToolStripMenuItem
+            // 
+            this.railedFlattopToolStripMenuItem.Name = "railedFlattopToolStripMenuItem";
+            this.railedFlattopToolStripMenuItem.Size = new System.Drawing.Size(301, 22);
+            this.railedFlattopToolStripMenuItem.Text = "Railed Flattop";
+            // 
             // contextMenuStrip2
             // 
             this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -185,6 +197,24 @@
             this.heavyDutyToolStripMenuItem});
             this.contextMenuStrip2.Name = "contextMenuStrip2";
             this.contextMenuStrip2.Size = new System.Drawing.Size(138, 70);
+            // 
+            // standardToolStripMenuItem1
+            // 
+            this.standardToolStripMenuItem1.Name = "standardToolStripMenuItem1";
+            this.standardToolStripMenuItem1.Size = new System.Drawing.Size(137, 22);
+            this.standardToolStripMenuItem1.Text = "Standard";
+            // 
+            // lightweightToolStripMenuItem
+            // 
+            this.lightweightToolStripMenuItem.Name = "lightweightToolStripMenuItem";
+            this.lightweightToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.lightweightToolStripMenuItem.Text = "Lightweight";
+            // 
+            // heavyDutyToolStripMenuItem
+            // 
+            this.heavyDutyToolStripMenuItem.Name = "heavyDutyToolStripMenuItem";
+            this.heavyDutyToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.heavyDutyToolStripMenuItem.Text = "Heavy Duty";
             // 
             // contextMenuStrip3
             // 
@@ -229,158 +259,88 @@
             this.contextMenuStrip3.Size = new System.Drawing.Size(275, 796);
             this.contextMenuStrip3.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip3_Opening);
             // 
-            // contextMenuStrip4
-            // 
-            this.contextMenuStrip4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.woodToolStripMenuItem,
-            this.syntheticToolStripMenuItem,
-            this.wireUnderfolderToolStripMenuItem,
-            this.wireSidefolderToolStripMenuItem,
-            this.syntheticToolStripMenuItem1,
-            this.wireTelescopicunavlableIfStandardToolStripMenuItem,
-            this.syntheticSidefolderunavlableIfStandardToolStripMenuItem,
-            this.syntheticTelescopicunavlableIfStandardToolStripMenuItem});
-            this.contextMenuStrip4.Name = "contextMenuStrip4";
-            this.contextMenuStrip4.Size = new System.Drawing.Size(312, 180);
-            // 
-            // contextMenuStrip5
-            // 
-            this.contextMenuStrip5.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.shortToolStripMenuItem,
-            this.longToolStripMenuItem,
-            this.shortToolStripMenuItem1,
-            this.standardRailedToolStripMenuItem,
-            this.longRailedToolStripMenuItem,
-            this.shortRailedToolStripMenuItem,
-            this.standardGripToolStripMenuItem,
-            this.shortGripToolStripMenuItem,
-            this.shortGripToolStripMenuItem1,
-            this.standardRailedGripToolStripMenuItem,
-            this.longRailedGripToolStripMenuItem});
-            this.contextMenuStrip5.Name = "contextMenuStrip5";
-            this.contextMenuStrip5.Size = new System.Drawing.Size(182, 246);
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(369, 289);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "Handgaurd";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // flattopToolStripMenuItem
-            // 
-            this.flattopToolStripMenuItem.Name = "flattopToolStripMenuItem";
-            this.flattopToolStripMenuItem.Size = new System.Drawing.Size(301, 22);
-            this.flattopToolStripMenuItem.Text = "ScopeRing Flattop - Battle/Sniper Rifle only";
-            // 
-            // railedFlattopToolStripMenuItem
-            // 
-            this.railedFlattopToolStripMenuItem.Name = "railedFlattopToolStripMenuItem";
-            this.railedFlattopToolStripMenuItem.Size = new System.Drawing.Size(301, 22);
-            this.railedFlattopToolStripMenuItem.Text = "Railed Flattop";
-            // 
-            // standardToolStripMenuItem1
-            // 
-            this.standardToolStripMenuItem1.Name = "standardToolStripMenuItem1";
-            this.standardToolStripMenuItem1.Size = new System.Drawing.Size(137, 22);
-            this.standardToolStripMenuItem1.Text = "Standard";
-            // 
-            // lightweightToolStripMenuItem
-            // 
-            this.lightweightToolStripMenuItem.Name = "lightweightToolStripMenuItem";
-            this.lightweightToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
-            this.lightweightToolStripMenuItem.Text = "Lightweight";
-            // 
-            // heavyDutyToolStripMenuItem
-            // 
-            this.heavyDutyToolStripMenuItem.Name = "heavyDutyToolStripMenuItem";
-            this.heavyDutyToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
-            this.heavyDutyToolStripMenuItem.Text = "Heavy Duty";
-            // 
             // standardToolStripMenuItem2
             // 
             this.standardToolStripMenuItem2.Name = "standardToolStripMenuItem2";
-            this.standardToolStripMenuItem2.Size = new System.Drawing.Size(277, 22);
+            this.standardToolStripMenuItem2.Size = new System.Drawing.Size(274, 22);
             this.standardToolStripMenuItem2.Text = "Standard - bare muzzle";
             // 
             // lightToolStripMenuItem
             // 
             this.lightToolStripMenuItem.Name = "lightToolStripMenuItem";
-            this.lightToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.lightToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.lightToolStripMenuItem.Text = "Lightwhieght - bare muzzle";
             // 
             // heavyMatchBareMuzzleToolStripMenuItem
             // 
             this.heavyMatchBareMuzzleToolStripMenuItem.Name = "heavyMatchBareMuzzleToolStripMenuItem";
-            this.heavyMatchBareMuzzleToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.heavyMatchBareMuzzleToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.heavyMatchBareMuzzleToolStripMenuItem.Text = "Heavy Match - bare muzzle";
             // 
             // standardThrededToolStripMenuItem
             // 
             this.standardThrededToolStripMenuItem.Name = "standardThrededToolStripMenuItem";
-            this.standardThrededToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.standardThrededToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.standardThrededToolStripMenuItem.Text = "Standard - threded ";
             // 
             // lightwieghtThrededToolStripMenuItem
             // 
             this.lightwieghtThrededToolStripMenuItem.Name = "lightwieghtThrededToolStripMenuItem";
-            this.lightwieghtThrededToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.lightwieghtThrededToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.lightwieghtThrededToolStripMenuItem.Text = "Lightwieght - threded";
             // 
             // heavyMatchThrededToolStripMenuItem
             // 
             this.heavyMatchThrededToolStripMenuItem.Name = "heavyMatchThrededToolStripMenuItem";
-            this.heavyMatchThrededToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.heavyMatchThrededToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.heavyMatchThrededToolStripMenuItem.Text = "Heavy Match - threded";
             // 
             // standardFlashHiderToolStripMenuItem
             // 
             this.standardFlashHiderToolStripMenuItem.Name = "standardFlashHiderToolStripMenuItem";
-            this.standardFlashHiderToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.standardFlashHiderToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.standardFlashHiderToolStripMenuItem.Text = "Standard - flash hider";
             // 
             // lightwieghtFlashHiderToolStripMenuItem
             // 
             this.lightwieghtFlashHiderToolStripMenuItem.Name = "lightwieghtFlashHiderToolStripMenuItem";
-            this.lightwieghtFlashHiderToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.lightwieghtFlashHiderToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.lightwieghtFlashHiderToolStripMenuItem.Text = "Lightwieght - flash hider";
             // 
             // heavyMatchFlashHiderToolStripMenuItem
             // 
             this.heavyMatchFlashHiderToolStripMenuItem.Name = "heavyMatchFlashHiderToolStripMenuItem";
-            this.heavyMatchFlashHiderToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.heavyMatchFlashHiderToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.heavyMatchFlashHiderToolStripMenuItem.Text = "Heavy Match - flash hider";
             // 
             // standardBreakToolStripMenuItem
             // 
             this.standardBreakToolStripMenuItem.Name = "standardBreakToolStripMenuItem";
-            this.standardBreakToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.standardBreakToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.standardBreakToolStripMenuItem.Text = "Standard - break";
             // 
             // lightweightBreakToolStripMenuItem
             // 
             this.lightweightBreakToolStripMenuItem.Name = "lightweightBreakToolStripMenuItem";
-            this.lightweightBreakToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.lightweightBreakToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.lightweightBreakToolStripMenuItem.Text = "Lightweight - break";
             // 
             // heavyMatchBreakToolStripMenuItem
             // 
             this.heavyMatchBreakToolStripMenuItem.Name = "heavyMatchBreakToolStripMenuItem";
-            this.heavyMatchBreakToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.heavyMatchBreakToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.heavyMatchBreakToolStripMenuItem.Text = "Heavy Match - break";
             // 
             // elongatedStandardBareMuzzelToolStripMenuItem
             // 
             this.elongatedStandardBareMuzzelToolStripMenuItem.Name = "elongatedStandardBareMuzzelToolStripMenuItem";
-            this.elongatedStandardBareMuzzelToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.elongatedStandardBareMuzzelToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.elongatedStandardBareMuzzelToolStripMenuItem.Text = "Elongated Standard - bare muzzel";
             // 
             // elongatedLightweightBareMuzzelToolStripMenuItem
             // 
             this.elongatedLightweightBareMuzzelToolStripMenuItem.Name = "elongatedLightweightBareMuzzelToolStripMenuItem";
-            this.elongatedLightweightBareMuzzelToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.elongatedLightweightBareMuzzelToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.elongatedLightweightBareMuzzelToolStripMenuItem.Text = "Elongated Lightweight - bare muzzel";
             // 
             // elongatedHeavyBarrelBareMuzzelToolStripMenuItem
@@ -392,7 +352,7 @@
             // elongatedStandardThrededToolStripMenuItem
             // 
             this.elongatedStandardThrededToolStripMenuItem.Name = "elongatedStandardThrededToolStripMenuItem";
-            this.elongatedStandardThrededToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.elongatedStandardThrededToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.elongatedStandardThrededToolStripMenuItem.Text = "Elongated Standard - threded";
             this.elongatedStandardThrededToolStripMenuItem.Click += new System.EventHandler(this.elongatedStandardThrededToolStripMenuItem_Click);
             // 
@@ -518,17 +478,31 @@
             this.sawnOffHeavyMatchBreakToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.sawnOffHeavyMatchBreakToolStripMenuItem.Text = "Sawn Off Heavy Match - break";
             // 
+            // contextMenuStrip4
+            // 
+            this.contextMenuStrip4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.woodToolStripMenuItem,
+            this.syntheticToolStripMenuItem,
+            this.wireUnderfolderToolStripMenuItem,
+            this.wireSidefolderToolStripMenuItem,
+            this.syntheticToolStripMenuItem1,
+            this.wireTelescopicunavlableIfStandardToolStripMenuItem,
+            this.syntheticSidefolderunavlableIfStandardToolStripMenuItem,
+            this.syntheticTelescopicunavlableIfStandardToolStripMenuItem});
+            this.contextMenuStrip4.Name = "contextMenuStrip4";
+            this.contextMenuStrip4.Size = new System.Drawing.Size(312, 180);
+            // 
             // woodToolStripMenuItem
             // 
             this.woodToolStripMenuItem.Name = "woodToolStripMenuItem";
-            this.woodToolStripMenuItem.Size = new System.Drawing.Size(252, 22);
+            this.woodToolStripMenuItem.Size = new System.Drawing.Size(311, 22);
             this.woodToolStripMenuItem.Text = "Standard";
             this.woodToolStripMenuItem.Click += new System.EventHandler(this.woodToolStripMenuItem_Click);
             // 
             // syntheticToolStripMenuItem
             // 
             this.syntheticToolStripMenuItem.Name = "syntheticToolStripMenuItem";
-            this.syntheticToolStripMenuItem.Size = new System.Drawing.Size(252, 22);
+            this.syntheticToolStripMenuItem.Size = new System.Drawing.Size(311, 22);
             this.syntheticToolStripMenuItem.Text = "Synthetic - (unavlable if standard)";
             // 
             // wireUnderfolderToolStripMenuItem
@@ -567,6 +541,23 @@
             this.syntheticTelescopicunavlableIfStandardToolStripMenuItem.Name = "syntheticTelescopicunavlableIfStandardToolStripMenuItem";
             this.syntheticTelescopicunavlableIfStandardToolStripMenuItem.Size = new System.Drawing.Size(311, 22);
             this.syntheticTelescopicunavlableIfStandardToolStripMenuItem.Text = "Synthetic Telescopic - (unavlable if standard)";
+            // 
+            // contextMenuStrip5
+            // 
+            this.contextMenuStrip5.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.shortToolStripMenuItem,
+            this.longToolStripMenuItem,
+            this.shortToolStripMenuItem1,
+            this.standardRailedToolStripMenuItem,
+            this.longRailedToolStripMenuItem,
+            this.shortRailedToolStripMenuItem,
+            this.standardGripToolStripMenuItem,
+            this.shortGripToolStripMenuItem,
+            this.shortGripToolStripMenuItem1,
+            this.standardRailedGripToolStripMenuItem,
+            this.longRailedGripToolStripMenuItem});
+            this.contextMenuStrip5.Name = "contextMenuStrip5";
+            this.contextMenuStrip5.Size = new System.Drawing.Size(182, 246);
             // 
             // shortToolStripMenuItem
             // 
@@ -634,6 +625,15 @@
             this.longRailedGripToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.longRailedGripToolStripMenuItem.Text = "Long Railed Grip";
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(369, 289);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 9;
+            this.button5.Text = "Handgaurd";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // button6
             // 
             this.button6.Location = new System.Drawing.Point(724, 424);
@@ -655,7 +655,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Weapon Mod";
             this.contextMenuStrip1.ResumeLayout(false);
             this.contextMenuStrip2.ResumeLayout(false);
             this.contextMenuStrip3.ResumeLayout(false);
