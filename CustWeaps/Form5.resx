@@ -117,17 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBox1.Text" xml:space="preserve">
-    <value>Weapon - *Weapon Name*
-                     Weapon mod 1 - *mod1*
-                     Weapon mod 2 - *mod2*
-                     Weapon mod 3 - *mod3*
-                     Weapon mod 4 - *mod4*
-
-     Weapon attachment - *attach1*
-     Weapon attachment - *attach2*
-     Weapon attachment - *attach3*
-     Weapon attachment - *attach4*
-     Weapon attachment - *attach5*</value>
-  </data>
 </root>
