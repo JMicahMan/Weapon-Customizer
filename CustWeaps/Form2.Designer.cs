@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.TopPiece = new System.Windows.Forms.Button();
+            this.Receiver = new System.Windows.Forms.Button();
+            this.Barrel = new System.Windows.Forms.Button();
+            this.Stock = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.standardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.railedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -101,8 +101,8 @@
             this.shortGripToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.standardRailedGripToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.longRailedGripToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.Handgaurd = new System.Windows.Forms.Button();
+            this.Continue = new System.Windows.Forms.Button();
             this.contextMenuStrip1.SuspendLayout();
             this.contextMenuStrip2.SuspendLayout();
             this.contextMenuStrip3.SuspendLayout();
@@ -110,42 +110,66 @@
             this.contextMenuStrip5.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // TopPiece
             // 
-            this.button1.Location = new System.Drawing.Point(369, 61);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Top Piece";
-            this.button1.UseVisualStyleBackColor = true;
+            this.TopPiece.Location = new System.Drawing.Point(369, 61);
+            this.TopPiece.Name = "TopPiece";
+            this.TopPiece.Size = new System.Drawing.Size(75, 23);
+            this.TopPiece.TabIndex = 0;
+            this.TopPiece.Text = "Top Piece";
+            this.TopPiece.UseVisualStyleBackColor = true;
+            this.TopPiece.Click += new System.EventHandler(this.TopPiece_Click);
             // 
-            // button2
+            // Receiver
             // 
-            this.button2.Location = new System.Drawing.Point(369, 112);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Receiver";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Receiver.Location = new System.Drawing.Point(369, 112);
+            this.Receiver.Name = "Receiver";
+            this.Receiver.Size = new System.Drawing.Size(75, 23);
+            this.Receiver.TabIndex = 1;
+            this.Receiver.Text = "Receiver";
+            this.Receiver.UseVisualStyleBackColor = true;
+            this.Receiver.Click += new System.EventHandler(this.Receiver_Click);
             // 
-            // button3
+            // Barrel
             // 
-            this.button3.Location = new System.Drawing.Point(369, 169);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Barrel";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Barrel.Location = new System.Drawing.Point(369, 169);
+            this.Barrel.Name = "Barrel";
+            this.Barrel.Size = new System.Drawing.Size(75, 23);
+            this.Barrel.TabIndex = 2;
+            this.Barrel.Text = "Barrel";
+            this.Barrel.UseVisualStyleBackColor = true;
+            this.Barrel.Click += new System.EventHandler(this.Barrel_Click);
+
             // 
-            // button4
+            // Stock
             // 
-            this.button4.Location = new System.Drawing.Point(369, 233);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Stock";
-            this.button4.UseVisualStyleBackColor = true;
+            this.Stock.Location = new System.Drawing.Point(369, 233);
+            this.Stock.Name = "Stock";
+            this.Stock.Size = new System.Drawing.Size(75, 23);
+            this.Stock.TabIndex = 3;
+            this.Stock.Text = "Stock";
+            this.Stock.UseVisualStyleBackColor = true;
+            this.Stock.Click += new System.EventHandler(this.Stock_Click);
+            //
+            // Handgaurd
+            //
+            this.Handgaurd.Location = new System.Drawing.Point(369, 233);
+            this.Handgaurd.Name = "Handgaurd";
+            this.Handgaurd.Size = new System.Drawing.Size(75, 23);
+            this.Handgaurd.TabIndex = 3;
+            this.Handgaurd.Text = "Handgaurd";
+            this.Handgaurd.UseVisualStyleBackColor = true;
+            this.Handgaurd.Click += new System.EventHandler(this.Handgaurd_Click);
+            // 
+            // Continue
+            // 
+            this.Continue.Location = new System.Drawing.Point(723, 424);
+            this.Continue.Name = "Continue";
+            this.Continue.Size = new System.Drawing.Size(75, 23);
+            this.Continue.TabIndex = 1;
+            this.Continue.Text = "Continue";
+            this.Continue.UseVisualStyleBackColor = true;
+            this.Continue.Click += new System.EventHandler(this.Continue_Click);
             // 
             // contextMenuStrip1
             // 
@@ -175,7 +199,6 @@
             this.scopeRingToolStripMenuItem.Name = "scopeRingToolStripMenuItem";
             this.scopeRingToolStripMenuItem.Size = new System.Drawing.Size(301, 22);
             this.scopeRingToolStripMenuItem.Text = "ScopeRing - Battle/Sniper Rifle only ";
-            this.scopeRingToolStripMenuItem.Click += new System.EventHandler(this.scopeRingToolStripMenuItem_Click);
             // 
             // flattopToolStripMenuItem
             // 
@@ -257,7 +280,6 @@
             this.sawnOffHeavyMatchBreakToolStripMenuItem});
             this.contextMenuStrip3.Name = "contextMenuStrip3";
             this.contextMenuStrip3.Size = new System.Drawing.Size(275, 796);
-            this.contextMenuStrip3.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip3_Opening);
             // 
             // standardToolStripMenuItem2
             // 
@@ -354,7 +376,6 @@
             this.elongatedStandardThrededToolStripMenuItem.Name = "elongatedStandardThrededToolStripMenuItem";
             this.elongatedStandardThrededToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.elongatedStandardThrededToolStripMenuItem.Text = "Elongated Standard - threded";
-            this.elongatedStandardThrededToolStripMenuItem.Click += new System.EventHandler(this.elongatedStandardThrededToolStripMenuItem_Click);
             // 
             // elongatedToolStripMenuItem
             // 
@@ -397,7 +418,6 @@
             this.sawnOffLightweightBareMuzzleToolStripMenuItem.Name = "sawnOffLightweightBareMuzzleToolStripMenuItem";
             this.sawnOffLightweightBareMuzzleToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.sawnOffLightweightBareMuzzleToolStripMenuItem.Text = "Elongated Lightweight - break";
-            this.sawnOffLightweightBareMuzzleToolStripMenuItem.Click += new System.EventHandler(this.sawnOffLightweightBareMuzzleToolStripMenuItem_Click);
             // 
             // elongatedHeavyMatchBreakToolStripMenuItem
             // 
@@ -428,7 +448,6 @@
             this.sawnOffToolStripMenuItem.Name = "sawnOffToolStripMenuItem";
             this.sawnOffToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.sawnOffToolStripMenuItem.Text = "Sawn Off Standard - threded";
-            this.sawnOffToolStripMenuItem.Click += new System.EventHandler(this.sawnOffToolStripMenuItem_Click);
             // 
             // sawnOffLightweightThrededToolStripMenuItem
             // 
@@ -490,57 +509,55 @@
             this.syntheticSidefolderunavlableIfStandardToolStripMenuItem,
             this.syntheticTelescopicunavlableIfStandardToolStripMenuItem});
             this.contextMenuStrip4.Name = "contextMenuStrip4";
-            this.contextMenuStrip4.Size = new System.Drawing.Size(312, 180);
+            this.contextMenuStrip4.Size = new System.Drawing.Size(183, 180);
             // 
             // woodToolStripMenuItem
             // 
             this.woodToolStripMenuItem.Name = "woodToolStripMenuItem";
             this.woodToolStripMenuItem.Size = new System.Drawing.Size(311, 22);
             this.woodToolStripMenuItem.Text = "Standard";
-            this.woodToolStripMenuItem.Click += new System.EventHandler(this.woodToolStripMenuItem_Click);
             // 
             // syntheticToolStripMenuItem
             // 
             this.syntheticToolStripMenuItem.Name = "syntheticToolStripMenuItem";
             this.syntheticToolStripMenuItem.Size = new System.Drawing.Size(311, 22);
-            this.syntheticToolStripMenuItem.Text = "Synthetic - (unavlable if standard)";
+            this.syntheticToolStripMenuItem.Text = "Synthetic";
             // 
             // wireUnderfolderToolStripMenuItem
             // 
             this.wireUnderfolderToolStripMenuItem.Name = "wireUnderfolderToolStripMenuItem";
             this.wireUnderfolderToolStripMenuItem.Size = new System.Drawing.Size(311, 22);
-            this.wireUnderfolderToolStripMenuItem.Text = "Wood - (unavlable if standard)";
-            this.wireUnderfolderToolStripMenuItem.Click += new System.EventHandler(this.wireUnderfolderToolStripMenuItem_Click);
+            this.wireUnderfolderToolStripMenuItem.Text = "Wood";
             // 
             // wireSidefolderToolStripMenuItem
             // 
             this.wireSidefolderToolStripMenuItem.Name = "wireSidefolderToolStripMenuItem";
             this.wireSidefolderToolStripMenuItem.Size = new System.Drawing.Size(311, 22);
-            this.wireSidefolderToolStripMenuItem.Text = "Wire Underfolder - (unavlable if standard)";
+            this.wireSidefolderToolStripMenuItem.Text = "Wire Underfolder";
             // 
             // syntheticToolStripMenuItem1
             // 
             this.syntheticToolStripMenuItem1.Name = "syntheticToolStripMenuItem1";
             this.syntheticToolStripMenuItem1.Size = new System.Drawing.Size(311, 22);
-            this.syntheticToolStripMenuItem1.Text = "Wire Sidefolder - (unavlable if standard)";
+            this.syntheticToolStripMenuItem1.Text = "Wire Sidefolder";
             // 
             // wireTelescopicunavlableIfStandardToolStripMenuItem
             // 
             this.wireTelescopicunavlableIfStandardToolStripMenuItem.Name = "wireTelescopicunavlableIfStandardToolStripMenuItem";
             this.wireTelescopicunavlableIfStandardToolStripMenuItem.Size = new System.Drawing.Size(311, 22);
-            this.wireTelescopicunavlableIfStandardToolStripMenuItem.Text = "Wire Telescopic - (unavlable if standard)";
+            this.wireTelescopicunavlableIfStandardToolStripMenuItem.Text = "Wire Telescopic";
             // 
             // syntheticSidefolderunavlableIfStandardToolStripMenuItem
             // 
             this.syntheticSidefolderunavlableIfStandardToolStripMenuItem.Name = "syntheticSidefolderunavlableIfStandardToolStripMenuItem";
-            this.syntheticSidefolderunavlableIfStandardToolStripMenuItem.Size = new System.Drawing.Size(311, 22);
-            this.syntheticSidefolderunavlableIfStandardToolStripMenuItem.Text = "Synthetic Sidefolder - (unavlable if standard)";
+            this.syntheticSidefolderunavlableIfStandardToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.syntheticSidefolderunavlableIfStandardToolStripMenuItem.Text = "Synthetic Sidefolder";
             // 
             // syntheticTelescopicunavlableIfStandardToolStripMenuItem
             // 
             this.syntheticTelescopicunavlableIfStandardToolStripMenuItem.Name = "syntheticTelescopicunavlableIfStandardToolStripMenuItem";
-            this.syntheticTelescopicunavlableIfStandardToolStripMenuItem.Size = new System.Drawing.Size(311, 22);
-            this.syntheticTelescopicunavlableIfStandardToolStripMenuItem.Text = "Synthetic Telescopic - (unavlable if standard)";
+            this.syntheticTelescopicunavlableIfStandardToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.syntheticTelescopicunavlableIfStandardToolStripMenuItem.Text = "Synthetic Telescopic";
             // 
             // contextMenuStrip5
             // 
@@ -625,35 +642,35 @@
             this.longRailedGripToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.longRailedGripToolStripMenuItem.Text = "Long Railed Grip";
             // 
-            // button5
+            // Handgaurd
             // 
-            this.button5.Location = new System.Drawing.Point(369, 289);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "Handgaurd";
-            this.button5.UseVisualStyleBackColor = true;
+            this.Handgaurd.Location = new System.Drawing.Point(369, 289);
+            this.Handgaurd.Name = "Handgaurd";
+            this.Handgaurd.Size = new System.Drawing.Size(75, 23);
+            this.Handgaurd.TabIndex = 9;
+            this.Handgaurd.Text = "Handgaurd";
+            this.Handgaurd.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // Continue
             // 
-            this.button6.Location = new System.Drawing.Point(724, 424);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 10;
-            this.button6.Text = "Continue";
-            this.button6.UseVisualStyleBackColor = true;
+            this.Continue.Location = new System.Drawing.Point(724, 424);
+            this.Continue.Name = "Continue";
+            this.Continue.Size = new System.Drawing.Size(75, 23);
+            this.Continue.TabIndex = 10;
+            this.Continue.Text = "Continue";
+            this.Continue.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Continue);
+            this.Controls.Add(this.Handgaurd);
+            this.Controls.Add(this.Stock);
+            this.Controls.Add(this.Barrel);
+            this.Controls.Add(this.Receiver);
+            this.Controls.Add(this.TopPiece);
             this.Name = "Form2";
             this.Text = "Weapon Mod";
             this.contextMenuStrip1.ResumeLayout(false);
@@ -667,10 +684,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button TopPiece;
+        private System.Windows.Forms.Button Receiver;
+        private System.Windows.Forms.Button Barrel;
+        private System.Windows.Forms.Button Stock;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem standardToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem railedToolStripMenuItem;
@@ -679,7 +696,7 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip3;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip4;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip5;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button Handgaurd;
         private System.Windows.Forms.ToolStripMenuItem flattopToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem railedFlattopToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem standardToolStripMenuItem1;
@@ -740,6 +757,6 @@
         private System.Windows.Forms.ToolStripMenuItem shortGripToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem standardRailedGripToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem longRailedGripToolStripMenuItem;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button Continue;
     }
 }

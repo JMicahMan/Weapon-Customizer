@@ -17,44 +17,37 @@ namespace CustWeaps
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        public void TopPiece_Click(object sender, EventArgs e)
         {
-
+            contextMenuStrip1.Show(TopPiece, new Point(0, TopPiece.Height));
         }
 
-        private void scopeRingToolStripMenuItem_Click(object sender, EventArgs e)
+        public void Receiver_Click(object sender, EventArgs e)
         {
-
+            contextMenuStrip2.Show(Receiver, new Point(0, Receiver.Height));
         }
 
-        private void contextMenuStrip3_Opening(object sender, CancelEventArgs e)
+        public void Barrel_Click(object sender, EventArgs e)
         {
-
+            contextMenuStrip3.Show(Barrel, new Point(0, Barrel.Height));
         }
 
-        private void elongatedStandardThrededToolStripMenuItem_Click(object sender, EventArgs e)
+        public void Stock_Click(object sender, EventArgs e)
         {
-
+            contextMenuStrip4.Show(Stock, new Point(0, Stock.Height));
         }
 
-        private void sawnOffLightweightBareMuzzleToolStripMenuItem_Click(object sender, EventArgs e)
+        public void Handgaurd_Click(object sender, EventArgs e)
         {
-
+            contextMenuStrip5.Show(Handgaurd, new Point(0, Handgaurd.Height));
         }
 
-        private void sawnOffToolStripMenuItem_Click(object sender, EventArgs e)
+        public void Continue_Click(object sender, EventArgs e)
         {
-
+            Hide();
+            Form4 form4 = new Form4();
+            form4.Show();
         }
 
-        private void woodToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void wireUnderfolderToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

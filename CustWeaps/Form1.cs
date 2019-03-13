@@ -17,49 +17,28 @@ namespace CustWeaps
             InitializeComponent();
         }
 
-        private void BaseWeapon_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void WeaponChoice_Click(object sender, EventArgs e)
         {
             contextMenuStrip1.Show(WeaponChoice, new Point(0, WeaponChoice.Height));
         }
 
-        private void x39ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void Continue_Click(object sender, EventArgs e)
         {
+            Hide();
+            Form2 form2 = new Form2();
+            form2.Show();
+        
+        }
+
+        private void Load_Click(object sender, EventArgs e)
+        {
+
+
+            Hide();
+            Form6 form6 = new Form6();
+            form6.Show();
 
         }
 
-        private void x39mmToolStripMenuItem2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void contextMenuStrip3_Opening(object sender, CancelEventArgs e)
-        {
-
-        }
-
-        private void toolStripMenuItem23_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void toolStripMenuItem57_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void modelLToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void t65ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
