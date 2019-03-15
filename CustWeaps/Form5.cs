@@ -9,43 +9,82 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using System.IO;
+using System.Runtime.Serialization.Json;
+using Newtonsoft.Json;
+
 
 
 namespace CustWeaps
 {
 
-    public class Data
+    public class UserData
     {
-        public string member0;
-
-        public string member1;
-        public string member2;
-        public string member3;
-        public string member4;
-        public string member5;
-        public string member6;
-        public string member7;
-        public string member8;
-        public string member9;
-        [XmlIgnore]
-        public string member10;
-
-        public Data()
+        public string WeaponName
         {
-            member0 = "*none*";
-
-            member1 = "*none*";
-            member2 = "*none*";
-            member3 = "*none*";
-            member4 = "*none*";
-            member5 = "*none*";
-
-            member6 = "*none*";
-            member7 = "*none*";
-            member8 = "*none*";
-            member9 = "*none*";
-            member10 = "*nani*";
+            get;
+            set;
         }
+
+
+
+
+        public string TopPiece
+        {
+            get;
+            set;
+        }
+
+        public string Reciver
+        {
+            get;
+            set;
+        }
+
+        public string Barrel
+        {
+            get;
+            set;
+        }
+
+        public string Stock
+        {
+            get;
+            set;
+        }
+
+        public string Handguard
+        {
+            get;
+            set;
+        }
+
+
+
+
+        public string Optic
+        {
+            get;
+            set;
+        }
+
+        public string Underbarrel
+        {
+            get;
+            set;
+        }
+
+        public string SideRails
+        {
+            get;
+            set;
+        }
+
+        public string Muzzle
+        {
+            get;
+            set;
+        }
+
     }
     public partial class Form5 : Form
     {
@@ -61,17 +100,29 @@ namespace CustWeaps
 
         public void Save_Click(object sender, EventArgs e)
         {
-            XmlSerializer serializer = new XmlSerializer(typeof(Data));
-            TextWriter writer = new StreamWriter("gun.xml");
+            UserData udOBj = new UserData()
+            {
+                WeaponName = "Weapon Name",
 
-            Data obj = new Data();
-            serializer.Serialize(writer, obj);
-            writer.Close();
+                TopPiece = "Top Piece",
+                Reciver = "Reciver",
+                Barrel = "Barrel",
+                Stock = "Stock",
+                Handguard = "Handgaurd",
 
+                Optic = "Optic",
+                Underbarrel = "Under Barrel",
+                SideRails = "Side Rails",
+                Muzzle = "Muzzle"
 
+            };
 
-            Properties.Settings.Default.Save();
-
+            DataContractJsonSerializer Jser = new DataContractJsonSerializer(typeof(UserData));
+            MemoryStream msObj = new MemoryStream();
+            Jser.WriteObject(msObj, udOBj);
+            msObj.Position = 0;
+            string json = JsonConvert.SerializeObject(udOBj);
+          
 
             Hide();
             Form7 form7 = new Form7();
