@@ -122,6 +122,12 @@ namespace CustWeaps
             Jser.WriteObject(msObj, udOBj);
             msObj.Position = 0;
             string json = JsonConvert.SerializeObject(udOBj);
+            StreamReader sr = new StreamReader(msObj);
+            string JSS = sr.ReadToEnd();
+
+            sr.Close();
+            msObj.Close();
+
           
 
             Hide();
