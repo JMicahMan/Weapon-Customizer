@@ -10,20 +10,19 @@ using System.Windows.Forms;
 
 namespace CustWeaps
 {
-    public partial class Form2 : Form
+    public partial class Automatics : Form
     {
-        public Form2()
+        public Automatics()
         {
             InitializeComponent();
+            int index = comboBox1.FindString(comboBox1.Text);
+            comboBox1.SelectedIndex = index;
+
+            if (comboBox1.SelectedIndex == -1)
+            {
+                button1.Enabled = false;
+            }
+
         }
-
-
-        public void Continue_Click(object sender, EventArgs e)
-        {
-            Hide();
-            Form4 form4 = new Form4();
-            form4.Show();
-        }
-
     }
 }

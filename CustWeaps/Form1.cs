@@ -20,15 +20,10 @@ namespace CustWeaps
         private void WeaponChoice_Click(object sender, EventArgs e)
         {
             contextMenuStrip1.Show(WeaponChoice, new Point(0, WeaponChoice.Height));
+            
+
         }
 
-        private void Continue_Click(object sender, EventArgs e)
-        {
-            Hide();
-            Form2 form2 = new Form2();
-            form2.Show();
-        
-        }
 
         private void Load_Click(object sender, EventArgs e)
         {
@@ -40,5 +35,52 @@ namespace CustWeaps
 
         }
 
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void assualtRiflesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            AssualtRifles assualtRifles = new AssualtRifles();
+            assualtRifles.Show();
+        }
+
+
+        private void battleRiflesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            BattleRifles battleRifles = new BattleRifles();
+            battleRifles.Show();
+        }
+
+        private void sMGsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            SMGs sMGs = new SMGs();
+            sMGs.Show();
+        }
+
+        private void lMGsGPMGsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            LMGs lMGs = new LMGs();
+            lMGs.Show();
+        }
+
+        private void shotgunsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            Shotguns shotguns = new Shotguns();
+            shotguns.Show();
+        }
+
+        private void sniperRiflesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            SniperRifles sniperRifles = new SniperRifles();
+            sniperRifles.Show();
+        }
     }
 }

@@ -26,7 +26,7 @@
         private void InitializeComponent()
         {
             this.Save = new System.Windows.Forms.Button();
-            this.GunSaved = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Save
@@ -39,32 +39,31 @@
             this.Save.UseVisualStyleBackColor = true;
             this.Save.Click += new System.EventHandler(this.Save_Click);
             // 
-            // GunSaved
+            // textBox1
             // 
-            this.GunSaved.Location = new System.Drawing.Point(277, 184);
-            this.GunSaved.Name = "GunSaved";
-            this.GunSaved.Size = new System.Drawing.Size(343, 23);
-            this.GunSaved.TabIndex = 3;
-            this.GunSaved.Text = "Enter Weapon Name";
-            this.GunSaved.UseVisualStyleBackColor = true;
+            this.textBox1.Location = new System.Drawing.Point(247, 176);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(343, 20);
+            this.textBox1.TabIndex = 4;
             // 
             // Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.GunSaved);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Save);
             this.Name = "Form7";
-            this.Text = "Weapon Info";
+            this.Text = "Enter Weapon Name";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
      private System.Windows.Forms.Button Save;
-        private System.Windows.Forms.Button GunSaved;
+        private System.Windows.Forms.TextBox textBox1;
     }
 
 }
