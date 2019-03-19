@@ -11,31 +11,37 @@ using System.Diagnostics;
 
 namespace CustWeaps
 {
+
     public partial class AssualtRifles : Form
     {
+
+        public static string SetValueForRifle = "";
+
         public AssualtRifles()
         {
             InitializeComponent();
-
-
             int index = comboBox1.FindString(comboBox1.Text);
+            comboBox1.SelectedIndex = comboBox1.FindStringExact("comboBox1");
             comboBox1.SelectedIndex = index;
 
-            if(comboBox1.SelectedIndex == -1)
-            {
-                button1.Enabled = false;
-            }
-          
+
+            SetValueForRifle = comboBox1.Text;
+
 
         }
 
 
         public void button1_Click(object sender, EventArgs e)
         {
+            int index = comboBox1.FindString(comboBox1.Text);
+            comboBox1.SelectedIndex = comboBox1.FindStringExact("comboBox1");
+            comboBox1.SelectedIndex = index;
 
-                Hide();
-                Form2 form2 = new Form2();
-                form2.Show();
+            SetValueForRifle = comboBox1.Text;
+
+            Hide();
+            Form2 form2 = new Form2();
+            form2.Show();
             
         }
 

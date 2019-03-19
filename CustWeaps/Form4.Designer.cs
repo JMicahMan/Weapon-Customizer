@@ -131,6 +131,7 @@
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
+            "None",
             "Vertical Foregrip",
             "Horizontal Foregrip",
             "AR-15 Pistol Grip",

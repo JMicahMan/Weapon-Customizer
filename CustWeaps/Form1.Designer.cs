@@ -93,6 +93,7 @@
             this.sMGsToolStripMenuItem1.Name = "sMGsToolStripMenuItem1";
             this.sMGsToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.sMGsToolStripMenuItem1.Text = "SMGs";
+            this.sMGsToolStripMenuItem1.Click += new System.EventHandler(this.sMGsToolStripMenuItem_Click);
             // 
             // lMGsGPMGsToolStripMenuItem
             // 

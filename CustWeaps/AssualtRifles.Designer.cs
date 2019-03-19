@@ -5,7 +5,7 @@
         /// <summary>
         /// Required designer variable.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        public System.ComponentModel.IContainer components = null;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -26,7 +26,7 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
+        public void InitializeComponent()
         {
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -40,8 +40,8 @@
             "AKM : 7.62x39mm",
             "SKS : 7.62x39mm",
             "Mini14 : 5.56x45mm",
-            "HK 33 : 5.56x45mm",
-            "HK 32 : 7.62x39mm",
+            "H&K 33 : 5.56x45mm",
+            "H&K 32 : 7.62x39mm",
             "Galil : 5.56x45mm",
             "CAR-15 : 5.56x45mm",
             "AUG : 5.56x45mm",
@@ -101,7 +101,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.ComboBox comboBox1;
+        public System.Windows.Forms.Button button1;
     }
 }

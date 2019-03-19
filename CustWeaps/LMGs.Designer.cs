@@ -50,8 +50,8 @@
             "MG3 : 7.62x51mm",
             "RPD : 7.62x39mm",
             "Ameli : 5.56x45mm",
-            "HK 21 : 7.62x51mm",
-            "HK 23 : 5.56x45mm",
+            "H&K 21 : 7.62x51mm",
+            "H&K 23 : 5.56x45mm",
             "Stoner 63 : 5.56x45mm",
             "RPK : 7.62x39mm",
             "RPK-74 : 5.45x39mm",
@@ -87,7 +87,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Continue";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // LMGs
             // 

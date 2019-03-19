@@ -12,6 +12,8 @@ namespace CustWeaps
 {
     public partial class Revolvers : Form
     {
+        public static string SetValueForRifle = "";
+
         public Revolvers()
         {
             InitializeComponent();
@@ -22,6 +24,8 @@ namespace CustWeaps
             {
                 button1.Enabled = false;
             }
+
+            SetValueForRifle = comboBox1.Text;
 
         }
     }

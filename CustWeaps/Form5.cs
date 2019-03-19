@@ -22,18 +22,27 @@ namespace CustWeaps
         public Form5()
         {
             InitializeComponent();
-            label1.Text = "Weapon Name";
+            label1.Text = AssualtRifles.SetValueForRifle;
+            label11.Text = BattleRifles.SetValueForRifle;
+            label12.Text = SMGs.SetValueForRifle;
+            label13.Text = LMGs.SetValueForRifle;
+            label14.Text = Shotguns.SetValueForRifle;
+            label15.Text = SniperRifles.SetValueForRifle;
+            label16.Text = "";
 
-            label2.Text = "Top Piece";
-            label3.Text = "Reciver";
-            label4.Text = "Barrel";
-            label5.Text = "Stock";
-            label6.Text = "Handguard";
 
-            label7.Text = "Optic";
-            label8.Text = "Underbarrel";
-            label9.Text = "Side Rails";
-            label10.Text = "Muzzle";
+
+            label2.Text = Form2.SetValueForRifle;
+            label3.Text = Form2.SetValueForRifle2;
+            label4.Text = Form2.SetValueForRifle3;
+            label5.Text = Form2.SetValueForRifle4;
+            label6.Text = Form2.SetValueForRifle5;
+
+            label7.Text = Form4.SetValueForRifle;
+            label8.Text = Form4.SetValueForRifle2;
+            label9.Text = Form4.SetValueForRifle3;
+            label10.Text = Form4.SetValueForRifle4;
+            
 
         }
 

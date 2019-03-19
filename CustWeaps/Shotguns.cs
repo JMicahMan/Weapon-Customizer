@@ -7,26 +7,37 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace CustWeaps
 {
+
     public partial class Shotguns : Form
     {
+
+        public static string SetValueForRifle = "";
+
         public Shotguns()
         {
             InitializeComponent();
             int index = comboBox1.FindString(comboBox1.Text);
+            comboBox1.SelectedIndex = comboBox1.FindStringExact("comboBox1");
             comboBox1.SelectedIndex = index;
 
-            if (comboBox1.SelectedIndex == -1)
-            {
-                button1.Enabled = false;
-            }
+
+            SetValueForRifle = comboBox1.Text;
+
 
         }
+
 
         public void button1_Click(object sender, EventArgs e)
         {
+            int index = comboBox1.FindString(comboBox1.Text);
+            comboBox1.SelectedIndex = comboBox1.FindStringExact("comboBox1");
+            comboBox1.SelectedIndex = index;
+
+            SetValueForRifle = comboBox1.Text;
 
             Hide();
             Form2 form2 = new Form2();
@@ -34,12 +45,6 @@ namespace CustWeaps
 
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            Hide();
-            Form2 form2 = new Form2();
-            form2.Show();
 
-        }
     }
 }
