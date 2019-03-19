@@ -28,31 +28,47 @@ namespace CustWeaps
             List<UserData> _data = new List<UserData>();
             _data.Add(new UserData()
             {
-                WeaponName = "Weapon Name\n\n\n",
+                AssualtRifle = AssualtRifles.SetValueForRifle,
+
+                BattleRifle = BattleRifles.SetValueForRifle,
+
+                Submachine_Gun = SMGs.SetValueForRifle,
+
+                Light_or_General_Purpose_Machine_Gun = LMGs.SetValueForRifle,
+
+                Shotgun = Shotguns.SetValueForRifle,
+
+                SniperRifle = SniperRifles.SetValueForRifle,
+
+                TopPiece = Form2.SetValueForRifle,
+
+                Reciver = Form2.SetValueForRifle2,
+
+                Barrel = Form2.SetValueForRifle3,
+
+                Stock = Form2.SetValueForRifle4,
+
+                Handguard = Form2.SetValueForRifle5,
 
 
-                TopPiece = "Top Piece\n",
+                Optic = Form4.SetValueForRifle,
 
-                Reciver = "Reciver\n",
+                Underbarrel = Form4.SetValueForRifle2,
 
-                Barrel = "Barrel\n",
+                SideRails = Form4.SetValueForRifle3,
 
-                Stock = "Stock\n",
-
-                Handguard = "Handguard\n\n",
-
-
-                Optic = "Optic\n",
-
-                Underbarrel = "Underbarrel\n",
-
-                SideRails = "Side Rails\n",
-
-                Muzzle = "Muzzle"
+                Muzzle = Form4.SetValueForRifle4
 
 
             });
 
+            //OpenFileDialog openFileDialog = new OpenFileDialog();
+            
+            //if(openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            //{
+            //    string strfilename = openFileDialog.FileName;
+            //    MessageBox.Show(strfilename);
+            //}
 
             string json = JsonConvert.SerializeObject(_data.ToArray());
 
@@ -69,11 +85,42 @@ namespace CustWeaps
 
     public class UserData
     {
-        public string WeaponName
+        public string AssualtRifle
         {
             get;
             set;
         }
+
+        public string BattleRifle
+        {
+            get;
+            set;
+        }
+
+        public string Submachine_Gun
+        {
+            get;
+            set;
+        }
+
+        public string Light_or_General_Purpose_Machine_Gun
+        {
+            get;
+            set;
+        }
+
+        public string Shotgun
+        {
+            get;
+            set;
+        }
+
+        public string SniperRifle
+        {
+            get;
+            set;
+        }
+
 
         public string TopPiece
         {

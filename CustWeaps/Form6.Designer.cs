@@ -40,6 +40,7 @@
             this.SavedGun.TabIndex = 0;
             this.SavedGun.Text = "Select Ptr-loaded Custom Weapon";
             this.SavedGun.UseVisualStyleBackColor = true;
+            this.SavedGun.Click += new System.EventHandler(this.SavedGun_Click);
             // 
             // Load
             // 
