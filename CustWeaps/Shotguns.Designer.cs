@@ -38,17 +38,23 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Winchester 1897 : 12 Gauge",
             "Winchester 1200 : 12 Gauge",
+            "Stevens 520/620 : 12 Gauge",
             "Stevens 77E : 12 Gauge",
             "Remington 10 : 12 Gauge",
+            "Remington 31 : 12 Gauge",            
             "Remington 870 : 12 Gauge",
             "Mossberg 500 : 12 Gauge",
             "Beretta 1200FPT : 12 Gauge",
             "Ithaca 37 : 12 Gauge",
+            "PM-5 : 12 Gauge",
             "Franchi SPAS 12 : 12 Gauge",
+            "Franchi SPAS 15 : 12 Gauge",
             "Remington 1100 : 12 Gauge",
+            "Remington 11 : 12 Gauge",
             "Auto 5 : 12 Gauge",
             "Benelli 121 : 12 Gauge",
             "S&W Super 12 : 12 Gauge",
+            "High Standard 10 : 12 Gauge",
             "Armsel Striker : 12 Gauge",
             "USAS 12 : 12 Gauge"});
             this.comboBox1.Location = new System.Drawing.Point(259, 199);

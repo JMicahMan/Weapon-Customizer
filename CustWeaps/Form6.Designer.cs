@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.SavedGun = new System.Windows.Forms.Button();
-            this.Load = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // SavedGun
             // 
-            this.SavedGun.Location = new System.Drawing.Point(313, 165);
+            this.SavedGun.Location = new System.Drawing.Point(289, 12);
             this.SavedGun.Name = "SavedGun";
             this.SavedGun.Size = new System.Drawing.Size(212, 23);
             this.SavedGun.TabIndex = 0;
@@ -42,31 +42,31 @@
             this.SavedGun.UseVisualStyleBackColor = true;
             this.SavedGun.Click += new System.EventHandler(this.SavedGun_Click);
             // 
-            // Load
+            // textBox1
             // 
-            this.Load.Location = new System.Drawing.Point(713, 415);
-            this.Load.Name = "Load";
-            this.Load.Size = new System.Drawing.Size(75, 23);
-            this.Load.TabIndex = 1;
-            this.Load.Text = "Load";
-            this.Load.UseVisualStyleBackColor = true;
+            this.textBox1.Location = new System.Drawing.Point(27, 73);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(751, 322);
+            this.textBox1.TabIndex = 1;
             // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Load);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.SavedGun);
             this.Name = "Form6";
             this.Text = "Load Weapon";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button SavedGun;
-        private System.Windows.Forms.Button Load;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

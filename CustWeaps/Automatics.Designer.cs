@@ -77,6 +77,7 @@
             "FN Baby Browning : .25 ACP",
             "LWS 32 : .32 ACP",
             "APS : 9x18mm",
+            "Lercker : .25 ACP",
             "CZ-75 :  9x19mm",
             "CZ-75 : 10x25mm",
             "S&W 59 :  9x19mm",

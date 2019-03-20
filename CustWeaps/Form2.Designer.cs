@@ -115,7 +115,7 @@
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
-            "None",
+            "Standard",
             "Lightweight",
             "Heavy Duty"});
             this.comboBox2.Location = new System.Drawing.Point(465, 116);

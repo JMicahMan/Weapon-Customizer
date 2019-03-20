@@ -142,7 +142,8 @@
             "Flashlight",
             "Mossberg 500 : 12 Gauge",
             "Remington 870 : 12 Gauge",
-            "Bayonet"});
+            "Bayonet",
+            "Bi-Pod"});
             this.comboBox2.Location = new System.Drawing.Point(443, 64);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(215, 21);

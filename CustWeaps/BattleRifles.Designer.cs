@@ -59,6 +59,7 @@
             "AG/42 : 6.5x55mm",
             "AG/42 : 8x57mm",
             "M1 Garand : .30-06",
+            "1941 Johnson : .30-06",
             "SVT-40 : 7.62x54mmR",
             "G43 : 8x57mm",
             "Mauser 98k : 8x57mm",
