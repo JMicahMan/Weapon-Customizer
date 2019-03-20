@@ -144,6 +144,24 @@
     <Compile Include="Shotguns.Designer.cs">
       <DependentUpon>Shotguns.cs</DependentUpon>
     </Compile>
+    <Compile Include="sideArmMods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sideArmMods.Designer.cs">
+      <DependentUpon>sideArmMods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sideArmAttachments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sideArmAttachments.Designer.cs">
+      <DependentUpon>sideArmAttachments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sidearms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sidearms.Designer.cs">
+      <DependentUpon>Sidearms.cs</DependentUpon>
+    </Compile>
     <Compile Include="SMGs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -200,6 +218,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Shotguns.resx">
       <DependentUpon>Shotguns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sideArmAttachments.resx">
+      <DependentUpon>sideArmAttachments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sideArmMods.resx">
+      <DependentUpon>sideArmMods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sidearms.resx">
+      <DependentUpon>Sidearms.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SMGs.resx">
       <DependentUpon>SMGs.cs</DependentUpon>

@@ -100,12 +100,12 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Standard",
-            "Railed",
-            "Flattop",
-            "Railed Flattop",
-            "Scope Rings",
-            "Scope Rings Flattop"});
+            "Standard\n",
+            "Railed\n",
+            "Flattop\n",
+            "Railed Flattop\n",
+            "Scope Rings\n",
+            "Scope Rings Flattop\n"});
             this.comboBox1.Location = new System.Drawing.Point(465, 86);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(210, 21);
@@ -115,9 +115,9 @@
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
-            "Standard",
-            "Lightweight",
-            "Heavy Duty"});
+            "Standard\n",
+            "Lightweight\n",
+            "Heavy Duty\n"});
             this.comboBox2.Location = new System.Drawing.Point(465, 116);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(210, 21);
@@ -127,33 +127,33 @@
             // 
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
-            "Standard - Bare Muzzle",
-            "Light - Bare Muzzle",
-            "Heavy - Bare Muzzle",
-            "Standard -Threaded",
-            "Light -Threaded",
-            "Heavy -Threaded",
-            "Standard - Flash Hider",
-            "Light - Flash Hider",
-            "Heavy - Flash Hider",
-            "Elongated Standard - Bare Muzzle",
-            "Elongated Light - Bare Muzzle",
-            "Elongated Heavy - Bare Muzzle",
-            "Elongated Standard -Threaded",
-            "Elongated Light -Threaded",
-            "Elongated Heavy -Threaded",
-            "Elongated Standard - Flash Hider",
-            "Elongated Light - Flash Hider",
-            "Elongated Heavy - Flash Hider",
-            "Sawn-off Standard - Bare Muzzle",
-            "Sawn-off Light - Bare Muzzle",
-            "Sawn-off Heavy - Bare Muzzle",
-            "Sawn-off Standard - Threaded",
-            "Sawn-off Light - Threaded",
-            "Sawn-off Heavy - Threaded",
-            "Sawn-off Standard - Flash Hider",
-            "Sawn-off Light - Flash Hider",
-            "Sawn-off Heavy - Flash Hider"});
+            "Standard - Bare Muzzle\n",
+            "Light - Bare Muzzle\n",
+            "Heavy - Bare Muzzle\n",
+            "Standard -Threaded\n",
+            "Light -Threaded\n",
+            "Heavy -Threaded\n",
+            "Standard - Flash Hider\n",
+            "Light - Flash Hider\n",
+            "Heavy - Flash Hider\n",
+            "Elongated Standard - Bare Muzzle\n",
+            "Elongated Light - Bare Muzzle\n",
+            "Elongated Heavy - Bare Muzzle\n",
+            "Elongated Standard -Threaded\n",
+            "Elongated Light -Threaded\n",
+            "Elongated Heavy -Threaded\n",
+            "Elongated Standard - Flash Hider\n",
+            "Elongated Light - Flash Hider\n",
+            "Elongated Heavy - Flash Hider\n",
+            "Sawn-off Standard - Bare Muzzle\n",
+            "Sawn-off Light - Bare Muzzle\n",
+            "Sawn-off Heavy - Bare Muzzle\n",
+            "Sawn-off Standard - Threaded\n",
+            "Sawn-off Light - Threaded\n",
+            "Sawn-off Heavy - Threaded\n",
+            "Sawn-off Standard - Flash Hider\n",
+            "Sawn-off Light - Flash Hider\n",
+            "Sawn-off Heavy - Flash Hider\n"});
             this.comboBox3.Location = new System.Drawing.Point(465, 143);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(210, 21);
@@ -163,15 +163,15 @@
             // 
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Items.AddRange(new object[] {
-            "Standard",
-            "Synthetic",
-            "Wood ",
-            "Wire Underfolding",
-            "Synthetic Sidefolding",
-            "Wire Sidefolding",
-            "Synthetic Telescopic",
-            "Wire Telescopic",
-            "None"});
+            "Standard\n",
+            "Synthetic\n",
+            "Wood\n",
+            "Wire Underfolding\n",
+            "Synthetic Sidefolding\n",
+            "Wire Sidefolding\n",
+            "Synthetic Telescopic\n",
+            "Wire Telescopic\n",
+            "None\n"});
             this.comboBox4.Location = new System.Drawing.Point(465, 183);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(210, 21);
@@ -181,17 +181,17 @@
             // 
             this.comboBox5.FormattingEnabled = true;
             this.comboBox5.Items.AddRange(new object[] {
-            "Standard",
-            "Long",
-            "Short",
-            "Standard - Railed",
-            "Long - Railed",
-            "Short - Railed",
-            "Standard - Grip",
-            "Long - Grip",
-            "Short - Grip",
-            "Standard - Railed Grip",
-            "Long - Railed Grip"});
+            "Standard\n",
+            "Long\n",
+            "Short\n",
+            "Standard - Railed\n",
+            "Long - Railed\n",
+            "Short - Railed\n",
+            "Standard - Grip\n",
+            "Long - Grip\n",
+            "Short - Grip\n",
+            "Standard - Railed Grip\n",
+            "Long - Railed Grip\n"});
             this.comboBox5.Location = new System.Drawing.Point(465, 210);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(210, 21);

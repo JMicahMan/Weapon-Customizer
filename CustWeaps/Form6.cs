@@ -36,10 +36,11 @@ namespace CustWeaps
                 textBox1.Text = json;
             }
 
-            
         }
 
 
+
+       
         public class UserData
         {
             public string AssualtRifle
@@ -131,6 +132,61 @@ namespace CustWeaps
             }
 
             public string Muzzle
+            {
+                get;
+                set;
+            }
+
+
+
+            public string Automatic
+            {
+                get;
+                set;
+            }
+
+            public string Revolver
+            {
+                get;
+                set;
+            }
+
+
+
+
+            public string Pistol_Barrel
+            {
+                get;
+                set;
+            }
+
+            public string Trigger
+            {
+                get;
+                set;
+            }
+
+            public string Slide
+            {
+                get;
+                set;
+            }
+
+            public string Frame
+            {
+                get;
+                set;
+            }
+
+
+
+            public string Pistol_Muzzle
+            {
+                get;
+                set;
+            }
+
+            public string RailMount
             {
                 get;
                 set;

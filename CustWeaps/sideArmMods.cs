@@ -12,7 +12,7 @@ using System.Diagnostics;
 namespace CustWeaps
 {
 
-    public partial class Form4 : Form
+    public partial class sideArmMods : Form
     {
 
         public static string SetValueForRifle = "";
@@ -21,7 +21,7 @@ namespace CustWeaps
         public static string SetValueForRifle4 = "";
 
 
-        public Form4()
+        public sideArmMods()
         {
             InitializeComponent();
             int index = comboBox1.FindString(comboBox1.Text);
@@ -56,9 +56,8 @@ namespace CustWeaps
         }
 
 
-        public void Continue_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
             int index = comboBox1.FindString(comboBox1.Text);
             comboBox1.SelectedIndex = comboBox1.FindStringExact("comboBox1");
             comboBox1.SelectedIndex = index;
@@ -89,10 +88,9 @@ namespace CustWeaps
 
 
             Hide();
-            Sidearms sidearms = new Sidearms();
-            sidearms.Show();
+            sideArmAttachments armAttachments = new sideArmAttachments();
+            armAttachments.Show();
+
         }
-
-
     }
 }

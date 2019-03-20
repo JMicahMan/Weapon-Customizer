@@ -81,6 +81,7 @@
             "CZ-75 :  9x19mm",
             "CZ-75 : 10x25mm",
             "S&W 59 :  9x19mm",
+            "S&W 39 : 9x19mm",
             "ASP :  9x19mm",
             "CZ-52 : 7.62x25mm",
             "SIG Sauer P210 :  9x19mm",
@@ -115,6 +116,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Continue";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Automatics
             // 

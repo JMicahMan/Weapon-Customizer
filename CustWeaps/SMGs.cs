@@ -15,7 +15,7 @@ namespace CustWeaps
     public partial class SMGs : Form
     {
 
-        public static string SetValueForRifle = "";
+        public static string SetValueForRifle = "  \n";
 
         public SMGs()
         {
