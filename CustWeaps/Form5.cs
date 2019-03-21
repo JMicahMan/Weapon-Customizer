@@ -34,7 +34,6 @@ namespace CustWeaps
             label14.AutoSize = true;
             label15.Text = SniperRifles.SetValueForRifle;
             label15.AutoSize = true;
-            label16.Text = "";
 
 
 
@@ -161,6 +160,7 @@ namespace CustWeaps
 
 
             System.IO.File.WriteAllText(@"C:\Users\s188041\source\repos\Weapon-Customizer\CustWeaps\bin\Debug\CustomGun.json", json);
+            System.IO.File.WriteAllText(@"C:\Users\s188041\source\repos\Weapon-Customizer\CustWeaps\bin\Debug\CustomGun.txt", json);
 
 
         }

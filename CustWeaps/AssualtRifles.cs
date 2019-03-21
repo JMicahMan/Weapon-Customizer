@@ -8,6 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.Web;
+using System.Xml;
+using HtmlAgilityPack;
+using System.Net.Http;
+using System.IO;
 
 namespace CustWeaps
 {
@@ -26,6 +31,8 @@ namespace CustWeaps
 
 
             SetValueForRifle = comboBox1.Text;
+           
+            
 
 
         }

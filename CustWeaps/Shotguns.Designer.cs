@@ -30,72 +30,58 @@
         {
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Winchester 1897 : 12 Gauge\n",
-            "Winchester 1200 : 12 Gauge\n",
-            "Stevens 520/620 : 12 Gauge\n",
-            "Stevens 77E : 12 Gauge\n",
-            "Remington 10 : 12 Gauge\n",
-            "Remington 31 : 12 Gauge\n",
-            "Remington 870 : 12 Gauge\n",
-            "Mossberg 500 : 12 Gauge\n",
-            "Beretta 1200FPT : 12 Gauge\n",
-            "Ithaca 37 : 12 Gauge\n",
-            "PM-5 : 12 Gauge\n",
-            "Franchi SPAS 12 : 12 Gauge\n",
-            "Franchi SPAS 15 : 12 Gauge\n",
-            "Remington 1100 : 12 Gauge\n",
-            "Remington 11 : 12 Gauge\n",
-            "Auto 5 : 12 Gauge\n",
-            "Benelli 121 : 12 Gauge\n",
-            "S&W Super 12 : 12 Gauge\n",
-            "High Standard 10 : 12 Gauge\n",
-            "Armsel Striker : 12 Gauge\n",
-            "USAS 12 : 12 Gauge\n"});
-            this.comboBox1.Location = new System.Drawing.Point(518, 383);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            "Winchester 1897 : 12 Gauge",
+            "Winchester 1200 : 12 Gauge",
+            "Stevens 520/620 : 12 Gauge",
+            "Stevens 77E : 12 Gauge",
+            "Remington 10 : 12 Gauge",
+            "Remington 31 : 12 Gauge",
+            "Remington 870 : 12 Gauge",
+            "Mossberg 500 : 12 Gauge",
+            "Beretta 1200FPT : 12 Gauge",
+            "Ithaca 37 : 12 Gauge",
+            "PM-5 : 12 Gauge",
+            "Franchi SPAS 12 : 12 Gauge",
+            "Franchi SPAS 15 : 12 Gauge",
+            "Remington 1100 : 12 Gauge",
+            "Remington 11 : 12 Gauge",
+            "Auto 5 : 12 Gauge",
+            "Benelli 121 : 12 Gauge",
+            "S&W Super 12 : 12 Gauge",
+            "High Standard 10 : 12 Gauge",
+            "Armsel Striker : 12 Gauge",
+            "USAS 12 : 12 Gauge"});
+            this.comboBox1.Location = new System.Drawing.Point(259, 199);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(644, 33);
+            this.comboBox1.Size = new System.Drawing.Size(324, 21);
             this.comboBox1.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1426, 798);
-            this.button1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button1.Location = new System.Drawing.Point(713, 415);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(150, 44);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
             this.button1.Text = "Continue";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(518, 223);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(590, 127);
-            this.textBox1.TabIndex = 3;
-            // 
             // Shotguns
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1600, 865);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Shotguns";
             this.Text = "Shotguns";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -103,6 +89,5 @@
 
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }

@@ -36,11 +36,14 @@ namespace CustWeaps
                 textBox1.Text = json;
             }
 
+
+
+
         }
 
 
 
-       
+
         public class UserData
         {
             public string AssualtRifle
