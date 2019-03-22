@@ -1,17 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Xml.Serialization;
 using System.IO;
-using System.Runtime.Serialization.Json;
 using Newtonsoft.Json;
-using System.Dynamic;
 
 
 
@@ -158,10 +149,10 @@ namespace CustWeaps
 
             string json = JsonConvert.SerializeObject(_data.ToArray());
 
+            
 
-            System.IO.File.WriteAllText(@"C:\Users\s188041\source\repos\Weapon-Customizer\CustWeaps\bin\Debug\CustomGun.json", json);
-            System.IO.File.WriteAllText(@"C:\Users\s188041\source\repos\Weapon-Customizer\CustWeaps\bin\Debug\CustomGun.txt", json);
-
+            File.WriteAllText("CustomGun.json", json);
+            
 
         }
         public class UserData

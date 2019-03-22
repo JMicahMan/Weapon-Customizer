@@ -1,18 +1,6 @@
 ﻿using System;
 using System.IO;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using System.Web;
-using System.Web.Mvc;
-using System.Net;
 
 
 
@@ -29,14 +17,8 @@ namespace CustWeaps
 
         public void SavedGun_Click(object sender, EventArgs e)
         {
-            using (StreamReader g = new StreamReader(@"C:\Users\s188041\source\repos\Weapon-Customizer\CustWeaps\bin\Debug\CustomGun.json"))
-            {
-                string json = g.ReadToEnd();
-                List<UserData> userDatas = JsonConvert.DeserializeObject<List<UserData>>(json);
-                textBox1.Text = json;
-            }
 
-
+           textBox1.Text =  File.ReadAllText("CustomGun.json");
 
 
         }

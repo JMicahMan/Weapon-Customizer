@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CustWeaps
@@ -17,7 +11,7 @@ namespace CustWeaps
             InitializeComponent();
         }
 
-        private void WeaponChoice_Click(object sender, EventArgs e)
+        public void WeaponChoice_Click(object sender, EventArgs e)
         {
             contextMenuStrip1.Show(WeaponChoice, new Point(0, WeaponChoice.Height));
             
@@ -25,7 +19,7 @@ namespace CustWeaps
         }
 
 
-        private void Load_Click(object sender, EventArgs e)
+        public void Load_Click(object sender, EventArgs e)
         {
 
 
@@ -35,12 +29,12 @@ namespace CustWeaps
 
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        public void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void assualtRiflesToolStripMenuItem_Click(object sender, EventArgs e)
+        public void assualtRiflesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Hide();
             AssualtRifles assualtRifles = new AssualtRifles();
@@ -48,35 +42,35 @@ namespace CustWeaps
         }
 
 
-        private void battleRiflesToolStripMenuItem_Click(object sender, EventArgs e)
+        public void battleRiflesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Hide();
             BattleRifles battleRifles = new BattleRifles();
             battleRifles.Show();
         }
 
-        private void sMGsToolStripMenuItem_Click(object sender, EventArgs e)
+        public void sMGsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Hide();
             SMGs sMGs = new SMGs();
             sMGs.Show();
         }
 
-        private void lMGsGPMGsToolStripMenuItem_Click(object sender, EventArgs e)
+        public void lMGsGPMGsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Hide();
             LMGs lMGs = new LMGs();
             lMGs.Show();
         }
 
-        private void shotgunsToolStripMenuItem_Click(object sender, EventArgs e)
+        public void shotgunsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Hide();
             Shotguns shotguns = new Shotguns();
             shotguns.Show();
         }
 
-        private void sniperRiflesToolStripMenuItem_Click(object sender, EventArgs e)
+        public void sniperRiflesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Hide();
             SniperRifles sniperRifles = new SniperRifles();

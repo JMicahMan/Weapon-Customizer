@@ -1,13 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Diagnostics;
 
 namespace CustWeaps
 {
@@ -15,7 +7,7 @@ namespace CustWeaps
     public partial class BattleRifles : Form
     {
 
-        public static string SetValueForRifle = "  \n";
+        public static string SetValueForRifle = "  ";
 
         public BattleRifles()
         {
