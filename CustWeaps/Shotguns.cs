@@ -7,7 +7,7 @@ namespace CustWeaps
     public partial class Shotguns : Form
     {
 
-        public static string SetValueForRifle = "  \n";
+        public static string SetValueForRifle = " ";
 
         public Shotguns()
         {

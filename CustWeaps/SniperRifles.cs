@@ -7,7 +7,7 @@ namespace CustWeaps
     public partial class SniperRifles : Form
     {
 
-        public static string SetValueForRifle = "  \n";
+        public static string SetValueForRifle = " ";
 
         public SniperRifles()
         {

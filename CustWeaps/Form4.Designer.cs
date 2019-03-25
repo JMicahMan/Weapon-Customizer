@@ -89,39 +89,39 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "None\n",
-            "1-4x\n",
-            "1-6x\n",
-            "1-8x\n",
-            "1-10x\n",
-            "1-12x\n",
-            "2-10x\n",
-            "2-15x\n",
-            "2-25x\n",
-            "3-7x\n",
-            "3-9x\n",
-            "3-14x\n",
-            "3-18x\n",
-            "3-23x\n",
-            "3-25x\n",
-            "3-27x\n",
-            "3-36x\n",
-            "5-10x\n",
-            "5-20x\n",
-            "5-30x\n",
-            "10-36x\n",
-            "10-40x\n",
-            "10-42x\n",
-            "10-45x\n",
-            "10-46x\n",
-            "10-48x\n",
-            "10-50x\n",
-            "10-52x\n",
-            "10-55x\n",
-            "10-56x\n",
-            "25-56x\n",
-            "25-58x\n",
-            "Red Dot 1-3x\n"});
+            "None",
+            "1-4x",
+            "1-6x",
+            "1-8x",
+            "1-10x",
+            "1-12x",
+            "2-10x",
+            "2-15x",
+            "2-25x",
+            "3-7x",
+            "3-9x",
+            "3-14x",
+            "3-18x",
+            "3-23x",
+            "3-25x",
+            "3-27x",
+            "3-36x",
+            "5-10x",
+            "5-20x",
+            "5-30x",
+            "10-36x",
+            "10-40x",
+            "10-42x",
+            "10-45x",
+            "10-46x",
+            "10-48x",
+            "10-50x",
+            "10-52x",
+            "10-55x",
+            "10-56x",
+            "25-56x",
+            "25-58x",
+            "Red Dot 1-3x"});
             this.comboBox1.Location = new System.Drawing.Point(443, 36);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(215, 21);
@@ -131,19 +131,19 @@
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
-            "None\n",
-            "Vertical Foregrip\n",
-            "Horizontal Foregrip\n",
-            "AR-15 Pistol Grip\n",
-            "M203 : 40mm\n",
-            "H&K 79 : 40mm\n",
-            "XM148 : 40mm\n",
-            "GP-25 : 40mm Caseless\n",
-            "Flashlight\n",
-            "Mossberg 500 : 12 Gauge\n",
-            "Remington 870 : 12 Gauge\n",
-            "Bayonet\n",
-            "Bi-Pod\n"});
+            "None",
+            "Vertical Foregrip",
+            "Horizontal Foregrip",
+            "AR-15 Pistol Grip",
+            "M203 : 40mm",
+            "H&K 79 : 40mm",
+            "XM148 : 40mm",
+            "GP-25 : 40mm Caseless",
+            "Flashlight",
+            "Mossberg 500 : 12 Gauge",
+            "Remington 870 : 12 Gauge",
+            "Bayonet",
+            "Bi-Pod"});
             this.comboBox2.Location = new System.Drawing.Point(443, 64);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(215, 21);
@@ -153,11 +153,11 @@
             // 
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
-            "None\n",
-            "Flashlight\n",
-            "Laser\n",
-            "Carry Handel\n",
-            "Top Rail Mount\n"});
+            "None",
+            "Flashlight",
+            "Laser",
+            "Carry Handel",
+            "Top Rail Mount"});
             this.comboBox3.Location = new System.Drawing.Point(443, 93);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(215, 21);
@@ -167,11 +167,11 @@
             // 
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Items.AddRange(new object[] {
-            "None\n",
-            "Suppressor\n",
-            "Compensator\n",
-            "Muzzle Break\n",
-            "Rifle Gernade Break - 22mm Spigot\n"});
+            "None",
+            "Suppressor",
+            "Compensator",
+            "Muzzle Break",
+            "Rifle Gernade Break - 22mm Spigot"});
             this.comboBox4.Location = new System.Drawing.Point(443, 120);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(215, 21);

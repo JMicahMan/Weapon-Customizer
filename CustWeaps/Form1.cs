@@ -29,10 +29,6 @@ namespace CustWeaps
 
         }
 
-        public void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
 
         public void assualtRiflesToolStripMenuItem_Click(object sender, EventArgs e)
         {
