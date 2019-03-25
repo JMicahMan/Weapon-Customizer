@@ -16,6 +16,7 @@ namespace CustWeaps
             comboBox1.SelectedIndex = comboBox1.FindStringExact("comboBox1");
             comboBox1.SelectedIndex = index;
 
+            comboBox1.Text = "M16 : 5.56x45mm";
 
             SetValueForRifle = comboBox1.Text;
            

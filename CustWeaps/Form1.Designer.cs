@@ -78,7 +78,7 @@
             // 
             this.assualtRiflesToolStripMenuItem.Name = "assualtRiflesToolStripMenuItem";
             this.assualtRiflesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.assualtRiflesToolStripMenuItem.Text = "Assualt Rifles";
+            this.assualtRiflesToolStripMenuItem.Text = "Assault Rifles";
             this.assualtRiflesToolStripMenuItem.Click += new System.EventHandler(this.assualtRiflesToolStripMenuItem_Click);
             // 
             // battleRiflesToolStripMenuItem

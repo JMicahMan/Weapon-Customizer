@@ -18,6 +18,8 @@ namespace CustWeaps
                 button1.Enabled = false;
             }
 
+            comboBox1.Text = "S&W 10 : .38 Spc.";
+
             SetValueForRifle = comboBox1.Text;
 
         }

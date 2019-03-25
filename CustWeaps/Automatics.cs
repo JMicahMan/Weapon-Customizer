@@ -18,6 +18,8 @@ namespace CustWeaps
                 button1.Enabled = false;
             }
             SetValueForRifle = comboBox1.Text;
+
+            comboBox1.Text = "1911 : .45 ACP";
         }
 
         private void button1_Click(object sender, EventArgs e)

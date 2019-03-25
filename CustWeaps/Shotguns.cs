@@ -16,7 +16,7 @@ namespace CustWeaps
             comboBox1.SelectedIndex = comboBox1.FindStringExact("comboBox1");
             comboBox1.SelectedIndex = index;
 
-
+            comboBox1.Text = "Mossberg 500 : 12 Gauge";
             SetValueForRifle = comboBox1.Text;
 
 

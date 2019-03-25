@@ -164,14 +164,14 @@
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Items.AddRange(new object[] {
             "Standard",
-            "Synthetic",
-            "Wood",
-            "Wire Underfolding",
+            "None",
             "Synthetic Sidefolding",
-            "Wire Sidefolding",
             "Synthetic Telescopic",
+            "Synthetic",
+            "Wire Sidefolding",
             "Wire Telescopic",
-            "None"});
+            "Wire Underfolding",
+            "Wood"});
             this.comboBox4.Location = new System.Drawing.Point(465, 183);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(210, 21);
